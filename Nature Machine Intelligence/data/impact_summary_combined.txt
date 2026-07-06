@@ -1,0 +1,54 @@
+========================================================================
+NMI COMBINED IMPACT (main text + SI/appendix + code; specific models only)
+========================================================================
+
+Papers with a specific closed-source model: 42 / 424 (9.9%)
+
+--- By year (combined) ---
+  2022: 2
+  2023: 10
+  2024: 7
+  2025: 23
+
+--- Source contribution (a paper can be in several) ---
+  main text: 35   SI/appendix: 21   code: 1
+
+--- By provider (papers) ---
+  OpenAI: 42
+  Anthropic: 2
+  Google: 1
+
+--- Top models (papers) ---
+  gpt3: 22
+  gpt4: 22
+  gpt35: 13
+  gpt4o: 7
+  gpt40314: 2
+  gpt40613: 2
+  claude3: 2
+  gpt4omini: 2
+  gpt35turbo: 2
+  gpt35turbo0125: 2
+  o3: 2
+  o3mini: 2
+  gpt35turbo0301: 1
+  claude3opus20240229: 1
+  gpt4visionpreview: 1
+
+--- DEPRECATION (combined) ---
+  Papers referencing an already-deprecated model: 6 / 42
+  Papers referencing a future-shutdown model (only): 0
+     gpt40314: 2
+     gpt35turbo0301: 1
+     claude3opus20240229: 1
+     gpt4visionpreview: 1
+     gpt35turboinstruct: 1
+     gpt41106preview: 1
+     dalle2: 1
+  deprecated papers by year:
+     2023: 1
+     2025: 5
+
+--- UNDERREPORTING (base-only proxy) ---
+  Papers naming a versioned checkpoint: 8
+  Papers base-name-only (no checkpoint): 20 (47.6% of matched)

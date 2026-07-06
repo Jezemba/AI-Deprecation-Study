@@ -1,0 +1,1001 @@
+Sample_ID,Year,Venue,Sampled_Keyword,Section,Label,Reasoning
+S0001,2022,neurips,textdavinci002,5.1 Experimental Setup,Methods,We use the text-davinci-002 engine for GPT-3 implementation.
+S0002,2022,neurips,davinci002,1.2 Related Works / 2.3 Evaluation Datasets / 2.4 Undergraduate-Level STEM Problems / 3 Results,Evaluation,davinci002 cited as prior work + benchmark comparison table - eval
+S0003,2022,neurips,dalle2,2 Related Work,N/A,"related-work mention of dalle2 architecture, no usage"
+S0004,2022,neurips,dalle2,5.2 Machine Evaluation / 6 Discussion / Abstract,Evaluation,dalle2 cited as concurrent SOTA + machine-eval comparison table
+S0005,2022,neurips,dalle2,7 Discussion,N/A,"intro mention of dalle2 dataset size as example, no usage"
+S0006,2022,neurips,textbabbage001,4.1 Results,Evaluation,text-babbage-001 evaluated via accuracy comparison tables.
+S0007,2022,neurips,dalle2,Dinh Phung,N/A,"listing prior VQVAE extensions in related work, no usage"
+S0008,2022,neurips,textcurie001,3.1 Experimental Setup,Evaluation,Five LLMs listed under 'language models we evaluate' with results table.
+S0009,2022,neurips,textdavinci001,1 Introduction / 2.3 Setup / Abstract / Checklist,Methods,InstructGPT (text-davinci-001) prompted for in-context learning study.
+S0010,2023,aaai,dalle2,Introduction,N/A,"intro mention of dalle2 as example diffusion model, no usage"
+S0011,2023,aaai,textdavinci002,Results,Evaluation,textdavinci002 compared as benchmark method against codex etc. - eval
+S0012,2023,iclr,codedavinci002,G LANGUAGE MODEL HYPERPARAMETERS / REPRODUCIBILITY STATEMENT,Methods,code-davinci-002 used as LLM in experiments via API.
+S0013,2023,iclr,textdavinci002,3.3 FEW-SHOT PROMPTING,Methods,'we use textdavinci002 175b' for few-shot prompting - methods
+S0014,2023,iclr,textdavinci002,1 INTRODUCTION,N/A,text-davinci-002 mentioned as motivating example in introduction.
+S0015,2023,iclr,textbabbage001,5.2 LLMS FOR SELECTION,Methods,'we use ada babbage curie davinci textada001 textbabbage001' for selection
+S0016,2023,iclr,codedavinci002,A EMPIRICAL EVALUATION / Note,Evaluation,code-davinci-002 evaluated on APPS with PG-TD comparison.
+S0017,2023,iclr,textdavinci001,B FURTHER DETAILS ON STYLE TRANSFER,Methods,'we used textdavinci001' in style transfer pipeline - methods component
+S0018,2023,iclr,codedavinci002,5.2 EXPERIMENTAL DESIGN CHOICES / D.3.2 GENERATION HYPERPARAMETERS,Methods,'we use codedavinci002 for all experiments' - methods declaration
+S0019,2023,iclr,codedavinci002,2.2 MODELS / 4.1 BENCHMARK CONSTRUCTION / G ADDITIONAL BENCHMARK RESULTS,Evaluation,codedavinci002 in pass@k benchmark table compared against codegen - eval
+S0020,2023,iclr,dalle2,2 PREVIOUS WORK,N/A,"dalle2 listed in previous-work survey, no usage"
+S0021,2023,iclr,dalle2,2 RELATED WORKS,N/A,"dalle2 cited as related t2i model in related works, no usage"
+S0022,2023,icml,dalle2,1. Introduction,N/A,"dalle2 mentioned in introduction as example, no usage"
+S0023,2023,icml,gpt4,4.5. Prompting LLMs without Adaptation,Methods and Evaluation,'directly prompt gpt4' (methods) + reports precision/recall (eval) - both
+S0024,2023,icml,gpt35turbo,5.1. Inference-Time Adaptation of Text-to-SQL Models,Methods,'we use chatgpt gpt35turbo as another language model' - methods
+S0025,2023,icml,codedavinci002,A.1. Prompting Details,Methods,'we use openais codex codedavinci002 to predict' - methods pipeline
+S0026,2023,icml,gpt35turbo,3.1. Baseline Agents / 3.2. The Effects of Reward Optimization / H. Prompts for Language Model Agents / L. Classifying Achievements,Methods and Evaluation,gpt35turbo as agent in main results + achievements numbers - both
+S0027,2023,icml,textdavinci002,F. Additional Example Class Descriptions,Methods,class descriptions sourced from textdavinci002 - methods component
+S0028,2023,icml,dalle2,B. Qualitative Performance and Comparisons to Other Models / Failure Text Classes / Section 2.,Evaluation,dalle2 compared qualitatively against muse in figure - eval
+S0029,2023,icml,textdavinci002,4.1. Capabilities-Alignment Trade-offs / 4.2. Robustness to Red-Teaming / C. Details on the red-teaming procedure,Methods,'we use prompted instructgpt textdavinci002 to simulate adversary' - methods
+S0030,2023,icml,codedavinci002,1. Introduction / 2. Background / 3. Specializing Multi-Step Reasoning,Methods,teacher model codedavinci002 for distillation - methods
+S0031,2023,icml,dalle2,5.1. Effects of the proposed modifications / 5.2. Comparison with literature,Evaluation,dalle2 in FID comparison table against own model - eval
+S0032,2023,neurips,gpt4,3.2 Core Set Collection / 4.3 State Machine-based Task Planning / 5.2 Comparing Task Planning Ability of Different LLMs,Methods and Evaluation,gpt4 prompted to adapt tasks (methods) + LLM comparison table (eval)
+S0033,2023,neurips,gpt4,A.4 Additional experiments on the effectiveness of our DDCoT with existing pre-trained VLMs and multimodal reasoning models,Evaluation,MiniGPT-4 appears in results table as compared baseline VLM.
+S0034,2023,neurips,gpt35turbo,1 Introduction / 4.4 Open-ended Evaluation with Visual Program Generator LM / B Additional VPGEN Analysis,Methods,'we adapt gpt35turbo to dynamically generate evaluation programs' - methods
+S0035,2023,neurips,gpt4,3.2 Augmented-GPT and API design / 4 Experiments / 5 Discussion / Abstract / Additional stress-testing with naive users and GPT4 / System Prompts,Methods and Evaluation,gpt4 used in pipeline (methods) + tested with naive users (eval) - both
+S0036,2023,neurips,gpt4,1 Introduction,N/A,"intro citation listing gpt4 among LLMs, no usage"
+S0037,2023,neurips,gpt35turbo,A Evaluation with additional models,Evaluation,gpt-3.5-turbo appears in HotPotQA accuracy table.
+S0038,2023,neurips,gpt35turbo,5.1 Experimental setup,Evaluation,gpt35turbo listed as commercial baseline for comparison - eval
+S0039,2023,neurips,dalle2,2 Related Work,N/A,"dalle2 cited as variant in related work, no usage"
+S0040,2023,neurips,gpt35turbo,16 Reproducibility,Methods,All experiments run using gpt-3.5-turbo with temperature 0.
+S0041,2023,neurips,gpt35turbo,4 Experiments,N/A,gpt-3.5-turbo not present in section; uses GPT2-large.
+S0042,2023,neurips,gpt4,7 Conclusion and Discussion,N/A,"limitations note that gpt4 not accessed, no usage"
+S0043,2023,neurips,gpt4,5.5 Distant Supervision from Large Language Models / C.1 Results with Additional Distant Supervision from ChatGPT,Methods,ChatGPT (and GPT-4 family) used for distant supervision generation.
+S0044,2023,neurips,gpt35turbo,4.2 Comparison with Existing Knowledge Sources / E Parametric Knowledge Prompting Template,Methods,GPT-3.5-turbo prompted to extract knowledge for comparison pipeline
+S0045,2023,neurips,gpt4,3.4 Mixture of Prompts / 4.4 Ablation Study,Methods,'we leverage gpt4 to generate prompts' - methods
+S0046,2023,neurips,gpt4,Matus Telgarsky,N/A,"gpt4 mentioned for context-length stat, no usage"
+S0047,2023,neurips,gpt35turbo,A.2 Extended Experiments,Evaluation,gpt35turbo in LLM-backbone study results table - eval
+S0048,2023,neurips,gpt4,1 Introduction,N/A,"intro mention of gpt4 as example foundation model, no usage"
+S0049,2023,neurips,gpt4,"('number -of-o-wins', 'Number of ways o can win on the board') # Usefulness: Knowing the number of ways o can win on the board can be useful in predicting whether o has won the game or not. # Input samples: 'top-left-square': [2, 2, 1], 'top-middle -square ': [1, 2, 0], ... df['number -of-o-wins'] = ((df['top-left-square']==2) & (df['top-middle -square']==2) & (df ['top-right -square']==2)).astype(int) + ((df['middle -left -square']==2) & (df['middle -middle -square']==2) & (df['middle -right -square']==2)).astype(int) [...] Iteration 2 Performance before adding features ROC 0.987, ACC 0.980. Performance after adding features ROC 1.000, ACC 1.000. Improvement ROC 0.013, ACC 0.020. Code was executed and changes to df retained. / 2.1 Large Language Models (LLMs) / 4 Experimental Setup / 5 Results / Feature : Age_difference # Usefulness : Age d i f f e r e n c e between upper and l o w e r age can be u s e f u l i n determining t h e l i k e l i h o o d of a person applying f o r a policy . # I n p u t samples : ' Upper_Age ': [ ' C33 ' , 'C2 ' , 'C3 '] , ' Lower_Age ': [ ' Owned ' , ' Rented ' , ' Rented '] df [ ' A g e _ d i f f e r e n c e ' ] = df [ ' Upper_Age ' ] . s t r . e x t r a c t ( ' ( \ d +) ' ) . a s t y p e ( i n t ) -df [ ' Lower_Age ' ] . s t r . e x t r a c t ( ' ( \ d +) ' ) . a s t y p e ( i n t ) Feedback : f a i l e d with e r r o r : cannot c o n v e r t f l o a t NaN t o i n t e g e r . # Feature : Age_difference # Usefulness : Age d i f f e r e n c e between upper and l o w e r age can be u s e f u l i n determining t h e l i k e l i h o o d of a person applying f o r a policy . # I n p u t samples : ' Upper_Age ': [ ' C33 ' , 'C2 ' , 'C3 '] , ' Lower_Age ': [ ' Owned ' , ' Rented ' , ' Rented '] df [ ' A g e _ d i f f e r e n c e ' ] = df [ ' Upper_Age ' ] . s t r . e x t r a c t ( ' ( \ d +) ' ) . a s t y p e ( f l o a t ) . f i l l n a ( 0 ) -df [ ' Lower_Age ' ] . s t r . e x t r a c t ( ' ( \ d +) ' ) . a s t y p e ( f l o a t ) . f i l l n a ( 0 )",N/A,"GPT-4 only mentioned in LLM background section, not used."
+S0050,2023,neurips,textembeddingada002,A.7 Cluster Sampling components,Methods,'gptembedding is openais textembeddingada002' - methods component
+S0051,2023,neurips,gpt35turbo,1 Introduction / 4 Experiments / 4.1 Role-Playing for AI Society / 5.1 Agent Evaluation,Methods and Evaluation,two gpt35turbo agents in experiments + gpt4 evals - both methods+eval
+S0052,2023,neurips,textembeddingada002,4.1 Experimental Settings,Methods,'we obtain contextual token embeddings from textembeddingada002' - methods
+S0053,2023,neurips,gpt4,5.2 Instability of Actor-Critic Algorithms / 6 Experiments / 6.2 Can DPO scale to real preference datasets? / 6.3 Generalization to a new input distribution,Evaluation,GPT-4 used as evaluator/judge for win-rate comparison
+S0054,2023,neurips,gpt4,1 Introduction,N/A,"intro mention of gpt4 as example LLM, no usage"
+S0055,2023,neurips,gpt4,1 Introduction / 1.1 Related Works,N/A,"intro/related-work mention of gpt4 as multimodal example, no usage"
+S0056,2023,neurips,dalle2,2 Related works,N/A,"dalle2 cited as related t2i model in related works, no usage"
+S0057,2023,neurips,gpt4,6.2 Limitations and Future Work,N/A,"future-work speculation about feedback from gpt4, no usage"
+S0058,2023,neurips,gpt4,5.2 Experiments on real datasets,Methods,GPT-4 used as evaluator/judge to score response quality.
+S0059,2023,neurips,gpt4,3.2 Model / 5 MoE Hyper-Parameter Tuning / A.1 Selection of Encoder-Decoder T5 Model and C4 Dataset,N/A,"gpt4 as cost-illustration example, not used"
+S0060,2023,neurips,gpt4,6 Attacking Multimodal Aligned Models / 6.1 Attack Methodology / 6.2 Experiments / A Ethics / Are aligned neural network models 'adversarially aligned'?,Evaluation,GPT-4 referenced as multimodal target; attacks done on open-source proxies
+S0061,2023,neurips,gpt35turbo,4.3 Generalization to Real-World knowledge,Evaluation,gpt35turbo as compared LLM in folio results - eval
+S0062,2023,neurips,gpt4,H.7 Comparison to GPT-4,Evaluation,EMBROID evaluated on GPT-4 predictions over 14 tasks
+S0063,2023,neurips,gpt4,4.1 Semantic Parsing for Tool Usage / A.1 Semantic Parsing,Evaluation,gpt4 in semantic-parsing comparison table across LLMs - eval
+S0064,2023,neurips,gpt35turbo,3.3 Datasets / D.2 Text-Video Pair Dataset / E.2 Prior Training,Methods,'augmented using openai gpt35turbo' for dataset generation - methods
+S0065,2023,neurips,gpt4,B Limitations,N/A,"limitations note about not using gpt4 due to cost, no usage"
+S0066,2024,aaai,gpt4,Introduction,N/A,"intro mention of gpt4 as example LLM, no usage"
+S0067,2024,aaai,dalle2,Related Work Text-to-Image Generative Models,N/A,"dalle2 cited in related work survey, no usage"
+S0068,2024,aaai,gpt4,Introduction / Multimodal Instruction Tuning,N/A,GPT-4 cited as VLM example; not used by authors
+S0069,2024,aaai,gpt4,Level of Diversity / Scene-Language Grounding,Methods,'we leveraged gpt4' to transform instruction - methods
+S0070,2024,aaai,gpt4,Discussion and Conclusion,N/A,"future-work mention of integrating gpt4 api, no usage"
+S0071,2024,aaai,gpt4,Related Work,N/A,"related-work survey of LLMs including gpt4, no usage"
+S0072,2024,aaai,gpt4,Conclusion,N/A,"future-work mention of investigating gpt4, no usage"
+S0073,2024,aaai,gpt4,Related Work,N/A,"related-work mention of gpt4 capabilities, no usage"
+S0074,2024,aaai,gpt4,4.3 Ablation Studies / 4.4 Use Cases,Evaluation,GPT-4 zero-shot evaluated as PLM skill-sequence generator baseline
+S0075,2024,aaai,gpt4,1 Introduction,N/A,"GPT-4 listed as supported model option, not directly used"
+S0076,2024,aaai,dalle2,1 Introduction,N/A,"dalle2 cited as transformer-application example, no usage"
+S0077,2024,aaai,gpt35turbo,LLMs in Game Theory,Methods and Evaluation,GPT-3.5-turbo analyzed in game-theory experiments as study subject
+S0078,2024,aaai,gpt4,Introduction,N/A,"intro mention of gpt4 as closed-source LLM, no usage"
+S0079,2024,aaai,gpt4,Introduction / Large Language Models / Results of LLMs / Setup,Evaluation,gpt4 in benchmark comparison across LLMs - eval
+S0080,2024,aaai,gpt4,1 Introduction / 2 Background: Instruction-Following Ability of Large Language Models / 3 The DINGO Dataset / 3.1 Seed Data Collection / 3.2 Category Tree Annotation / Abstract,Methods,'we employ gpt4 to generate diverse instructions' - methods data generation
+S0081,2024,aaai,gpt4,Auto-Regressive Language Models,N/A,"autoregressive-LLM survey mention of gpt4, no usage"
+S0082,2024,aaai,gpt4,Abstract / Baseline Comparisons / Conclusion / Introduction / Related Work,Evaluation,kamcot 'surpassing gpt4 8399 by 10' - eval comparison
+S0083,2024,aaai,codedavinci002,Experiment Setup,Evaluation,codedavinci002 in baseline reproduction comparison - eval
+S0084,2024,aaai,gpt35turbo,Baselines,Evaluation,gpt35turbo as baseline alongside other instruction-tuned models - eval
+S0085,2024,aaai,codedavinci002,Analysis / Experiment Setup,Methods,'we use codedavinci002 and gpt35turbo for our experiments' - methods
+S0086,2024,aaai,gpt4,Introduction,N/A,"intro mention of gpt4 as motivating LLM example, no usage"
+S0087,2024,aaai,gpt35turbo,Basic Temporal Knowledge Collection,Methods,'we utilize chatgpt gpt35turbo to automatically generate questions' - methods
+S0088,2024,aaai,textdavinci002,Implementation Details,Methods,Authors switched baselines from text-davinci-002 to gpt-3.5-turbo
+S0089,2024,aaai,gpt35turbo,Analysis on the Rationales from the LLM / Comparison between Small and Large LMs / Distillation for Rationale-Free Model / Experimental Settings,Methods and Evaluation,gpt35turbo evaluated with prompting + comparison to BERT - both
+S0090,2024,aaai,gpt4,2 Related Work,N/A,"related-work mention of gpt4 as evaluation tool, no usage"
+S0091,2024,aaai,textembeddingada002,Zero-Shot Evaluation,Evaluation,textembeddingada002 evaluated for sentence similarity zero-shot - eval
+S0092,2024,aaai,gpt4,Report Creation,N/A,"future report-creation mention of gpt4 evaluation, no usage"
+S0093,2024,aaai,gpt4,Abstract / Initial Explorative Experiments / Introduction,Methods and Evaluation,'evaluating gpt4 on scoring shortquestion answers' - both judge and target
+S0094,2024,aaai,gpt4,Abstract / Conclusion and Future Implications / Introduction / Model / Results,Methods,GPT-4 employed as core scoring/explanation engine in pipeline
+S0095,2024,aaai,gpt35turbo0613,Incorporating Semantic Embedding into SBCL / Introduction,Methods,'leveraging gpt35turbo0613 llm to capture nuances' - methods
+S0096,2024,aaai,gpt4,Analysis Report Generation: The Role of Prompts and Model Variants / Case Study: Deriving Insights from Authentic Classroom Footage,Methods and Evaluation,gpt4 as report generator (methods) + gpt4-based eval system - both
+S0097,2024,aaai,gpt4,Abstract / Approach,Methods,Proposal leverages GPT-4 to generate self-driving scenarios
+S0098,2024,aaai,gpt35turbo,Experimental Setup,Methods,'we employ the gpt35turbo' as the LLM in experiments - methods
+S0099,2024,aaai,gpt35turbo,Main Storyline Extraction,Methods,'we utilise the chatgpt model gpt35turbo to extract' - methods
+S0100,2024,iclr,textdavinci001,5.1 TRAIT THEORY ON LLMS,N/A,"textdavinci001 cited as tested in prior work, no own usage"
+S0101,2024,iclr,gpt35turbo,F.5 MODEL HYPERPARAMETERS,Evaluation,GPT-4 listed as one of evaluated LMMs with hyperparameters
+S0102,2024,iclr,gpt4,4.1 EXPERIMENTAL SETTING / 4.2 MAIN RESULT / C.2 ADDITIONAL RESULTS,Methods and Evaluation,metagpt with gpt4 (methods) + pass-rate benchmark (eval) - both
+S0103,2024,iclr,gpt35turbo,5 INVESTIGATIONS WITH PRETRAINED MODELS / 5.1 RESULTS: LLMS PERFORM AT LEAST AS WELL AS NEAREST NEIGHBORS / I IMPLEMENTATION DETAILS,Methods and Evaluation,'we experiment with gpt4 gpt35turbo' for ICL evaluation - methods+eval
+S0104,2024,iclr,gpt35turbo,""" This section contains examples of harmful instructions and model-generated harmful content that can be offensive in nature. / 3.1 MIND THE ATTACKERS! / 3.2 BE CAUTIOUS EVEN IN BENIGN USE CASES!",Methods,GPT-3.5-Turbo fine-tuned in attack experiments as central method.
+S0105,2024,iclr,gpt4,1.1 RELATED WORK / 3.3 EVALUATION / 4 RESULTS / 5.4 HUMAN STUDY,Methods and Evaluation,gpt4 as filter (methods) + gpt4 as judge in alpacaeval (eval) - both
+S0106,2024,iclr,gpt4,4.3 EVALUATION MODELS / 4.4 RESULTS,Methods and Evaluation,"gpt4 has highest agreement, used as evaluator + agreement results - both"
+S0107,2024,iclr,gpt4,A.1 PROMPTS FOR LLMS,Methods,'examples of prompts we use for the gpt4 llm' - methods
+S0108,2024,iclr,davinci002,4.2 MACHINE TRANSLATION,Evaluation,davinci002 results provided as reference baseline - eval
+S0109,2024,iclr,gpt4,1 INTRODUCTION,N/A,"intro mention of gpt4 capabilities, no usage"
+S0110,2024,iclr,gpt4,1 INTRODUCTION / 3.1 EXPERIMENTAL SETUP / C.4 DETAILS ABOUT GENERATION DIVERSITY METRICS / C.5 EXPOSURE BIAS ANALYSIS / D.1 GPT-4 FEEDBACK SCORES,Evaluation,GPT-4 feedback used as evaluation metric for KD
+S0111,2024,iclr,gpt35turbo0613,6.2 ATTACK ROBUSTNESS ANALYSIS,Methods,'we use gpt35turbo0613 with prompt rewrite' - methods attack tool
+S0112,2024,iclr,gpt35turbo,D GPT-4 EXPERIMENT DETAILS,Evaluation,gpt35turbo in success-rates comparison table - eval
+S0113,2024,iclr,gpt4,2 In-Context Text Summarization / 3.3 SETTING 3: HOW WELL COMPRESSED LLMS PERFORM INSTRUCTION FOLLOWING? / A.3 IN-CONTEXT SUMMARIZATION EVALUATION SETTINGS,Evaluation,GPT-4 used as judge to evaluate compressed LLMs
+S0114,2024,iclr,gpt40613,C CODE-L2MAC HIGH LEVEL IMPLEMENTATION DETAILS / F BENCHMARK METHOD IMPLEMENTATION DETAILS / F.1 CODE-L2MAC LOW LEVEL IMPLEMENTATION DETAILS,Methods,'for the llm processor we use gpt40613' - methods foundation
+S0115,2024,iclr,gpt35turbo,3.3 BASELINES,Evaluation,gpt35turbo listed as proprietary LLM baseline - eval
+S0116,2024,iclr,gpt4,2 TAKING FEATURES OUT OF SUPERPOSITION WITH SPARSE DICTIONARY LEARNING / 3.2 SPARSE DICTIONARY FEATURES ARE MORE INTERPRETABLE THAN BASELINES / A AUTOINTERPRETATION PROTOCOL / B SPARSE AUTOENCODER TRAINING,Methods,description generated by gpt4 for autointerp - methods component
+S0117,2024,iclr,dalle2,4.1 ZERO-SHOT MULTIMODAL UNDERSTANDING,Evaluation,dalle2 in zero-shot t2i FID comparison table - eval
+S0118,2024,iclr,gpt4,2 PRELIMINARIES: SUPERVISED AND REINFORCEMENT FINETUNING,N/A,"preliminaries mention of gpt4 as example, no usage"
+S0119,2024,iclr,gpt4,1 INTRODUCTION / 3 LRV-INSTRUCTION / ABSTRACT,Methods,'400k visual instructions generated by gpt4' - methods (data generation)
+S0120,2024,iclr,gpt35turbo,A.1 COLLECTION PROCESS AND STATISTICS,Methods,'within visprog framework the llm employed is gpt35turbo' - methods
+S0121,2024,iclr,gpt4,2 RELATED WORK,N/A,"related-work mention of gpt4 in cited llava work, no own usage"
+S0122,2024,iclr,gpt35turbo0613,4.3 IMPLEMENTATION DETAILS AND BASELINES,Methods,'we use chatgpt gpt35turbo0613 as the frozen llm' - methods
+S0123,2024,iclr,codedavinci002,4 EXPERIMENTS,Evaluation,"code-davinci-002 deprecated, replaced for fair baseline comparison"
+S0124,2024,iclr,gpt4,2.2 LARGE MULTIMODAL MODELS (LMMS) / E FURTHER DISCUSSION,N/A,"related-work survey listing gpt4 in LMM categories, no own usage"
+S0125,2024,iclr,dalle2,5.1 DISCOVERY AND INSIGHTS / A.1 MORE METRICS RESULTS,Evaluation,dalle2 in technical-detail comparison table of t2i models - eval
+S0126,2024,iclr,gpt35turbo,4.1 EXPERIMENTAL SETUP,Evaluation,'we evaluate gpt35turbo' across tasks - eval
+S0127,2024,iclr,gpt40314,5.1 QUANTITATIVE ANALYSIS / D.3 RAW SCORES,Evaluation,gpt40314 in quantitative analysis bandit/messenger results - eval
+S0128,2024,iclr,gpt4,5.1 SHORTEST-PATH REASONING / 5.2 CREATIVE WRITING,Methods and Evaluation,gpt4 as LLM backend (methods) + creative-writing eval - both
+S0129,2024,iclr,gpt4,1 INTRODUCTION / 2.2 DATASET AUGMENTATION / 2.3 DATA QUALITY / 3 OWL-BENCH BENCHMARK CONSTRUCTION / 5.2.1 RESULTS ON Q&amp;A TEST,Methods,'we employ gpt4 scoring with manual validation' - methods filter
+S0130,2024,iclr,codecushman001,"4.1 BASELINES / 4.3 EVALUATION ON HUMANEVAL, HUMANEVAL+, AND MBPP / 4.5 EVALUATION ON DS-1000 / B BASELINES DETAILS",Evaluation,codecushman001 in pass-rate baseline table - eval
+S0131,2024,iclr,gpt4,1 INTRODUCTION,N/A,"intro mention of gpt4 as foundation language model, no usage"
+S0132,2024,iclr,gpt4,"A.1 VALIDATING METRICS FOR FACTUALITY / A.3 SAMPLE MODEL GENERATIONS / In other words, factuality tuning can be composed with RLHF to further improve the factuality of chat models.",Evaluation,GPT-4 used as judge for fluency/factuality evaluation
+S0133,2024,iclr,gpt4,1 INTRODUCTION / 2 BACKGROUND &amp; RELATED WORK / ABSTRACT,Evaluation,'experiments on gpt4 and gpt35 characterize failure modes' - eval
+S0134,2024,iclr,gpt4,ABSTRACT,N/A,"abstract mention of gpt4 emergent capabilities as motivation, no usage"
+S0135,2024,iclr,gpt4,A.3 ACCURACY RESULTS,Evaluation,'included gpt4 as a baseline' - eval
+S0136,2024,iclr,gpt4,1 INTRODUCTION,N/A,"intro mention of gpt4 as foundation model, no usage"
+S0137,2024,iclr,gpt35turbo0301,4 EXPERIMENTS / B LLM PROMPTING DETAILS,Methods,'we use gpt35turbo0301 as our llm' - methods
+S0138,2024,iclr,gpt35turbo,3.1 SAFETY TRAINING DATASET / B.2 TRAINING DETAILS,Methods,'used gpt35turbo to generate safe responses' - methods data generation
+S0139,2024,iclr,gpt35turbo0613,4.1 EXPERIMENTAL SETTINGS,Methods,'we adopt gpt35turbo0613 to generate annotations' - methods
+S0140,2024,iclr,gpt4,2.1 MATHEMATICS DATASETS AND BENCHMARKS,N/A,"background mention of gpt4 finetuning dataset, no usage"
+S0141,2024,iclr,gpt4,1 INTRODUCTION,N/A,"intro mention of gpt4 context length, no usage"
+S0142,2024,iclr,gpt4,C.1 INTRODUCTION,Methods,GPT-4 tokenizer used to categorize benchmark levels
+S0143,2024,iclr,gpt4,1 INTRODUCTION / 3 GV-CONSISTENCY OF CURRENT LMS / ABSTRACT / Generator Prompts:,Evaluation,'evaluated gv-consistency of gpt4 gpt35turbo' - eval
+S0144,2024,iclr,gpt4,H MORE RESULTS ON CLUSTERING AND LABELLING WITH TEXT,Methods,'we leverage gpt4 to generate text candidates' - methods
+S0145,2024,iclr,gpt4,5.2 EFFECT OF OUTPUT FORMAT AND FINETUNING / B COMPARISON WITH GPT-4,Evaluation,'comparison between layoutnuwa and gpt4' + gpt4 zero-shot in table - eval
+S0146,2024,iclr,gpt4,4.1 RESULTS / A.2.1 LLM PROMPTING,Methods,'using gpt4 as the base llm' for code policy prediction - methods
+S0147,2024,iclr,gpt35turbo,· Captioning,Methods,'we employ gpt35turbo to enrich the questions and contexts' - methods
+S0148,2024,iclr,gpt4,1 INTRODUCTION / 2 RELATED WORK,N/A,"related-work discussion of gpt4 capabilities, no own usage"
+S0149,2024,iclr,gpt4,3.2 PROMPT RECONSTRUCTION / 6 EXPERIMENTAL SETUP / 7 RESULTS / D SYNONYM SWAP EXPERIMENTAL DETAILS,Methods and Evaluation,'we perform synonym swaps using gpt4' (methods) + few-shot gpt4 inverter (eval)
+S0150,2024,iclr,gpt35turbo0301,4.1 EXPERIMENTAL SETUP / A.1 COMPOSITIONAL PREFERENCE MODEL,Methods,'we explore two lms gpt35turbo0301 and flant5xl' as feature extractors - methods
+S0151,2024,iclr,gpt4,3.2.1 PRETRAINED ICAE / 3.2.2 FINE-TUNED ICAE,Methods and Evaluation,pwc dataset built with gpt4 (methods) + gpt4 to compare outputs (eval) - both
+S0152,2024,iclr,gpt4,4 EXPERIMENTS / 5.2 RESCORING VARIANT OF RLCD,Evaluation,GPT-4 binary evaluations comparing RLCD vs baselines
+S0153,2024,iclr,gpt4,2 METHODS / 2.2 BASE MODELS / I PRM VISUALIZATIONS,Methods,'we finetune all models from gpt4' - methods (base model)
+S0154,2024,iclr,gpt40613,3.1 SETUP,Evaluation,GPT-3.5/GPT-4-0613 are subjects evaluated for multilingual jailbreak
+S0155,2024,iclr,textdavinci002,4.1 EXPERIMENTAL SETUPS,Evaluation,textdavinci002 in apps test results table - eval
+S0156,2024,iclr,gpt35turbo,D LIST OF PROMPTS / REPRODUCIBILITY STATEMENT,Methods,GPT-3.5-turbo API used to generate benchmark sentences
+S0157,2024,iclr,gpt4,,N/A,Empty rich evidence and combined windows; cannot verify.
+S0158,2024,iclr,gpt4,A2 MORE EXPERIMENT RESULTS,Methods,GPT-4 used to rate language grammatical complexity for routing
+S0159,2024,iclr,gpt35turboinstruct,F PROMPTING AN LLM,Methods,'we prompt the gpt35turboinstruct variant of gpt35' - methods
+S0160,2024,iclr,gpt35turbo0613,4 EXPERIMENTAL SETUP / F CONTINUED TRAINING OF GPT-3.5 BASE MODEL FOR INTENTIONAL CONTAMINATION,Methods,'we use snapshots of gpt35turbo0613 and gpt40613' - methods foundation LLMs
+S0161,2024,iclr,gpt4,5.3 EXPERIMENTS ON ANTHROPIC HH DATASET AND MT-BENCH / 5.4 EXPERIMENTS ON CALIBRATION / 6 CONCLUSION / C ADDITIONAL DISCUSSIONS ON THE CHOICE OF DIVERGENCES / E.2 GPT-4 EVALUATIONS ON MT-BENCH FOR DPO WITH DIFFERENT DIVERGENCES,Evaluation,GPT-4 used as judge in MT-Bench evaluation of f-DPO
+S0162,2024,iclr,gpt4,3.2 PROOF GENERATION / 4.5 PASS RATE,Methods,'we use gpt4 as the llm for proof generation' - methods
+S0163,2024,iclr,gpt35turbo,3.2 PROMPT STRATEGY / 4.1 MAIN RESULTS / 4.2 ANALYSIS / A.3 TASK RESULTS,Evaluation,GPT-3.5-turbo evaluated alongside other LLMs on prompt strategies
+S0164,2024,iclr,gpt35turbo,4 USE CASES / 4.1 DEVELOPING CONTENT MODERATION MODELS / 4.3 TRAINING INSTRUCTION-FOLLOWING MODELS / 4.4 CREATING CHALLENGING BENCHMARK QUESTIONS,Methods and Evaluation,GPT-3.5-turbo both evaluated as moderator and used to score
+S0165,2024,iclr,dalle2,2 RELATED WORK,N/A,"dalle2 cited as t2i variant in related work, no usage"
+S0166,2024,iclr,gpt35turbo,A.2 CAPTION REFINEMENT BY CHATGPT,Methods,'refined by chatgpt gpt35turbo' - methods caption pipeline
+S0167,2024,iclr,gpt4,2 BACKGROUND: ON THE IMPORTANCE OF DATA UNDERSTANDING,N/A,"background mention of gpt4 data opacity, no usage"
+S0168,2024,iclr,gpt4,1 INTRODUCTION / 5.2.1 HELPFULNESS AND HARMLESSNESS EVALUATION,Methods and Evaluation,gpt4 cited in intro (methods rlhf precedent) + gpt4-based eval - both
+S0169,2024,iclr,gpt35turbo,REPRODUCIBILITY STATEMENT,Methods,'we used gpt35turbo provided by azures openai api' - methods
+S0170,2024,iclr,gpt4,2 RELATED WORK,N/A,"related-work survey listing gpt4, no usage"
+S0171,2024,iclr,gpt35turbo,"1 INTRODUCTION / 4.1 SETUP / 4.2 RESULTS FOR MATH, LOGICAL REASONING, AND ALGORITHM TASKS / 4.4 ABLATION STUDY / ABSTRACT",Evaluation,gpt35turbo evaluated in dyval reasoning benchmark - eval
+S0172,2024,iclr,gpt4,1 INTRODUCTION / 4 A DATASET FOR LLM-BASED AUTHOR PROFILING / 5 EVALUATION OF PRIVACY VIOLATING LLM INFERENCES,Evaluation,'capabilities of llms eg gpt4 to infer attributes' - eval
+S0173,2024,iclr,gpt4,5.1 BENCHMARK AND BASELINES / 5.3 ZERO-SHOT GENERALIZATION / A.2 EXAMPLES OF ENRICHED INSTRUCTIONS,Methods,'enriched denote using gpt4 enriched instructions' - methods data augmentation
+S0174,2024,iclr,gpt40314,3.3 REAL ROBOT MANIPULATION / B TASK DETAILS,Methods,'this work mainly uses gpt40314' - methods
+S0175,2024,icml,gpt41106preview,10. Reproducibility / 10000 20000 50000 150000 300000 10000 20000 50000 150000 300000 0.5 10000 20000 50000 150000 300000 10000 20000 50000 150000 300000 3. IT is (currently) Not a Knowledge Enhancer / D.3. Detailed Results,Methods and Evaluation,'using gpt41106preview' as judge (methods) + results (eval) - both
+S0176,2024,icml,gpt4,5. Discussion / 7. Limitations / B.1. Task Setup / B.4. Results,Methods and Evaluation,gpt4 as backbone in benchmark results table - eval
+S0177,2024,icml,gpt4turbo,5.2. Parallel Function Calling with Dependencies / D. Experimental Details,Methods,'we use openais gpt models gpt4turbo for parallelqa' - methods
+S0178,2024,icml,davinci002,A.1. Main Results / A.2. Pairwise t-tests,Evaluation,davinci002 in main-results 95% CI table across systems - eval
+S0179,2024,icml,gpt35turbo,5.5. Q4: Ablation Studies,Methods,GPT-3.5-turbo used to generate held-out test set
+S0180,2024,icml,textembeddingada002,1 Introduction / 5.1 ComparingM2-BERTtoExistingRetrieverModels,Evaluation,textembeddingada002 compared as retriever baseline - eval
+S0181,2024,icml,gpt4,1. Introduction / 4.2. Functional Correctness / Abstract,Evaluation,'outperforming gpt4 on the verilogeval benchmark' - eval comparison
+S0182,2024,icml,gpt4,1. Introduction,N/A,"intro mention of gpt4 pushing AI limits, no usage"
+S0183,2024,icml,gpt4,1. Introduction / 5. Experiments,Methods,ChatGPT/GPT-4 used as LLM backbone for COFT framework
+S0184,2024,icml,gpt4,1. Introduction / 2.2. Environment overview / 4. Discussion / 6. Limitations and Future Directions / Abstract,Methods,'utilizing gpt4 to simulate a virtual town' - methods
+S0185,2024,icml,gpt4,4.3. Classification Results,Methods,'we used gpt4 to automatically produce captionstyle prompts' - methods
+S0186,2024,icml,gpt4,2.1. Data generation with LLMs based on a small D train,Methods and Evaluation,'focus on gpt4 as the llm' for data generation + comparison - both
+S0187,2024,icml,gpt4,1. Introduction / 4.2.1. MAIN RESULTS / Abstract,Methods and Evaluation,'dsagent with gpt4 achieves 100 success rate' - methods+eval
+S0188,2024,icml,gpt4,1. Introduction,N/A,"intro mention of gpt4 evaluator bias, no usage"
+S0189,2024,icml,gpt4,3.2. Adaptive Off-policy Approach / 4.1. Task-Agnostic Instruction-Following / D.3. Evaluation / E.1. Full Results of Instruction-Following (Fig. 5) / E.8. Replay Buffer Capacity,Evaluation,GPT-4 feedback used as evaluation metric for instruction following
+S0190,2024,icml,gpt4,1. Introduction,N/A,"intro mention of gpt4 as fundamental model, no usage"
+S0191,2024,icml,gpt4,1. Introduction / Abstract,Evaluation,gpt4 explanations evaluated for counterfactual simulatability - eval
+S0192,2024,icml,gpt4,1. Introduction / 6.1. Invariance and Generalization / Abstract / E.1. Generalization and Robustness,Evaluation,'outperforming code models including gpt4' in violation rate table - eval
+S0193,2024,icml,gpt35turbo,2.1. Experiment Setup / 2.2. Main Results / 2.3. Answer Set Pruning / 3.1. Posisition Bias and Other Attacks / 3.2. Symbol-Content Spurious Correlation,Evaluation,gpt35turbo evaluated for permutation robustness - eval
+S0194,2024,icml,gpt4turbo,3.1.1. ADVERSARIAL SETTING / 3.2. Mini Crosswords / 3.4. GAIA / E. Experimental Details / E.4.2. HYPER-PARAMETERS &amp; PROMPTS,Methods and Evaluation,'we used gpt4turbo' for swarm optimization (methods) + results (eval)
+S0195,2024,icml,davinci002,5.2. Inference LLMs,Evaluation,davinci-002 listed as one of 8 inference LLMs evaluated
+S0196,2024,icml,gpt4,4.2. Curation of Harmful Behaviors / C. HarmBench Details / C.5.1. LLAMA 2 EVALUATION CLASSIFIER / Evaluations in prior work.,Methods,'this was done using gpt4' to distill policies - methods curation tool
+S0197,2024,icml,gpt35turbo1106,3.1. Negotiation Results,Evaluation,gpt35turbo1106 in negotiation results - eval
+S0198,2024,icml,gpt35turbo,4.1. Behaviour Matching: Experimental Details,Methods,GPT-3.5-turbo used to evaluate jailbreak validation outputs in pipeline
+S0199,2024,icml,gpt4turbo,1. Introduction,N/A,"intro mention that gpt4turbo performs poorly, no usage"
+S0200,2024,icml,gpt4,4. Partial information results in optimism bias / B.1. Further LLMs,Evaluation,'we tested seven llms including gpt4' - eval
+S0201,2024,icml,gpt35turbo0613,6. Related Works,Evaluation,GPT-3.5-turbo-0613 evaluated as base LLM for LEAP across BBH tasks
+S0202,2024,icml,gpt4,API Properties and Dataset Generation,Methods,Method/training section with explicit prompting and model-use verbs.
+S0203,2024,icml,gpt35turbo,3.2. Generating text instruction / Speech tasks,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0204,2024,icml,gpt4,4.3. Capturing Feature Interdependencies by Prompting LLMs / Abstract,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0205,2024,icml,gpt4,1. Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0206,2024,icml,gpt4turbopreview,3.2. Experiment Setup,Methods,Method/training section with explicit prompting and model-use verbs.
+S0207,2024,icml,gpt4,Abstract,N/A,LLM mentioned in intro/related-work without authorial use.
+S0208,2024,icml,gpt4,4.1. Setup,Methods,Alpaca-by-GPT-4 dataset used for instruction tuning
+S0209,2024,icml,gpt4,1. Introduction / 2. Related Work / 3. TUTOREVAL / 3.1. Dataset construction / Abstract,Methods,Method/training section with explicit prompting and model-use verbs.
+S0210,2024,icml,gpt35turbo0613,4.1. Performance Evaluation,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0211,2024,icml,gpt4o,1. Introduction / 4.1. Evaluation Details / 4.2. Overall Evaluation / 4.3. Specific Task and Prompt Methods Analysis / Abstract,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0212,2024,icml,gpt35turbo,5.1. Data Construction of PEAK-CF,Methods,ChatGPT (gpt-3.5-turbo) used to generate dataset templates.
+S0213,2024,icml,gpt4,1. Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0214,2024,icml,gpt4,2.4. Supervised Fine-tuning,Methods,Method/data section describes how authors use the LLM.
+S0215,2024,icml,gpt4,4.3. Ablation Study,Methods and Evaluation,GPT-4 used in OptiMUS pipeline and ablation comparing GPT versions.
+S0216,2024,icml,claude21,1 Introduction / 5.1 Dataset / 7.4 Generalisability,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0217,2024,icml,gpt35turbo,6.1. Limitations / A.1. Further Analysis,Evaluation,GPT-3.5-turbo discussed as baseline reference; not directly used
+S0218,2024,icml,gpt4,1. Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0219,2024,icml,gpt4,3.1. Intra-domain versus Cross-domain Finetuning,N/A,GPT-4 mentioned as analogy for benchmark contamination concern
+S0220,2024,icml,textembedding3large,2. Emergence of Free-Formed AI Collectives / 3. Enhanced Performance of Free-Formed AI Collectives,Methods,text-embedding-3-large used to project conversations into semantic space
+S0221,2024,icml,gpt4turbo,2.1. LLMs cannot generate executable plans in autonomous mode,Evaluation,GPT-4-Turbo evaluated on PlanBench plan generation
+S0222,2024,icml,gpt4,Generalization + Customization,N/A,GPT-4 mentioned in LLM scaling discussion only
+S0223,2024,icml,gpt4,B. Full Taxonomy Tables,N/A,GPT-4 listed in model openness/info table only
+S0224,2024,icml,gpt35turbo1106,Algorithm 1 User-Based Collaborative Filtering / B.2. Implementation Details,Methods,Method/data section describes how authors use the LLM.
+S0225,2024,icml,gpt4,1. Introduction / 2.1. Long-context Model,N/A,LLM mentioned in intro/related-work without authorial use.
+S0226,2024,icml,gpt35turbo,5.3. Part II: ReMax on LeaderBoard,Evaluation,GPT-3.5-turbo on benchmarks for comparison context
+S0227,2024,icml,gpt35turbo0613,6 Analysis,Methods,gpt-3.5-turbo-0613 API used as LLM evaluator in pipeline
+S0228,2024,icml,gpt4,1. Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0229,2024,icml,dalle3,5.3.1. RESULTS,Evaluation,Evaluation section reports performance metrics for the LLM.
+S0230,2024,icml,gpt35turbo,4.1. Experiment Setup / 4.2. Results and Analysis,Evaluation,Evaluation section reports performance metrics for the LLM.
+S0231,2024,icml,gpt4,1. Introduction / 4. Theoretical Analysis of MATRIX / 5.1. Experimental Setup / Abstract,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0232,2024,icml,gpt4,5.1. Science World / 5.2. NetHack / 6. Experimental Results,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0233,2024,icml,gpt4,5.3. Quantization of Instruction Following Models / B. Experiment Setup (Details),Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0234,2024,icml,gpt4,6.1. Experiment Setup / E.3. Prompts Used for Poisoning Data Generation / E.4. Implementation Details of SilentBadDiffusion / Midjourney dataset:,Methods,Method/training section with explicit prompting and model-use verbs.
+S0235,2024,icml,gpt40613,B.2. MT-Bench,Evaluation,gpt-4-0613 used as judge for MT-Bench evaluation
+S0236,2024,icml,gpt35turbo0301,D.1. Additional details on experimental setup / D.2. Additional details on system architectures,N/A,Reviewer flagged listing/background mention without authorial use.
+S0237,2024,icml,gpt4,4. Experiments / 4.1. Alignment with the Oracle Reward / 4.2. Alignment with Human Preferences,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0238,2024,icml,gpt4,5.1. Experimental Setup / 5.4. Comparing with Other Tool-Making Methods,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0239,2024,icml,gpt4,3.3. Experiments,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0240,2024,icml,gpt4,1. Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0241,2024,icml,gpt4,1. Introduction / 5. Ablation Study / C.5. Performance of Different Combinations of White-box LLMs and Black-box LLMs,Evaluation,GPT-4 mentioned as black-box LLM example in introduction; ChatGPT used
+S0242,2024,icml,gpt4,4.1. Baselines and Metrics / 4.2.3. PLANNING STUDY,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0243,2024,icml,gpt4,1. Introduction / 3.2. Diverse Instructions / 5. Experimental Setup / Abstract,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0244,2024,neurips,gpt4o,B Robustness extrapolation to discrete attacks,Evaluation,gpt-4-o used as judge for adaptive attack evaluation
+S0245,2024,neurips,gpt4,1 Introduction / Abstract,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0246,2024,neurips,gpt35turbo,2.5 Harmonized AlchemistCoder dataset / 3.1 Benchmarks and implementation details / 3.2 Evaluation on code generation task / D.1 HumanEval/HumanEval+,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0247,2024,neurips,gpt4,3.4 Training Objective and Strategy / A.1 Textual Prompts Construction,Methods,Method/training section with explicit prompting and model-use verbs.
+S0248,2024,neurips,gpt35turboinstruct,1 Introduction / 5.2 Instruction Following / Abstract / B.2.1 Model Specification / C.2 Evaluation Results for Instruction Following,Methods,Method/training section with explicit prompting and model-use verbs.
+S0249,2024,neurips,gpt35turbo,4.1 Experimental Setup / 4.2 Main Results (RQ1) / B.4 Implementation of Baselines,Methods,Method/training section with explicit prompting and model-use verbs.
+S0250,2024,neurips,textembeddingada002,3 HONESET: A New Dataset,Methods,text-embedding-ada-002 used to embed and filter dataset duplicates
+S0251,2024,neurips,gpt4,1 Introduction / 5.1 Evaluation,Methods,GPT-4 used in data annotation pipeline for Text2CAD.
+S0252,2024,neurips,gpt4omini20240718,MARIO:,Methods,GPT-4o-mini sampled to generate solution responses
+S0253,2024,neurips,gpt4,5 Experiments / D.4 NLI models accuracy,Evaluation,GPT-4 appears as a model evaluated for uncertainty estimation.
+S0254,2024,neurips,gpt40613,F.2.1 Summarization,Evaluation,gpt-4-0613 used as GPT win-rate evaluator
+S0255,2024,neurips,gpt35turbo0125,4.1 Experimental setting,Methods,gpt-3.5-turbo-0125 used as LLM annotator in pipeline
+S0256,2024,neurips,gpt35turboinstruct,2.2 LLMAgent Setting / Content of Appendix / E Statistical Testing,N/A,Reviewer flagged listing/background mention without authorial use.
+S0257,2024,neurips,gpt40613,D.2 Downstream Evaluation,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0258,2024,neurips,gpt4,2.1 In-context learning for generation / A.1 Related Work / A.3 More empirical results,Methods,GPT-4 mentioned in ICL discussion; weak signal here
+S0259,2024,neurips,gpt4,F.1 The Effect of Encoding-side Alignment,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0260,2024,neurips,gpt4turbo,F.1 Configuration of prompt the LLM,N/A,Reviewer flagged listing/background mention without authorial use.
+S0261,2024,neurips,gpt35turbo,4 Experiments / 4.1 Text-based Prompts,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0262,2024,neurips,gpt4o,Evaluation of Large Language Models for Multilingual Instruction Tuning,Methods,Method/training section with explicit prompting and model-use verbs.
+S0263,2024,neurips,gpt4,7 Limitations,N/A,GPT-4 cited only as proprietary model not applicable to MTV
+S0264,2024,neurips,gpt4omini,6.1 Estimating the distribution of scores for the LLM-as-a-judge framework,Methods,Method/data section describes how authors use the LLM.
+S0265,2024,neurips,gpt4,5.4 Comparison with Other Attribution Methods,N/A,"GPT-4 mentioned only in pricing footnote, not used."
+S0266,2024,neurips,gpt35turbo,1 Introduction / 4.1 Attack Effectiveness and Efficiency / 4.4 Ablation Study and Sensitivity Test,Methods,GPT-3.5-Turbo used as helper LLM in jailbreak attack pipeline.
+S0267,2024,neurips,gpt4,A.1 Experimental Setups,Methods,Method/data section describes how authors use the LLM.
+S0268,2024,neurips,gpt4,3.3 Training Strategy,N/A,GPT-4 keyword absent from training-strategy section evidence
+S0269,2024,neurips,gpt35turbo,1 Introduction / 4.3 LLM-vs.-LLM Competition,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0270,2024,neurips,gpt4,2.2 LLMs Agents / 3 Methods / 3.2 Slow Agent: Action Planning / 3.3 Fast Agent: Code-as-Policy and RL / 3.4 Two-loop Iteration / 3.5 Task Planner / 4.2 Implementation Details / A Agent Prompt Details,Methods,Method/training section with explicit prompting and model-use verbs.
+S0271,2024,neurips,gpt4,4.3 Video Generation with Compositional Prompts / A.1 LLM-based Automatic Spatio-Temporal Decomposer,Methods,GPT-4 used to generate compositional prompts and as decomposer
+S0272,2024,neurips,textembeddingada002,4.1 Embedding Models,N/A,Reviewer flagged listing/background mention without authorial use.
+S0273,2024,neurips,gpt4,4.1 Toward Comprehensive Text-only and Multimodal Performance / A Experimental Setups and Implementation Details,Evaluation,GPT-4 listed as private API MLLM in performance comparison table.
+S0274,2024,neurips,gpt4turbo,1 Introduction / 5 Experiments / 5.1 Efficiency Evaluation / 5.2 Win-rate Evaluation,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0275,2024,neurips,gpt4,B.3 Ablation Study,Methods,GPT-4 prompted via ChatGPT to generate negative prompts
+S0276,2024,neurips,gpt4o20240513,4 Experiments,Evaluation,gpt-4o-2024-05-13 benchmarked as one of comparison models
+S0277,2024,neurips,gpt4,3.1 Preference Data / B Dataset Details / D Evaluation Details / E UltraFeedback Subset Study / F.1 DPO,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0278,2024,neurips,gpt4,5.1 Experimental Setup / 5.3 Experimental Results / 6.2 Generalization to a new input distribution,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0279,2024,neurips,dalle2,3.3 Gaussian Variational Auto-encoder and Latent Diffusion,Methods,DALLE-2 architecture adopted as LDM implementation
+S0280,2024,neurips,gpt4,5.4 Weak-to-Strong Generalization,N/A,GPT-4 referenced as LLM example in superalignment discussion
+S0281,2024,neurips,gpt35turboinstruct,D.1 How to Calculate the Model's Posterior on All Hypotheses (Figure 10),Methods,Method/data section describes how authors use the LLM.
+S0282,2024,neurips,gpt4,1 Introduction / 5 Experiments / C Natural Language Description Generation,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0283,2024,neurips,gpt4,7 Conclusion,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0284,2024,neurips,gpt4,5.2 Attack Results / 6 Evaluation in Real World Applications / Q2: Can our theoretical analysis guide to develop a more principled transfer-based attack?,N/A,GPT-4 mentioned as multimodal application target only
+S0285,2024,neurips,gpt4o,4.1 LVLM Baselines / 4.2 Main Results and Findings / B.3 Ethical concerns and risks,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0286,2024,neurips,gpt35turbo0125,5 Experiments / D.3 Generation Setup,Methods,Method/training section with explicit prompting and model-use verbs.
+S0287,2024,neurips,gpt4,1 Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0288,2024,neurips,gpt35turbo1106,4.2 Trade-off for Interpretability at the Text Level,Methods,GPT-3.5-turbo-1106 used as LLM in WTGIA attack pipeline
+S0289,2024,neurips,gpt4,4.2 The Steering Effects across Various Behaviors / J Automatic Evaluation Prompts,Methods,Method/training section with explicit prompting and model-use verbs.
+S0290,2024,neurips,gpt4,1 Introduction / 4 Experimental Setup / 5 Results / 5.1 Analysis of ACI Design,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0291,2024,neurips,gpt4,5.2 Multi-outcome contracts,Methods,GPT-4 used as judge in MT-Bench dataset for contract analysis
+S0292,2024,neurips,gpt4turbo,5.2 General Chat,Evaluation,GPT-4-Turbo as reference for AlpacaEval comparison
+S0293,2024,neurips,gpt4,B.2 LLMPreference Learning Dataset Descriptions,Methods,Method/training section with explicit prompting and model-use verbs.
+S0294,2024,neurips,gpt4,A.1 Description of Datasets,N/A,Reviewer flagged listing/background mention without authorial use.
+S0295,2024,neurips,gpt4,4.2 Experiment on Large Language Model,Methods,Method/training section with explicit prompting and model-use verbs.
+S0296,2024,neurips,gpt4,4.1 Simulating Soft Preference with AI Feedback,Evaluation,GPT-4 used as judge to compare win rates
+S0297,2024,neurips,gpt4,3.3 Overall Pipeline,Methods,Method/data section describes how authors use the LLM.
+S0298,2024,neurips,gpt35turbo0613,5.1 Experimental Setup,Evaluation,gpt-3.5-turbo-0613 evaluated as one of four target LLMs for jailbreak
+S0299,2024,neurips,dalle2,4.2 Experimental Results / A.6 Analysis on Radial Spectrum,N/A,Reviewer flagged listing/background mention without authorial use.
+S0300,2024,neurips,gpt4omini,5 Experiments / A Limitations and Future Work,Methods,GPT-4o-mini used to generate code solutions and monologue annotations
+S0301,2024,neurips,codedavinci002,5.2 APPS,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0302,2024,neurips,gpt4,4. Experimental Result Reproducibility / 6 Testing the Tail: Let It Wag! / I.3 GPT-4 Descriptions for each extracted concept / Table of Contents,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0303,2024,neurips,gpt4,1 Introduction / 5 Efficient Endpoint Calling with API Speculative Execution / D.2 A Case Study of Compiler Optimization: Code Movement for Improving Prefix Sharing,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0304,2024,neurips,gpt4turbo,D.1 Hyperparameter tuning and decoding strategy,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0305,2024,neurips,gpt4,3 Microstructures and Accuracy of Graph Recall by LLMs / 3.1 Experimental Protocols and Datasets / 3.3 LLMs Compared with Humans in Graph Recall / 4.1 Narrative Style / 5 Correlation between LLM's Graph Recall and Link Prediction,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0306,2024,neurips,gpt4turbo,3.3 CulturePark benefits cultural understanding and fine-tuning,N/A,Reviewer flagged listing/background mention without authorial use.
+S0307,2024,neurips,gpt4,Acknowledgements,N/A,LLM mentioned in intro/related-work without authorial use.
+S0308,2024,neurips,gpt35turboinstruct,2.4 Evaluation / 2.5 Engine Comparisons / 3.1 Main Result / 3.2 Puzzles,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0309,2024,neurips,gpt35turbo,Examples: / Findings: / Waterbuck:,N/A,Reviewer flagged listing/background mention without authorial use.
+S0310,2024,neurips,gpt4,3.2.2 Non-Rigid Mask Editing,Methods,GPT-4 used to generate prompt pool for mask editing
+S0311,2024,neurips,gpt4turbo,4.2 Response and Critique to be Evaluated / 4.3 Reference Critique Generation and Annotation / 5.1 Objective Evaluation / 6.2 Reliability of Subjective Evaluation in CRITICEVAL / A.2 GPT-4 Model for Subjective Evaluation,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0312,2024,neurips,gpt4,A.2.3 Additional Results,Evaluation,GPT-4o appears as teacher model in results table.
+S0313,2024,neurips,gpt4,1 Introduction / A.3 Distilling Reasoning Traces from Very Large LLMs,N/A,GPT-4 cited as background example of LLMs with poor reasoning
+S0314,2024,neurips,gpt4,AlpacaEval (for fine-tuning) / Harmful examples / Harmful prompt with safe output (for alignment),Methods,Method/training section with explicit prompting and model-use verbs.
+S0315,2024,neurips,gpt4o,2.2 Models / 4.3 Proprietary vs. Open-Source Models / F Detailed Experimental Results,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0316,2024,neurips,gpt4,1 Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0317,2024,neurips,gpt4,6 Empirical Evaluation / C Worked Example: Semaglutide vs. Tirzepatide,Methods,GPT-4 Turbo used for sampling in NATURAL pipeline
+S0318,2024,neurips,gpt4,3.2 SlowFocus / 4 FineAction-CGR benchmark,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0319,2024,neurips,gpt4,1 Introduction / 2 Related Work / 5.3 Specialized Domain 2: Clinical Text Summarization / B.2 Datasets,Methods,Method/training section with explicit prompting and model-use verbs.
+S0320,2024,neurips,gpt4,1 Introduction / 2 Related Work / 3 Dataset / Mateja Jamnik,Methods,Method/training section with explicit prompting and model-use verbs.
+S0321,2024,neurips,gpt4,I Instruction Prompts,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0322,2024,neurips,gpt4,1 Introduction / 3.2 The Dean-Teacher-Student Pipeline / 5 Our Socratic Teaching Evaluation System / Abstract,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0323,2024,neurips,gpt4,4.1 Experimental Setup,N/A,Reviewer flagged listing/background mention without authorial use.
+S0324,2024,neurips,gpt4,3.1 Training Data Preparation / 4.1 Preliminary,Methods,Method/training section with explicit prompting and model-use verbs.
+S0325,2024,neurips,gpt35turbo,E Detailed Description of Experiments on Deepfake dataset,N/A,Reviewer flagged listing/background mention without authorial use.
+S0326,2024,neurips,gpt4turbo20240409,2.4 Acquiring reference answers / A.2 Supplementary Experiment,Evaluation,Evaluation section reports performance metrics for the LLM.
+S0327,2024,neurips,gpt4,1 Introduction,N/A,GPT-4 cited as cost-context example in introduction
+S0328,2024,neurips,gpt4turbo,B Implimentation Details,Methods,GPT-4-Turbo queried via API for experiments
+S0329,2024,neurips,gpt35turbo,4.2 Additional Experimental Results,Evaluation,GPT-3.5-Turbo compared as baseline on AlpacaEval/Arena
+S0330,2024,neurips,gpt4,5.3 Implementation Details / B.1 CLIP Pretraining / B.2 Baselines / RETRIEVED\_DOCUMENTS,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0331,2024,neurips,gpt4turbo,4.1 Experimental Setup / C Experimental Details / D Licensing Information,Methods,Method/training section with explicit prompting and model-use verbs.
+S0332,2024,neurips,gpt4o,4.2 Causal Inference in VGCM / 5.1 Main results / 6 Conclusion / Abstract,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0333,2024,neurips,gpt4,B.2 Further Details on Real World Experiments based on Llama,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0334,2024,neurips,gpt4,4.1 Experimental Setup / 5 Analysis,Methods,Method/training section with explicit prompting and model-use verbs.
+S0335,2024,neurips,gpt4,**SelectIT: Selective Instruction Tuning for LLMs** **via Uncertainty-Aware Self-Reflection**,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0336,2024,neurips,gpt4o,**Atlas3D: Physically Constrained Self-Supporting** **Text-to-3D for Simulation and Fabrication**,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0337,2024,neurips,gpt4,**Reinforcing LLM Agents via** **Policy Optimization with Action Decomposition**,N/A,GPT-4 referenced via CAAFE comparison context only
+S0338,2024,neurips,gpt4,**InterControl: Zero-shot Human Interaction** **Generation by Controlling Every Joint**,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0339,2024,neurips,gpt4,**Elo Uncovered: Robustness and Best Practices in** **Language Model Evaluation**,N/A,GPT-4 not specifically used here; methodology evaluation focus
+S0340,2024,neurips,gpt4,**Advancing Tool-Augmented Large Language Models:** **Integrating Insights from Errors in Inference Trees**,N/A,GPT-4 cited as example of tool-augmented LLMs in intro
+S0341,2024,neurips,gpt4,**Adaptive Preference Scaling for Reinforcement** **Learning with Human Feedback**,N/A,Section text contains no GPT-4 evidence; PyBullet RL paper.
+S0342,2024,neurips,gpt4,**Evaluation of Text-to-Video Generation Models: A** **Dynamics Perspective**,Methods,GPT-4 used to categorize prompts by dynamics grade
+S0343,2024,neurips,gpt4,**Customizing Language Models with** **Instance-wise LoRA for Sequential Recommendation**,Evaluation,"Strong evaluation language: metrics, baselines, performance."
+S0344,2024,neurips,gpt35turbo0125,**Agent Planning with World Knowledge Model**,Methods,Method/training section with explicit prompting and model-use verbs.
+S0345,2024,neurips,gpt4,**PowerPM: Foundation Model for Power Systems**,N/A,Reviewer flagged listing/background mention without authorial use.
+S0346,2024,neurips,gpt4,A Related Work,N/A,LLM mentioned in intro/related-work without authorial use.
+S0347,2024,neurips,gpt41106preview,3.1 Reasoning logic,N/A,Reviewer flagged listing/background mention without authorial use.
+S0348,2024,neurips,gpt35turbo,4 Evaluation,Evaluation,gpt-3.5-turbo evaluated as production attack target
+S0349,2024,neurips,gpt4,2 Related Work / Acknowledgement,N/A,GPT-4 mentioned as MLLM example; LLaVA used as agent
+S0350,2024,neurips,gpt4,A.2 HiCo-7K Benchmark,Methods,GPT-4 used to re-caption target regions in dataset construction
+S0351,2024,neurips,gpt4,1 Introduction / 4.1 Motivation: The Impact of Pairwise Data Quality on β Selection / 4.2.2 β -Guided Data Filtering / 5 Experiments / 5.1 Empirical Evaluation of β -DPO on Dialogue Generation and Summarization / 5.2 Adaptations of β -DPO,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0352,2024,neurips,gpt4,5.2 Setup / 5.3 Main Results / 5.5 Results of Automix with Three Models / B Additional Details on the Experimental Setup,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0353,2024,neurips,gpt40613,4.1 Implementation Details,Methods,Method/training section with explicit prompting and model-use verbs.
+S0354,2024,neurips,gpt4,2 Related Work / 4.2 Application on Exhaustive Hallucination Evaluation / B.4 Additional Experiments for Hallucination Evaluation,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0355,2024,neurips,gpt4,4.4 Research Question 4: What is the effect of fine-tuning and providing few-shot examples in our system?,Methods,Method/training section with explicit prompting and model-use verbs.
+S0356,2024,neurips,gemini15pro,3 Experiment / 3.2 Social Reasoning: BBQ / Algorithm 1: Algorithm of DARG / B Full Experiment Results / C Human Evaluation on the Quality of Generated Samples / Jiaao Chen,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0357,2024,neurips,gpt4turbo,4.1 Experimental Setup / A.5 Experimental Setup,Methods,All LLM-based agents use GPT-4-Turbo as core implementation.
+S0358,2024,neurips,gpt4,3 Preliminary / 5.6 Generalizability of the Shared Reflector / 5.7 Generality of Counterfactual Rewards / 7. Experiment Statistical Significance,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0359,2024,neurips,gpt4,2 Related Work / 3.1 PedCorpus: Multi-task Medical Instruction Dataset / 3.5 Mixture of Universal-specific Experts in Parameter-efficient SFT / 4.1 Datasets and Implementation Details / 4.2 Model Zoo / Abstract,Methods and Evaluation,GPT-4 used both as evaluator and to generate corpus data
+S0360,2024,neurips,gpt4,1 Introduction / 2 VIDEOPREFER / 2.1 Why GPT-4 V ( ision ) can act as a human-aligned preference annotator?,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0361,2025,aaai,gpt4omini,Experimental Setting,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0362,2025,aaai,gpt4,Data Quality Enhancement / Introduction / Related Work / Results on MMCR Tasks / Results on Multimodal Molecule Understanding Tasks / Study on More Difficult Questions,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0363,2025,aaai,gpt4,Introduction / Persona Realism for Social Disclosure / Socialized Simulation for Dialogue Generation,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0364,2025,aaai,gpt4o,1 Introduction / Abstract / Experimental Setup / False Belief Detection / Quality Validation &amp; Statistics,Methods,Method/training section with explicit prompting and model-use verbs.
+S0365,2025,aaai,gemini15pro,Comparison with SoTA / Experiment / Visualized results,Evaluation,Gemini-1.5-Pro evaluated against Graphist on HLG/GLG tasks
+S0366,2025,aaai,gpt4,Class-Specific Prompt-and-Image Augmentation / Experimental Setup,Methods,Method/training section with explicit prompting and model-use verbs.
+S0367,2025,aaai,gpt4,Generating QAs from Relative Caption / Introduction / Related Work,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0368,2025,aaai,gpt4,3.2 3MAD Dataset,Methods,Method/data section describes how authors use the LLM.
+S0369,2025,aaai,dalle2,Related Work,N/A,DALL-E 2 cited as related-work generation model
+S0370,2025,aaai,gpt4,DensePrompts Benchmark,Methods,Method/training section with explicit prompting and model-use verbs.
+S0371,2025,aaai,gpt35turbo,5.1 Datasets and Experimental Settings,Methods,Method/training section with explicit prompting and model-use verbs.
+S0372,2025,aaai,gpt35turbo,Experimental Setup,Methods,Method/training section with explicit prompting and model-use verbs.
+S0373,2025,aaai,gpt35turbo,4.4 Ablation Study,Methods,GPT-3.5-turbo used as LLM in ALERT-Motion pipeline
+S0374,2025,aaai,gemini15pro,Baseline / CamObj-Bench / Main Results / Preliminary Experiment,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0375,2025,aaai,gpt4,Implementation Details / Quality Evaluation,Methods,GPT used in instruction execution process generation pipeline.
+S0376,2025,aaai,gpt4,Constructing the Training Dataset,Methods,Method/training section with explicit prompting and model-use verbs.
+S0377,2025,aaai,gpt4o,Abstract / Benchmark Construction Pipeline / Introduction / Video Understanding Benchmarks,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0378,2025,aaai,gpt4o,3 Methodology / 3.2 Evaluation Steps / 3.3 Score Function / 3.4 Handling Probabilistic Outputs / 3.5 Reference Captions and Original Visual Content / Abstract,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0379,2025,aaai,gpt4o,Discussion / Results / Room and Region Classification / The Comparison Models,Methods and Evaluation,Multi-window context spans LLM use and evaluation results.
+S0380,2025,aaai,gpt4turbo20240409,Experiments and Analysis,Methods,GPT-4-turbo-2024-04-09 used as LLM teacher for distillation
+S0381,2025,aaai,gpt35turbo1106,4.4 Baseline Methods,Methods,Method/data section describes how authors use the LLM.
+S0382,2025,aaai,gpt4,Related Work,N/A,LLM mentioned in intro/related-work without authorial use.
+S0383,2025,aaai,gpt35turbo1106,Experimental Setup,Methods,Method/training section with explicit prompting and model-use verbs.
+S0384,2025,aaai,gpt4,Evaluations,Methods,GPT-4 used as the LLM in AutoSceneGen scenario generation
+S0385,2025,aaai,gpt4,Experiment Settings,Methods,GPT-4o used to generate reward functions; GPT-4 was tested
+S0386,2025,aaai,gpt4turbo,Baseline Models,Methods,Method/training section with explicit prompting and model-use verbs.
+S0387,2025,aaai,gpt4,Baselines / Task Translation / Vision-Language Models,Methods,Method/training section with explicit prompting and model-use verbs.
+S0388,2025,aaai,gpt4o,Evaluation of Estimating Causal Effect with LLMs / Evaluation of OR-SCIE / Experiments and Results / High-quality Observational Data Generation,Methods,Method/training section with explicit prompting and model-use verbs.
+S0389,2025,aaai,gpt4,Experimental Setup / Multi-hop Reasoning Results / Question Quality Assessment Results,Evaluation,"Experiments/results section with metrics, baselines and comparisons."
+S0390,2025,aaai,gpt4,Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0391,2025,aaai,gpt35turbo,1 Introduction / 4 Experimental Setup / 5.1 Comparing Calibration Methods,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0392,2025,aaai,gpt4,Evaluating LLMs on GAR,Evaluation,GPT-4 evaluated as one of 10 LLMs on GAR benchmark
+S0393,2025,aaai,gpt4,Related Works / Request Understanding,Methods and Evaluation,Window blends LLM use with metrics and baselines.
+S0394,2025,aaai,gpt4,1 Introduction,N/A,LLM mentioned in intro/related-work without authorial use.
+S0395,2025,aaai,textembedding3large,Semantic Distortion Quantification,Methods,text-embedding-3-large used to compute semantic distortion
+S0396,2025,aaai,gemini10pro001,6 Experimental Setup,Evaluation,Gemini-1.0-pro-001 listed among LLMs evaluated in setup.
+S0397,2025,aaai,gpt4o,3.3 Clustering: Intra-Group Clustering (IGC) / 4.1 Experimental Setup / 4.2 Experimental Results,Evaluation,GPT-4o evaluated on causal epistemic consistency metrics
+S0398,2025,aaai,gpt35turbo0125,4.1 Experimental Settings,Methods,Multiple method cues (we use/prompt/generate) for authorial use.
+S0399,2025,aaai,gpt4o20240513,Experimental Setup,Methods,Method/data section describes how authors use the LLM.
+S0400,2025,aaai,gpt4,2.1 Overview of Our Approach / 2.2 Knowledge Element Pool Construction,Methods,Method/training section with explicit prompting and model-use verbs.
+S0401,2025,aaai,textembeddingada002,Algorithm 1: TCPM Calculation,Methods,Uses OpenAI embeddings to deduplicate and cluster topics for dataset construction.
+S0402,2025,aaai,gpt4omini,Ablation Study / Inference Detail / Language-Specific Transliteration / Overall Pipeline,Methods and Evaluation,Uses LLMs as pipeline component plus reports CER/WER results across LLM variants.
+S0403,2025,aaai,gpt4o,Analysis on Benchmark Translation Results / Datasets and Benchmarks,Methods and Evaluation,Uses gpt4o to translate benchmarks and reports BLEU evaluation across models.
+S0404,2025,aaai,gpt35turbo,Analysis,Evaluation,Section is Analysis with comparative performance numbers across multiple LLMs.
+S0405,2025,aaai,gpt4,Abstract / Introduction / Iterative Question Composing / Related Work,Methods and Evaluation,Describes data augmentation method (IQC) plus benchmark evaluation results.
+S0406,2025,aaai,gpt4,Dataset Analysis / Dataset Construction / Different LLMs / Introduction,Methods and Evaluation,Uses GPT-4 for dataset construction and reports BLEURT scores on ASR pipeline.
+S0407,2025,aaai,gpt35turbo,4.2 Experimental Results,Evaluation,Pure Section 4.2 results table comparing LLMs across MCQ/SCQ/TFQ.
+S0408,2025,aaai,gpt4o,2.2 Full Duplex Speech Language Model,N/A,Background mention of GPT-4o/Moshi as motivating examples; no eval or method use.
+S0409,2025,aaai,gpt4,Introduction,N/A,Introduction citation of GPT-4/LLaMA limitations; not papers own evaluation.
+S0410,2025,aaai,gpt4,1 Introduction / 4.1 Experiment Setups / 4.2 Comparison with Beam Sampling,Methods and Evaluation,Describes method plus experimental setup with GPT-4 rating across benchmarks.
+S0411,2025,aaai,gpt4o20240806,Event Annotation,Methods,Uses GPT-4o LLM as annotator to label events against constraints.
+S0412,2025,aaai,gpt4,Experiments / Result &amp; Analysis,Evaluation,GPT-4 evaluated as one of 12 LLMs on CodeHaluEval
+S0413,2025,aaai,gpt4,LLMs for Abstractive Summarization,N/A,Related-work survey mentioning LLMs for summarization; no method/eval here.
+S0414,2025,aaai,gpt4o,Experiment Results,Evaluation,Experiment Results section comparing many models including GPT-4o on multimodal tasks.
+S0415,2025,aaai,gpt35turbo,1 Introduction / 3.1 Multi-Agent Monte Carlo Simulation / 3.3 How To Train a Classifier? / 5 Analysis &amp; Discussion,Methods,gpt-3.5-turbo trained for HalluciBot Monte Carlo simulation
+S0416,2025,aaai,gpt35turbo,Implementation Details,Methods,Uses GPT-3.5 to generate training samples for LCF/LFUDS pipeline.
+S0417,2025,aaai,gpt4,Abstract / Data Generation and Quality Control,Methods and Evaluation,Uses GPT-4 for data generation/quality control plus four-dataset evaluation.
+S0418,2025,aaai,gpt4o,3.1 Generating Scores,Methods,GPT-4o used to generate sub-metric scores in pipeline.
+S0419,2025,aaai,gpt4o,Compared Datasets / Experiment Setup Implemention Details,Methods and Evaluation,Generates MDD-5K with GPT-4o and 100 conversations for evaluation.
+S0420,2025,aaai,gpt40613,Dataset Construction,Methods,Uses GPT-4 to generate in-context QA pairs for multi-doc dataset.
+S0421,2025,aaai,gpt4,3.3 Experiments,Methods,GPT-4 used to generate knowledge probe questions for unlearning attacks
+S0422,2025,aaai,gpt4o,Experimental Setup / Overall Performance (RQ1),Methods and Evaluation,Schema-linking method with GPT-4 family plus Overall Performance comparison table.
+S0423,2025,aaai,gpt4o,Controlling A Single Concept,Methods,GPT-4o used to generate topic prompts for control vectors
+S0424,2025,aaai,gpt35turbo,"4 Experiments 4.1 Datasets, Metrics, and Details",Methods and Evaluation,GPT-3.5-turbo used as LLM in DIE pipeline and evaluated
+S0425,2025,aaai,gpt4o,"Introduction / Revisit from Requirement, Target, and Key Inputs",Evaluation,GPT-4o evaluated against LLM zoo for instruction coverage
+S0426,2025,aaai,gpt35turbo,Baselines,Evaluation,Lists baseline medical LLMs and compares closed-source GPT-3.5-turbo.
+S0427,2025,aaai,gpt4,3.1 Model Adversarial Sampling / 3.2 Optimization with Imbalanced Data / 4 Results on Speech Translation 4.1 Baseline Model and Experimental Setup / 4.2 Objective Evaluation,Methods and Evaluation,Adversarial sampling method using GPT-4 plus objective speech-translation evaluation.
+S0428,2025,aaai,o1,4.3 Ablations,Evaluation,o1 model performance evaluated on ACPBench tasks
+S0429,2025,aaai,gpt4o,Creative Writing,Methods and Evaluation,GPT-4 used as judge; GPT-4o evaluated as baseline
+S0430,2025,aaai,gpt4omini20240718,3.5 Diversity Analysis on Previous LLM-EPS Framework,Methods,Uses GPT-4o-mini as generator/reflector in HSEvo evolutionary search.
+S0431,2025,aaai,gpt4omini,Ablation Studies / Abstract / Experimental Settings / Introduction / Results,Methods and Evaluation,"GPT-4o-mini/turbo backbones in method, also baselines"
+S0432,2025,aaai,gpt4,Methodology,Methods,Methodology section using GPT-4 to generate alignment-relevant behaviors.
+S0433,2025,aaai,gpt4turbo,3.1 Experiment 1: Defenses in a Realistic Multi-Agent Research Environment / 4.1 Experiment 1: Defenses in a Realistic Multi-Agent Research Environment,Methods and Evaluation,GPT-4-turbo/4o agents; GPT-4o judges behaviors
+S0434,2025,aaai,gpt4,3.1 Consequences of the Effects for Different Actors / 3.2 Implications for Competitive Advantage,N/A,Compute efficiency discussion; no substantive GPT-4 use.
+S0435,2025,aaai,gpt4,Condition 1: Agency / Other Aspects of Personhood / Theory-of-Mind and Alignment,N/A,Philosophy of personhood discussion; GPT-4 mention is illustrative.
+S0436,2025,aaai,gpt4,Attack Implementation Details / Findings of Jailbreak Attacks / Study Design,Methods and Evaluation,Jailbreak study using GPT-4 + classifier as evaluators with ASR metric.
+S0437,2025,aaai,gpt4,Faithful Integrity / Introduction,N/A,"Introduction discussing GPT-4 susceptibility; framing only, no eval."
+S0438,2025,aaai,gpt35turbo,LLMs for Detecting Fraudulent Shopping Websites,Evaluation,Evaluates GPT-3.5-turbo and GPT-4 on fraudulent shopping classification dataset.
+S0439,2025,aaai,gpt4o,1 Introduction / 5 Experiment / 5.1 Dataset Quality Evaluation / 5.3 OCR Evaluation,Methods and Evaluation,GPT-4o-mini pipeline LLM; GPT-4o evaluator and OCR baseline
+S0440,2025,aaai,gpt4omini,Results and Analysis,Evaluation,"Results table compares gpt4o-mini, gpt4-turbo, llama against domain models."
+S0441,2025,aaai,gpt4,Science-Focused Agents,N/A,GPT-4 mentioned as related work (ChemCrow integrates GPT-4).
+S0442,2025,aaai,gpt4o,4.2 Comparion with previous methods,Methods,GPT-4o powers VIE evaluation metric in pipeline
+S0443,2025,iclr,gpt4,3.3 CAN VLMS UNDERSTAND THE PHYSICAL WORLD,Evaluation,Benchmark evaluation comparing GPT and Gemini against open-source VLMs.
+S0444,2025,iclr,gemini15flash,5.1 EXPERIMENTAL SETTING / B LINKS TO OPEN-SOURCE PROJECT / F CLAUDE AND GEMINI RESULTS,Evaluation,Experimental setting on AdvBench with GPT-4/GPT-o1 results in appendix F.
+S0445,2025,iclr,o1,4 WHAT DOES OASIS UNCOVER ABOUT STEREOTYPES IN T2I MODELS? / A.1.1 LLM TEMPLATE INSTRUCTION,Methods,ChatGPT o1-preview/4o used as M_LLM in OASIS pipeline
+S0446,2025,iclr,gpt4o,5 EXPERIMENTS,Methods,Uses GPT-4o-mini to generate augmented text used during training.
+S0447,2025,iclr,gpt4,C.1 LANGUAGE MODELS,Evaluation,Lists Llama and GPT-4 variants used as evaluation targets in benchmark.
+S0448,2025,iclr,gpt4,2 RELATED WORK / 3.1 ARCHITECTURE,N/A,GPT-4 only mentioned for related work and architecture comparison
+S0449,2025,iclr,gpt4o,C.10 RESULTS ON LINGUISTIC QUALITY / C.9 RESULTS ON POPE,Methods and Evaluation,Reports POPE/AMBER results comparing HALVA against GPT-4o baselines.
+S0450,2025,iclr,gpt4o20240806,3.2.1 VDCSCORE: EVALUATING DETAILED CAPTIONS WITH LLMS,Methods,GPT-4o used to generate question-answer pairs for VDCSCORE.
+S0451,2025,iclr,gpt4omini,4.2 COMPARISON WITH STATE-OF-THE-ART METHODS,Evaluation,GPT-4o/4o-mini compared as baselines on StreamBench
+S0452,2025,iclr,gpt4,5 EXPERIMENTS / C DETAILS ON BASELINES,Evaluation,Long-video QA experiments with GPT-4 baselines comparison table.
+S0453,2025,iclr,gpt4o,3.4 TRAJECTORY ABSTRACTION / 4.1.5 BASELINES,Methods and Evaluation,GPT-4o for trajectory abstraction; baseline Plain-Agent
+S0454,2025,iclr,gpt4,3.3.1 ENVIRONMENT / 3.3.2 INSTRUCTION,Methods,GPT-4 predicts building types and detects misalignments
+S0455,2025,iclr,gpt4o,5.3 IN-DEPTH ANALYSIS / D.1.2 PROMPT/QUERY EXTENSION / D.1.3 ABLATION STUDY,Methods,GPT-4o used to expand prompts in pipeline experiments
+S0456,2025,iclr,gpt4o,2.3 ABDUCTIVE CODE REASONING / B EXPERIMENTAL RESULTS USING MORE LLMS,Methods and Evaluation,Abductive code reasoning benchmark plus experimental results across many LLMs.
+S0457,2025,iclr,gpt4o,4 EXPERIMENTS / 4.1 SCALING EXPERIMENTS / 4.2 QUESTION TYPE AND LANGUAGE EFFECTS / C.1 SYMBOLIC DISTANCE EFFECT / C.2.1 DETECTING STATEMENT CONSISTENCY,Evaluation,Scaling experiments evaluating Gemma/Mixtral/Gemini/GPT-4o on reasoning probes.
+S0458,2025,iclr,gpt4turbo,3 FORWARD MODELING: PREDICTING WHICH GAMBLE PEOPLE WILL CHOOSE / 3.1 RESULTS,Methods and Evaluation,"Forward modeling task evaluates Llama, Claude, GPT-4 alignment with humans."
+S0459,2025,iclr,gpt4o20240513,B.4 ADDITIONAL EXPERIMENTAL DETAILS OF CONDITIONAL GENERATION,Methods,GPT-4o-2024-05-13 used as MT-Bench judge
+S0460,2025,iclr,gpt4,4.3 TASK OF FICTITIOUS UNLEARNING,Methods and Evaluation,TOFU benchmark uses GPT-4-generated profiles; experimental setup detail.
+S0461,2025,iclr,gpt4,1 INTRODUCTION / 2.2 EVALUATION FRAMEWORK IMPLEMENTATION / 3.1 PREFERENCE DATA GENERATION FROM USER-LLM INTERACTIONS / 4 EXPERIMENTAL SETTINGS,Methods and Evaluation,Preference framework uses GPT-4/Gemini outputs plus experimental settings sections.
+S0462,2025,iclr,gpt4,C.1 DATASET PROCESSING / Prompts for Filtering Specificity Cases,Methods,GPT-4 filters specificity test cases for dataset
+S0463,2025,iclr,gpt4,C.1 FEDERATED PRE-TRAINING OF LLMS ON MULTILINGUAL POPULATION,N/A,Background on multilingual pretraining citing GPT-4/Llama statistics.
+S0464,2025,iclr,gpt4o,4.3 EVALUATION OF MAPS FRAMEWORK,Evaluation,GPT-4o appears as baseline in MAPS results table
+S0465,2025,iclr,gpt4o,A.1.4 INSTRUCTIONS,Methods,GPT-4o used to produce instructions for templates.
+S0466,2025,iclr,gpt4o,1 INTRODUCTION / 4 EXPERIMENTAL METHODOLOGIES / 5 EVALUATION RESULTS / 5.1 OVERALL PERFORMANCE / 5.3 ABLATION STUDIES / 7 CONCLUSION / ABSTRACT,Methods and Evaluation,"GPT-4o synthesizes data, judges responses, baseline"
+S0467,2025,iclr,gpt4,4.1 EXPERIMENTAL SETTINGS / 4.2 MAIN RESULTS,Methods,GPT-4 evaluates win-rates as evaluator/judge
+S0468,2025,iclr,gpt4,4.2 MAIN RESULTS,Evaluation,Main Results section with extensive comparison table across many models.
+S0469,2025,iclr,gpt4o,4.2.1 OVERALL TAKEAWAYS / 4.2.2 SUCCESS AND OPTIMALITY / ABSTRACT,Methods and Evaluation,Robotouille benchmark with React-GPT-4o results; method+evaluation details.
+S0470,2025,iclr,gpt4o20240806,2.1 INVERSE DESIGN VIA GRAPH EXPANSION / 3.2 QUALITATIVE ANALYSIS / 3.3 SIMULATION DIVERSITY,Methods and Evaluation,GPT-4o-2024-08-06 powers ReGen pipeline; also baseline
+S0471,2025,iclr,gpt35turbo0613,A.1 DATA AND INFERENCE,Evaluation,Data table listing prompts/completions per model for WildChat/LMSYS evaluation.
+S0472,2025,iclr,gpt4omini,4 EVALUATION DESIGN,Evaluation,GPT-4o-mini evaluated for moral preferences
+S0473,2025,iclr,gpt4o,A.1 DETAILED EXPERIMENT SETUP,Methods,Uses GPT-4o to generate binary ground-truth labels for ICL classification.
+S0474,2025,iclr,o1mini,1 INTRODUCTION / 5.1 BASELINE MODELS AND MEMORY STRATEGIES / 5.2 EXPERIMENTAL RESULTS / ABSTRACT / E.1 RESULTS ON THE SHORT BOOK,Evaluation,"GPT-4o, GPT-4o-mini, o1-mini benchmarked"
+S0475,2025,iclr,gpt4,5.3.3 DOES CONTRIBUTION REQUIRE MEMORIZATION? / E.5 DETAILS ABOUT SECTION 5.3.3,Methods and Evaluation,Uses GPT-4 to paraphrase training data plus attribution evaluation experiment.
+S0476,2025,iclr,gpt35turboinstruct,A ADDITIONAL EXPERIMENTS AND DETAILS / A.1 INFERENCE-TIME VALIDATION EXPERIMENTS,Evaluation,GPT-3.5-turbo-instruct one of base models tested
+S0477,2025,iclr,gpt4,A.3 CONSISTENT RESULTS OVER PREPROCESSING MODELS / D.1 BASELINE METRICS,Methods and Evaluation,GPT-4o preprocessing in pipeline; also baseline LMExaminer
+S0478,2025,iclr,gpt40613,4.1 STATIC BENCHMARKS,Methods and Evaluation,GPT-4-0613 evaluator and zero/few-shot baseline
+S0479,2025,iclr,gpt4o20240513,B DETAILS OF COMPARISON WITH LISA,Methods,Provides full GPT-4o prompt template for grammar-correction pipeline.
+S0480,2025,iclr,gpt4,2 PRELIMINARIES: LANGUAGE &amp; KNOWLEDGE / A.5 IMPLEMENTATION DETAILS,Evaluation,GPT-4 evaluated on INCLUDE multilingual benchmark
+S0481,2025,iclr,gpt4,1 INTRODUCTION / 5.1 PROBLEM SETUPS / 5.2 MAIN RESULTS / ABSTRACT,Evaluation,AoT-enhanced planning benchmark comparing methods on Blocksworld.
+S0482,2025,iclr,o1mini,B EXAMPLES OF BAD CONTEXT RELIANCE IN CHATGPT,N/A,"Only failure-case figures of o1-mini, no methodological use"
+S0483,2025,iclr,gpt4,2.1 GENERALIZATION &amp; MEMORIZATION IN LLMS' REASONING / 3.2.2 DATA SYNTHESIS PIPELINE,N/A,GPT-4 only mentioned in background discussion of memorization
+S0484,2025,iclr,gpt4o,1 INTRODUCTION / 4.1 DATA COLLECTION / 4.2 DATA FILTER AND REFINEMENT: AN ITERATIVE MODEL COMMITTEE METHOD / 5.1 SETUP,Methods and Evaluation,BingoGuard moderator surpasses GPT-4o; data collection plus setup sections.
+S0485,2025,iclr,gpt4omini,3.2.1 FREEFORM QA / 3.2.2 CLOZE QA / 4.4 AUTOMATED ANNOTATION / A.5.2 AUTOMATED ANNOTATION - MCQ AND FREEFORM / A.5.3 AUTOMATED ANNOTATION - CLOZE,Methods and Evaluation,Factual entailment classifier with GPT-4o-mini plus automated annotation evaluation.
+S0486,2025,iclr,gpt4,4 A PROTOCOL FOR COHERENT FACTUALITY / 5 EMPIRICAL FINDINGS / D RESULTS FOR FELM DATASET / K API USAGE FOR MODEL QUERIES,Methods and Evaluation,Self-consistency scoring with GPT-4 plus empirical findings on FELM dataset.
+S0487,2025,iclr,gpt4o,1 INTRODUCTION / 3.2 PROMPTING-BASED LLM REASONING / ABSTRACT,Evaluation,SubgraphRAG evaluation comparing Llama and GPT-4o accuracy on WebQSP/CWQ.
+S0488,2025,iclr,gpt4,3.1 ABLATION STUDIES / C.2 ANCHOR QUERY GENERATION / Leaked GPTs System Prompt,Methods,GPT-4 generates anchor queries for ablation experiment
+S0489,2025,iclr,gpt35turbo,5.2 BASELINES AND EVALUATION / ABSTRACT / D.1 PERFORMANCE OF RAG-BASED BASELINES WITH IDEAL RETRIEVAL,Methods and Evaluation,LLM-TH method plus reasoning performance comparison across LLMs.
+S0490,2025,iclr,gpt4,C.3 LICO VS GPT-4 FOR MOLECULAR PROPERTY PREDICTION,Evaluation,GPT-4o tested as comparison baseline for LICO
+S0491,2025,iclr,gpt4turbo,C EXPERIMENTAL DETAILS,Evaluation,GPT-4-turbo studied as the LLM under bias evaluation
+S0492,2025,iclr,gpt4o,5.1 EXPERIMENTAL SETUP,Evaluation,Uses GPT-4o as judge for ShareGPT instruction-following evaluation.
+S0493,2025,iclr,gpt4o,3.2 EXPERIMENTAL SETUP / 4.1 HOW RELIABLE ARE THE CURRENT GSM8K RESULTS? / A.2 FULL RESULTS / A.3 ADDITIONAL RESULTS ON GSM-SYMBOLIC PERFORMANCE DISTRIBUTIONS,Evaluation,Evaluates 20+ models including GPT-4o/o1 on GSM-Symbolic benchmark.
+S0494,2025,iclr,gpt4o,F.5 ADDITIONAL NEEDLE-IN-THE-HAYSTACK RESULTS,Methods,GPT-4o scores needle-in-haystack outputs (1-10)
+S0495,2025,iclr,gpt4o,1 INTRODUCTION / 4 EXPERIMENTS / 4.1 EXPERIMENT SETUP / 4.2 SINGLE-HOP RE-RANKING / 4.3 MULTI-HOP RE-RANKING,Evaluation,ICR experiments with single/multi-hop re-ranking against RankGPT and GPT-4o-mini.
+S0496,2025,iclr,gpt4,E.1 EXPERT AGENTS,Methods and Evaluation,Expert agents (math/code) plus 18% improvement vs GPT-4 on HuskyQA.
+S0497,2025,iclr,gpt4,5.2 EFFECT OF BACKBONE MODELS,Methods and Evaluation,GPT-4 backbone for ReKnoS framework and comparison
+S0498,2025,iclr,gpt4,3.1 PIPELINE DESIGNER AGENT / 3.2 GLYPH DESIGNER AGENT / 3.4 Q&amp;A EVALUATION AGENT / 4.2 EFFECT OF TREE-OF-THOUGHT / E EFFECT OF GPT-4/GPT-4V ON TOT-SELECTION / Evaluation,Methods and Evaluation,Pipeline/glyph designer with GPT-4 plus Q&A evaluation and ToT ablation.
+S0499,2025,iclr,gpt4o,H BEYOND TOXICITY / ProFS shows similar gains on Alignment to Multiple Pref-,Methods and Evaluation,ProFS alignment evaluated via GPT-4o-mini judge on HHGolden dataset.
+S0500,2025,iclr,gpt4,2.1 BASE MODELS AND DATASETS,N/A,Base models/datasets section noting Tulu uses GPT-4 sources; framing only.
+S0501,2025,iclr,gpt4o,3 EVALUATION BASELINES,Evaluation,"GPT-4o, o3-mini, GPT-4.5 evaluated on CaselawQA"
+S0502,2025,iclr,gpt40314,4.1 IMPROVING DIVERSITY-QUALITY TRADEOFFS,Methods and Evaluation,ArenaHard quality with GPT-4o-mini judge plus reward-model training method.
+S0503,2025,iclr,gpt4o,4 EXPERIMENTS / Observation space: Ego image,Methods and Evaluation,Evaluates many LLMs/VLMs on observation-space tasks with multimodal presentations.
+S0504,2025,iclr,gpt4o,B.1 DATASETS,Methods,Uses GPT-4o to extract entities from C4/PubMed for perplexity analysis.
+S0505,2025,iclr,o1preview,1 INTRODUCTION / 3.1 EXPERIMENTAL SETUP / 3.2 EVALUATION RESULTS / 4.2 ERROR ANALYSIS OF SQL GENERATION / ABSTRACT / LLM-agent frameworks struggle to address project-level tasks.,Methods and Evaluation,Spider-2.0 benchmark with code-agent framework plus error analysis evaluation.
+S0506,2025,iclr,gpt4o,3.2 ACCURACY / 5.1 EXPERIMENTAL SETTINGS / 5.3 VARIANTS ABLATIONS / 5.4 GENERALIZABILITY UNDER DIFFERENT SETTINGS,Methods,GPT-4o used as judge across 20 LLMs on AlpacaEval
+S0507,2025,iclr,gpt4,"4.1 QUANTUM-PEFT: PAULI, ORTHOGONAL AND DIAGONAL NODES",N/A,GPT-4 only used for parameter-count reference in memory table
+S0508,2025,iclr,gpt4,1 INTRODUCTION,N/A,GPT-4 mentioned as background MoE example in introduction.
+S0509,2025,iclr,gpt35turbo0125,4.1 EXPERIMENTAL SETUP,Evaluation,Tool retrieval experiments with iterative feedback from GPT-3.5-turbo.
+S0510,2025,iclr,gpt4,5.4 EVALUATION METRICS / 6 EXPERIMENTAL RESULTS AND ANALYSIS / 6.1 WEAK-TO-STRONG ALIGNMENT RESULTS (RQ1) / B DETAILS OF DATASETS / D.1 THIRD-PARTY REWARD MODEL EVALUATION / D.2 GPT-4 EVALUATION,Methods,GPT-4 conducts pairwise helpfulness/harmlessness evaluation
+S0511,2025,iclr,gpt4,1 INTRODUCTION / 2.1 SYNTHETIC PROMPT CREATION / 3.1 EXPERIMENTAL SETUP,Methods and Evaluation,SynPO iterations evaluated against GPT-4 on AlpacaEval 2.0 leaderboard.
+S0512,2025,iclr,gpt4turbo20240409,5.1 EXPERIMENTAL SETUP,Methods and Evaluation,Experimental setup using GPT-4-turbo as judge for pairwise comparisons.
+S0513,2025,iclr,gpt4,1 INTRODUCTION / 2 METHODOLOGY / 3 SYSTEMATIC EVALUATION OF THE PAST TENSE ATTACK / ABSTRACT,Methods and Evaluation,Past-tense attack with GPT-3.5/4 reformulation evaluated systematically across models.
+S0514,2025,iclr,gpt4o,A.4 MODEL EFFICIENCY,Methods,Uses GPT-4o to design verb-noun part-name mappings for model efficiency.
+S0515,2025,iclr,gpt4o,5.1.1 TRAINING SYSTEM,Evaluation,Training-system table comparing GPT-4V/4o/Gemini and video-LLM benchmarks.
+S0516,2025,iclr,gpt4,B EXPERIMENTAL CONFIGURATIONS,Methods,GPT-4 generates fictitious author profiles for TOFU
+S0517,2025,iclr,gpt4o20240806,A.6 ADDITIONAL IMPLEMENTATION DETAILS,Evaluation,API versions of GPT-4o etc. listed as proprietary baselines
+S0518,2025,iclr,gpt4o,4.3 RQ2: OUR METHOD PROVIDES HIGH-QUALITY EXPLANATION / 4.4 RQ3: EVALUATION ON INTERPRETABLE CONCEPTS SELECTION / CONCEPT EXTRACTION PROMPTS,Methods and Evaluation,GPT-4o judges explanations; concept-extraction baseline
+S0519,2025,iclr,gpt4o,2.2 MITIGATING DATASET BIAS / N SYSTEMATIC COMPARISON TO PREVIOUS WORK,Evaluation,Dataset-bias mitigation using InternVL2/GPT-4o plus systematic comparison.
+S0520,2025,iclr,gpt4o,4 EXPERIMENTS / A.7 MORE VISUALIZATION RESULTS,Methods and Evaluation,Experiments use GPT-4o for layout inference plus visualization results.
+S0521,2025,iclr,gpt4,1 INTRODUCTION / A.5 ADDITIONAL RELATED WORK / ABSTRACT,N/A,"GPT-4 cited in abstract as motivating example, not used."
+S0522,2025,iclr,gpt4,2 BACKGROUND AND RELATED WORK,N/A,GPT-4 cited as related-work example of LLM decoder.
+S0523,2025,iclr,gpt4,3.2 RESULTS ON LARGE LANGUAGE MODELS,Methods and Evaluation,Fine-tunes Llama2-7B on WizardLM and uses GPT-4 to assess MT-Bench.
+S0524,2025,iclr,gpt4,1 INTRODUCTION / 4.2 MAIN RESULTS / A.5 ADDITIONAL RESULTS WITH GEMMA-2-2B-IT,Evaluation,GPT-4 used as win-rate reference comparator
+S0525,2025,iclr,gpt4,1 INTRODUCTION,N/A,GPT-4 cited as related-work example for SAEs scaling.
+S0526,2025,iclr,gpt4o,5.3 KEYWORD-GUIDED GENERATION / D.4 KEYWORD CONTROLLED GENERATION,Methods,GPT-4o generates reference text for BertScore metric
+S0527,2025,iclr,gpt4,4.1 EXPERIMENT SETUP / ABSTRACT,Methods and Evaluation,ICL benchmark with VLLMs including GPT-4 plus experiment setup.
+S0528,2025,iclr,gpt4,1 INTRODUCTION / 2 RELATED WORKS OF AUTOMATED MACHINE LEARNING / A.8 DETAILS IN COMBINING KBG WITH LLM,N/A,GPT-4 cited as background example of LLMs in introduction.
+S0529,2025,iclr,gpt4o,1 INTRODUCTION / F LIMITATION AND FUTURE WORK,N/A,"Introduction listing speech-LLMs (SpeechGPT, GPT-4o, Moshi) as background."
+S0530,2025,iclr,gpt4o,1 INTRODUCTION / 4.1 EXPERIMENTAL SETUP / 4.3 MAIN EXPERIMENTS / 4.4 ANALYSIS OF WORKFLOW COMPLEXITY / ABSTRACT,Methods and Evaluation,"WorkflowLLM framework with extensive experimental setup, results, ablation."
+S0531,2025,iclr,gpt4,1 INTRODUCTION / 3.2 EXPERIMENTAL SETUP / 3.3 MAIN RESULTS,Methods and Evaluation,Weak-LLM feedback method with experimental setup and main results sections.
+S0532,2025,iclr,dalle3,B RELATED WORK ON JAILBREAKING LANGUAGE MODELS (LMS) AND VISION LANGUAGE MODELS (VLMS),N/A,Related-work table cataloguing jailbreak studies; no own method/eval.
+S0533,2025,iclr,gpt4,1 INTRODUCTION / 4.2 QUANTITATIVE COMPARISON ON NLG TASKS / B.2 DATASETS OF NLG TASKS / Table 12: Examples of judgement by GPT-4 on Vicuna.,Methods and Evaluation,Federated fine-tuning with NLG quantitative comparison and GPT-4 judgement table.
+S0534,2025,iclr,gpt4o,1 INTRODUCTION / 5 EXPERIMENTS / 5.2 IMAGE-LEVEL TASKS / C SUPPLEMENTARY ABLATION EXPERIMENTS,Methods and Evaluation,Specialized-MLLM method with image-level experiments and supplementary ablations.
+S0535,2025,iclr,dalle2,4.2 MAIN RESULTS,Evaluation,DALL-E2 in text-to-image comparison table
+S0536,2025,iclr,gpt4o,B.2 ADDITIONAL EXPERIMENT RESULTS / C.2 CAUSAL EVENT MODELING VS. COMPLETE CAUSAL RELATIONSHIP MODELING/DISCOVEY,Methods and Evaluation,TRACE experiment results plus causal-event modeling discussion vs GPT-4o.
+S0537,2025,iclr,gemini15pro,5.3 MAIN RESULTS,Evaluation,Gemini-1.5-Pro compared in VLM benchmark table
+S0538,2025,iclr,gpt4,1 INTRODUCTION / 4 EXPERIMENT / 4.1 MAIN RESULTS / 4.2 CROSS-DOMAIN VALIDATION,Methods and Evaluation,Distillation discussion plus experiments with cross-domain validation across LLMs.
+S0539,2025,iclr,gpt4,B.2 PRETRAINED LARGE VISION LANGUAGE MODELS (VLM) / D LLM PROMPTS FOR SELF-SUPERVISED LOSSES / Prompt Template For Triplet Hierarchy Ranking,Evaluation,GPT-4V/GPT-4 used as VLM/code-generation baselines
+S0540,2025,iclr,gpt4o,1 INTRODUCTION / 3.3 IMPORTANCE WEIGHTING / 5 EXPERIMENTS / 5.1 MAIN RESULTS / ABSTRACT,Methods and Evaluation,OmniEdit uses GPT-4o for importance sampling plus main experimental results.
+S0541,2025,iclr,gpt4o20240806,A.2 PART CONNECTIVITY GRAPH PREDICTION USING GPT-4O,Methods,Uses GPT-4o to predict part-connectivity graphs from object images.
+S0542,2025,iclr,gpt4,4 EXPERIMENTS / 4.2 RESULTS OF DIFFERENT LLMS,Methods and Evaluation,Evaluates six LLMs on LLM4Hypergraph benchmark with results table.
+S0543,2025,iclr,gpt4o,A.6.2 DETAILED RESULTS OF OTHER LVLMS / A.6.3 COMPARISON WITH DOMAIN-SPECIFIC MED-LVLMS AND THEM WITH RAG-PT / A.6.5 STATISTICS OF COPY-REFERENCE RATE AND OVER-RELIANCE RATE FOR MORE LVLMS.,Evaluation,"GPT-4o, Gemini-1.5 compared as general LVLMs"
+S0544,2025,iclr,gpt4,D EXPERIMENTAL SETUP DETAILS,Methods and Evaluation,Experimental setup uses GPT-4-judge with human validation on HarmI/Q datasets.
+S0545,2025,iclr,gpt4,2 RELATED WORKS,N/A,Related-works survey citing ControlGPT and other prompt-engineering methods.
+S0546,2025,iclr,gpt4o,1 INTRODUCTION / 6.2 EVALUATION METRICS / 6.3.1 DOES D2A GENERATE MORE HUMAN-LIKE DAILY ACTIVITIES? / B CONSISTENCY BETWEEN HUMAN ANNOTATORS AND GPT-4O EVALUATIONS,Methods and Evaluation,D2A method with comprehensive GPT-4o + human evaluation across naturalness metrics.
+S0547,2025,iclr,gpt4,5.3 MAIN RESULTS / 6.1 ANALYSIS OF THREE STAGES IN PPA / N ABLATION STUDY ON VARIOUS FORGETTING STRATEGIES / S MODEL PERFORMANCE METRIC,Methods and Evaluation,PPA main results plus ablation studies using GPT-4 perplexity scoring.
+S0548,2025,iclr,gpt4o,4.4 EXPERIMENTS WITH EMOS / C.5 EXTRA EXPERIMENT ON FORMAT OF ROBOT RESUME,Methods and Evaluation,Habitat-MAS experiments using GPT-4o API plus extra robot-resume experiments.
+S0549,2025,iclr,claude35sonnet20240620,Closed-source model API versions,Methods,API version listing of closed-source models actually used.
+S0550,2025,iclr,gpt4,1 INTRODUCTION / 5 RELATED WORK,Evaluation,GenRM-CoT verifier shown to surpass GPT-4
+S0551,2025,iclr,gpt4,4 EXPERIMENTS / 4.1 RESULTS,Evaluation,GPT-4 part of AR baseline being compared
+S0552,2025,iclr,gpt4,4 EXPERIMENT SETTINGS,Evaluation,GPT-4/GPT-4V components of compared baseline frameworks
+S0553,2025,iclr,gpt35turbo0125,4.2.2 CODE GENERATION / F.2 CODE GENERATION,Evaluation,Code-generation results across Claude/Llama/DeepSeek-Coder on LiveCodeBench.
+S0554,2025,iclr,gemini15flash,4.1 EXPERIMENTAL SETTINGS / 4.2 RESULTS FOR RISK CONTROL / G ADDITIONAL EXPERIMENTAL ANALYSIS,Methods and Evaluation,Risk-control experiments across open/closed-source MLLMs on video-QA.
+S0555,2025,iclr,gpt4omini,4.2 INSTRUCTION TUNING / 4.3 QPACA: ENHANCEMENTS TO QLORA,Methods and Evaluation,LLaMA3-8B fine-tuning evaluated with GPT-4o-mini judge plus QPaCa enhancement.
+S0556,2025,iclr,gpt4o,3 ALIGNED MULTI-MODAL MULTI-SENSOR TACTILE DATASET / 4.3 MULTI-MODAL ALIGNING: UNDERSTANDING SEMANTIC-LEVEL PROPERTIES / A.1 TRAINING DATASET STATISTICS / A.7 GPT-4O ANNOTATION,Methods and Evaluation,Tactile dataset with GPT-4o annotations plus multi-modal alignment training.
+S0557,2025,iclr,gpt4o,3.3 ENVIRONMENT GYM / 3.5 USER AGENT / 4.1 REWARD MODEL ASSESSMENT / 4.2 PROACTIVE AGENT EVALUATION,Methods and Evaluation,ProactiveAgent environment with GPT-4o scenario generation plus reward eval.
+S0558,2025,iclr,gpt4turbo,2.1 DATASET / A.1.2 RESPONSES,Methods,"GPT-4o, GPT-4-Turbo generate dataset responses"
+S0559,2025,iclr,gpt4o,B.2.3 FUNCTIONALITY SUMMARY,Methods,Uses GPT-4o to summarize HDL code subcircuit functionality.
+S0560,2025,iclr,gpt4,B RELATED WORK,N/A,GPT-4 not present; Related Work on RL/MBRL.
+S0561,2025,iclr,gpt4,5 LIMITATIONS,N/A,GPT-4 mentioned as limitation regarding inaccessible activations.
+S0562,2025,iclr,gpt4,1 INTRODUCTION / 5 RELATED WORK,N/A,GPT-4 only mentioned as background in Intro/Related Work
+S0563,2025,iclr,gpt35turbo,1 INTRODUCTION / 1. Performance Comparison: / 4.2 MAIN RESULTS / ABSTRACT / The impact of Evol-Instruct turns . Ta-,Methods and Evaluation,WizardMath method comparing to GPT-3.5/4 on GSM8K and MATH benchmarks.
+S0564,2025,iclr,gpt4,2.1 PRELIMINARIES / B.2 GENERAL CONFIGURATIONS,Methods and Evaluation,HexPHI safety eval using GPT-4 as judge plus general configuration details.
+S0565,2025,iclr,gpt4o,3 MLLMS' SENSITIVITY TO THE SIZE OF VISUAL CONCEPTS / A IMPLEMENTATION DETAILS,Methods and Evaluation,MLLM sensitivity table including GPT-4o plus implementation details.
+S0566,2025,iclr,claudeinstant12,B LITERATURE REVIEW: EVALUATING LLMS WITH GAME THEORY,N/A,Literature review tabulating game-theory studies of LLMs; no own method/eval.
+S0567,2025,iclr,gpt4,1 INTRODUCTION / A.4.2 PROMPTS AND WORKFLOW,Methods,GPT-4 generates correctional prompts in agentic workflow
+S0568,2025,iclr,gemini15flash,4.3 CALIBRATING LANGUAGE MODELS,Methods and Evaluation,GPT-4o-mini judges ground truth; LMs evaluated
+S0569,2025,iclr,gpt41106preview,4.2 LENGTH CALIBRATED REWARD AS LLMS EVALUATORS / C EXPERIMENTAL DETAILS,Methods and Evaluation,Length-calibrated reward evaluation plus AlpacaEval experimental details.
+S0570,2025,iclr,gpt4omini,5.1 EXPERIMENTAL SETUP,Methods,Uses GPT-4o-mini for Python code-completion DAG-structured experiments.
+S0571,2025,iclr,gpt4,1 INTRODUCTION / 3 EXPERIMENT SETUP / 4 MAIN EXPERIMENTS / 4.3 INSTRUCTION FOLLOWING EVALUATIONS,Methods and Evaluation,EntiGraph synthesizes corpus with GPT-4 plus instruction-following evaluation.
+S0572,2025,iclr,gpt4o,5.1 EXPERIMENTAL SETUP / 5.2 QUANTITATIVE RESULTS / 5.3 HUMAN EVALUATIONS AND QUALITATIVE RESULTS / ABSTRACT,Evaluation,BigDocsBench benchmark with quantitative and human evaluation vs GPT-4o.
+S0573,2025,iclr,gpt4,A.4 GENERATED SAMPLES OF MULTI-TURN CONVERSATIONS,N/A,GPT-4 only listed as one model in MT-bench dataset
+S0574,2025,iclr,gpt4o,1 INTRODUCTION / 4 EXPERIMENTAL SETUP / ABSTRACT / Algorithm 1 Visual Analogy Generation,Methods and Evaluation,VoiLA benchmark with experimental setup plus visual analogy generation algorithm.
+S0575,2025,iclr,gpt4,6 EXPERIMENTS / E.1 ULTRAFEEDBACK,Methods and Evaluation,Fine-tunes Llama-3 on UltraFeedback plus experimental setup with reward model.
+S0576,2025,iclr,gpt4,1 INTRODUCTION / 2.2 LANGUAGE MODELS IN CHEMISTRY / 4.1 EXPERIMENTAL SETUP / 4.2 EMPIRICAL STUDY / MOLLEO (GPT-4) GPT-4 is a proprietary LLM trained on a web-scale text corpus.,Methods and Evaluation,MolLEO uses GPT-4 as genetic operator plus empirical study across optimization tasks.
+S0577,2025,iclr,gpt4o20240806,4 EXPERIMENTS / D.7 PARSING DETAILS,Methods and Evaluation,Uses GPT-4o for CoT parsing plus parsing-details ablation experiments.
+S0578,2025,iclr,gpt4,3.3 CONTROLLING GENERATED DATASET ATTRIBUTES,Methods,Generates image captions with GPT-4 to control generated dataset attributes.
+S0579,2025,iclr,gpt4,2 TERMINOLOGY / 3.1 AUTOMATED DATA GENERATION / 4.1 ARCHITECTURE / 6 RELATED WORKS / D.2 THE DISTRIBUTION OF THE SUCCESSFUL AND UNSUCCESSFUL PATHS / E.5 LIMITATION ANALYSIS FOR THE DATA PRODUCTION,Methods and Evaluation,Atomic manipulations from GPT-4 plus extensive method/architecture/analysis sections.
+S0580,2025,iclr,gpt35turbo,1 INTRODUCTION / 2.2 RECENT SELECTION METHODS / 4.1 SETUP / A.1 RELATED WORK / A.3.2 QURATING.,Methods and Evaluation,DiSF data selection method plus setup and QuRating-based experiments.
+S0581,2025,iclr,gpt4,2.1 LARGE LANGUAGE MODELS (LLMS),N/A,GPT-4 cited as architecture background in LLM section.
+S0582,2025,iclr,gpt4,3.3 SUPERVISED FINE-TUNING AND RLHF / D.4 GPT-4 EVALUATION SCORE OF SFT AND RLHF / F.1 TRAINING CONFIGURATIONS FOR SECTION 3,Methods and Evaluation,Adam-mini SFT/RLHF training evaluated on MT-Bench using GPT-4 judge.
+S0583,2025,iclr,gpt4,1 INTRODUCTION / 2 RELATED WORK / 4.1 EXPERIMENT SETTINGS / ABSTRACT,Methods and Evaluation,ROUTE multi-task tuning method plus experimental settings for text-to-SQL.
+S0584,2025,iclr,gpt35turbo,4 EXPERIMENTS / A.3 ROBUSTNESS OF LLMS,Methods and Evaluation,Uses GPT-3.5/Qwen for attribute generation plus robustness experiments.
+S0585,2025,iclr,gpt4o20240806,A.1 (M)LLM ARCHITECTURES AND VALIDATION,Evaluation,GPT-4o-mini one of four M-LLMs investigated
+S0586,2025,iclr,gpt4,1 INTRODUCTION / 4.1 EXPERIMENTAL SETUP,Methods and Evaluation,Reward-model framework using GPT-4 ranking plus experimental setup.
+S0587,2025,iclr,gpt4o,3.1 DISCUSSION ON THE OBJECTIVE OF UNTARGETED UNLEARNING / A PROMPT FOR HALLUCINATION JUDGMENT / Prompt for hallucination judgment:,Methods,GPT-4o judges hallucination of unlearned model outputs
+S0588,2025,iclr,gpt4o,4.3 FROZEN LAKE / 5.1 NUMBER SORTING / 5.2 FROZEN LAKE / ABSTRACT,Methods and Evaluation,eGoT method evaluated against GoT on number-sorting and Frozen-Lake tasks.
+S0589,2025,iclr,gpt35turbo,COLLABEDIT: TOWARDS NON-DESTRUCTIVE COL## LABORATIVE KNOWLEDGE EDITING,Methods and Evaluation,CollabEdit uses GPT-3.5-turbo to generate conflict objects in MCF benchmark.
+S0590,2025,iclr,gpt4turbo20240409,A EXPERIMENTAL SETUPS / C MORE ANALYSES,Methods and Evaluation,Experimental setups with GPT-4-turbo judge plus DPO/IPO/KTO baselines.
+S0591,2025,iclr,gpt4o,3.2 DATASET / 3.3 EVALUATION PROTOCOL / 4.1 EXPERIMENTAL SETUP / 4.2 CONSTRAINTS-CATEGORIZED RESULTS / 4.3 INSTRUCTION ALIGNMENT / 4.4 MULTI-TURN STABILITY,Methods and Evaluation,SysBench dataset with GPT-4o assistance plus extensive evaluation protocol.
+S0592,2025,iclr,gpt4,1 INTRODUCTION,N/A,Introduction listing BERT/GPT-3/GPT-4 as transformer examples; framing only.
+S0593,2025,iclr,gpt4o20240806,D.4 GPT4 EVALUATION PROMPT,Methods,GPT-4o-2024-08-06 evaluates win rates as judge
+S0594,2025,iclr,gpt4o,1 INTRODUCTION / 2.2 DIVERSE INSTRUCTION EXPANSION AND TUNING / 2.3 GUIDE EXPLORATION AND SELF-IMPROVEMENT TUNING / 3.3 RESULTS ANALYSIS / ABSTRACT,Methods and Evaluation,Instruction-evolution method using GPT-4o plus tuning and analysis sections.
+S0595,2025,iclr,gemini15flash,Prompt for Reduction Evaluation in LLM APIs without context,Evaluation,LLM-API reduction-evaluation table reporting time/cost across many providers.
+S0596,2025,iclr,gpt4,D.5 PERFORMANCE ON VARIOUS DESCRIPTORS,Evaluation,Performance table comparing GPT-4 vs other LLMs on descriptor types.
+S0597,2025,iclr,gpt4,A.1.2 INFLUENCES OF TAGGING BIASES:,Methods,GPT-4 performs slice tagging in their pipeline
+S0598,2025,iclr,gpt4,3.4 PERFORMANCE WITH VARIOUS LLM APIS.,Evaluation,"Performance table comparing GPT-4, DeepSeek-R1-Llama-70B, Llama variants."
+S0599,2025,iclr,gemini10pro001,E EXTRA EXPERIMENTAL RESULTS,Evaluation,Gemini-1.0-Pro-001 in extensive baseline comparison table
+S0600,2025,iclr,gpt4,4.4 APPLYING QUEST ON THE STATE-OF-THE-ART MODEL.,Evaluation,Quest applied to retrieve numeric strings under 1M context vs GPT-4-turbo.
+S0601,2025,iclr,gpt4turbo,A.4.2 PTQ HYPERPARAMETERS,Methods,GPT-4-Turbo used as AlpacaEval evaluator
+S0602,2025,iclr,gpt4turbo20240409,4.3 INTERPRETING EQUILIBRIUM SOLUTIONS,Evaluation,'compared against' indicates model used as benchmark/judge.
+S0603,2025,iclr,gpt4o20240513,A.13 MORE EXPERIMENTAL RESULTS AGAINST OTHER BINARY MODEL BASED METHODS / A.3 SELECTION OF α IN TODO,Methods,gpt-4o-2024-05-13 scores MT Bench outputs
+S0604,2025,iclr,dalle2,B.3 CONDITIONAL DIFFUSION MODELS,N/A,Mention only; no methods or evaluation cues found.
+S0605,2025,iclr,textdavinci002,A.3 AUTHOR STATEMENT,N/A,text-davinci-002 only listed in prior dataset overview table
+S0606,2025,iclr,gpt4,6.4 FURTHER ANALYSIS / C.3 ADDITIONAL BENCHMARKS,Evaluation,'performance of' indicates model used as benchmark/judge.
+S0607,2025,iclr,gpt35turbo,1 INTRODUCTION / 3.1 EXPERIMENTAL SETUP / 3.2 MAIN RESULTS (TABLE 4) / 3.3 ABLATION STUDY ON DATA DIVERSITY OPERATIONS / 3.4 INFLUENCE OF PROMPTING TECHNIQUES,Methods and Evaluation,Both methods 'we design' and eval 'accuracy' cues present.
+S0608,2025,iclr,gpt4o20240806,2.4 PERFORMANCE OF CURRENT LLMS / A.2 PROMPTS AND OTHER DETAILS TO TEST BASELINE MODELS,Evaluation,"GPT-4o, GPT-4o-mini benchmarked on numeric tasks"
+S0609,2025,iclr,gpt4o,4.1 EVALUATING ISG-BENCH / 4.2 BENCHMARKING INTERLEAVED TEXT-AND-IMAGE GENERATION / 5.2 EXPERIMENT / B.2.1 VISUAL STORY TELLING / B.2.2 VQA WITH IMAGE GENERATION,Methods and Evaluation,Both methods 'we leverage' and eval 'we benchmark' cues present.
+S0610,2025,iclr,gpt4o,2.1 LARGE VISION-LANGUAGE MODELS FOR VIDEO / 3.1.1 CONSTRUCTING QA CHAINS FOR VIDEO DIALOGUES / 6.1 EXPERIMENTAL SETUP / 6.2 EVALUATION METRICS / 6.3 OVERALL PERFORMANCE / 6.4 PERFORMANCE ANALYSIS OF VIDEO UNDERSTANDING SKILLS / ABSTRACT,Methods and Evaluation,GPT-4o generates QA chains; also benchmark baseline
+S0611,2025,iclr,gpt4o,3.2 SPOKEN DIALOGUE GENERATION,Methods,'we employ' indicates model used in pipeline.
+S0612,2025,iclr,gpt4,3.3 PERFORMANCE WITH OTHER LLMS,Methods and Evaluation,Both methods 'we use' and eval 'we test' cues present.
+S0613,2025,iclr,claude3opus20240229,C.1 EXPERIMENTAL SETTING,Methods,'we use' indicates model used in pipeline.
+S0614,2025,iclr,gpt4,3.1 W eak -to -strong generalization,Evaluation,'outperform' indicates model used as benchmark/judge.
+S0615,2025,iclr,gpt4,A RELATED WORK,N/A,Non-substantive section (A RELATED WORK); keyword mention only.
+S0616,2025,iclr,gpt4,3.2 EVALUATION CORPUS / D.1 GPT-GENERATED QA PAIRS,Methods,'using llama' indicates model used in pipeline.
+S0617,2025,iclr,gpt4omini,5.1 EVALUATING META-SAE DECOMPOSITIONS,Methods,GPT-4o-mini used to generate explanations of SAE latents.
+S0618,2025,iclr,gpt4o20240513,3.1 BENCHMARK RESULTS / A.3 COMPARISON OF SCORES AND RANKINGS ACROSS DIFFERENT JUDGE MODELS,Evaluation,GPT-4o appears in benchmark results table being scored.
+S0619,2025,iclr,gpt35turbo0125,3.1 EXPERIMENTAL PARADIGM: LLM TRANSMISSION CHAINS / B.3.2 BAYESIAN MODELS,Methods,gpt-3.5-turbo-0125 used as agent in transmission chain pipeline.
+S0620,2025,iclr,gpt4turbo,3.6 COST ABLATION ANALYSIS,Methods,GPT-4-Turbo API used to generate data in DATAGEN.
+S0621,2025,iclr,gpt4o,2.3 EXPERIMENTAL SETUP / C EXTRACTING IFEVAL BASE QUERIES / D DATA AND VECTOR COMPUTATION DETAILS,Methods,GPT-4o evaluator and synthetic data generator in pipeline
+S0622,2025,iclr,gpt4,5.1 CERTIFICATION RESULTS / 5.1.1 GENERAL OBSERVATIONS / 5.1.2 MODEL-SPECIFIC OBSERVATIONS / What is probability of unbiased LLM responses for any counterfactual prompt set?,Methods and Evaluation,Both methods 'we develop' and eval 'we report' cues present.
+S0623,2025,iclr,gpt4o,3.5 AUTOMATIC GENERATION OF CONTEXT FOR WORD PROBLEMS / 4.1 EVALUATION PROTOCOLS,Methods,'we employ' indicates model used in pipeline.
+S0624,2025,iclr,gpt40613,6 EXPERIMENTS,Methods and Evaluation,Both methods 'we use' and eval 'we measure' cues present.
+S0625,2025,iclr,gpt4o,4.8 ANALYSES ON SELF-GENERATED SYNTHETIC DATA,Methods and Evaluation,Both methods 'we leverage' and eval 'achieves' cues present.
+S0626,2025,iclr,gpt4o,G EVALUATION ON A CLOSE-SOURCE API MODEL / H.5 SIMPLE CONFIDENCE ELICITATION ATTACKS,Methods and Evaluation,Both methods 'we employ' and eval 'performance on' cues present.
+S0627,2025,iclr,textembedding3small,4.2 PERFORMANCE,Evaluation,'outperform' indicates model used as benchmark/judge.
+S0628,2025,iclr,gpt4omini20240718,C MODELS SETUP,Evaluation,GPT-4o-mini-2024-07-18 listed as model under evaluation
+S0629,2025,iclr,gpt35turbo,###Task Description: / (a) MT-Bench / (b) PandaLM Test set / 4.1 EXPERIMENTAL SETTINGS / 4.2 RESULTS AND ANALYSIS / 4.3 THE INFLUENCES OF DATA DISTRIBUTION / 5.1 DATASET CONSTRUCTION,Methods and Evaluation,Both methods 'we employ' and eval 'compared to' cues present.
+S0630,2025,iclr,gpt4turbo,Results,Evaluation,'compared to' indicates model used as benchmark/judge.
+S0631,2025,iclr,gpt4,1 INTRODUCTION / 2.1.1 DATA CONSTRUCTION,Methods,GPT-4 synthesizes API calls and tool documents in pipeline
+S0632,2025,iclr,gpt4,2 RELATED WORK,N/A,GPT-4 only mentioned in Related Work
+S0633,2025,iclr,gpt4o,4.1 SETUP,Evaluation,'we test' indicates model used as benchmark/judge.
+S0634,2025,iclr,gpt4turbo,1 INTRODUCTION / A APPENDIX,Evaluation,'we evaluate' indicates model used as benchmark/judge.
+S0635,2025,iclr,gpt4,4.1 RECOVERING HARMFUL KNOWLEDGE IN WMDP / B.2 WHP EVALUATION SET CONSTRUCTION / B.3 WHP EVALUATION QUESTIONS / C.2.1 RELEARN SET CONSTRUCTION. / C.2.2 GPT-4 PROMPT FOR RELEARN SET GENERATION / C.2.3 GPT-4 PROMPT FOR RELEARN SET FILTERING / I DETAILED EXPLANATION OF EVALUATION METRICS,Methods and Evaluation,Both methods 'we use' and eval 'rouge' cues present.
+S0636,2025,iclr,gpt4turbo,6.1 EXPERIMENTAL SETUP,Evaluation,'we compare' indicates model used as benchmark/judge.
+S0637,2025,iclr,gpt35turbo,3.1 EXPERIMENTAL SETUP / B.2 EVALUATION TOOL,Methods and Evaluation,GPT-3.5-turbo extracts answers; GPT-4o/4-Turbo baselines
+S0638,2025,iclr,gpt35turbo0301,A.7.1 BENCHMARKS AND METRICS,Methods and Evaluation,Both methods 'we follow' and eval 'performance on' cues present.
+S0639,2025,iclr,gpt4,3.1 SETUP,Methods,GPT-4 tokenizer used to tokenize all datasets
+S0640,2025,iclr,gpt4o,3.1 TASKS AND MODELS / 6 TIME-CONSTRAINED HUMAN STUDY / A.2 EVALUATION,Methods and Evaluation,Both methods 'we adopt' and eval 'we evaluate' cues present.
+S0641,2025,iclr,gpt40613,4 CONVCODEBENCH: A STATIC BENCHMARK FOR EFFICIENT EVALUATION / 5.1 SETUP / 5.2.1 FEEDBACK COMBINATIONS: DIVERSIFIED EVALUATION / 5.2.4 TRADE-OFF: MULTI-TURN MRR AND RECALL / A DEEKSEEK-R1-DISTILL RESULTS ON CONVCODEWORLD / C.5 ANALYSIS OF GROUND TRUTH CODE LEAKAGE IN GENERATED EXPERT-LEVEL VERBAL FEEDBACK,Methods and Evaluation,Both methods 'we use' and eval 'performance of' cues present.
+S0642,2025,iclr,gpt4,1 INTRODUCTION / 3.2.2 THOUGHT-AUGMENTED TACTIC PREDICTION / 3.3 EVALUATION / 4 EXPERIMENTS,N/A,GPT-4 not central; Lean theorem proving paper background.
+S0643,2025,iclr,gpt4turbo20240409,5.1 EVALUATION SETUP / G DATA LEAKAGE,Methods,GPT-4-turbo-2024-04-09 LLM module of LLM-GS framework
+S0644,2025,iclr,gpt4turbo,1 INTRODUCTION / 3.1 ENVIRONMENTS AND BASELINES / 3.2 MAIN RESULTS / 3.8 EVALUATION OF ORM / ABSTRACT / D PROMPTS EMPLOYED IN WEBRL,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0645,2025,iclr,gpt4,1 INTRODUCTION / A.2 END-TO-END TRAINING THROUGHPUT,N/A,Non-substantive section (1 INTRODUCTION | A.2 END-TO-EN); keyword mention only.
+S0646,2025,iclr,gpt4,3.1 GENERATING TEXT PROMPTS / 5.1 IMPLEMENTATION DETAILS / 8 REPRODUCIBILITY / A.1 TEXT PROMPTS GENERATION,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0647,2025,iclr,gpt4omini,K EVALUATION FOCUSING ON FACTUAL ACCURACY / L MULTIPLE REFINED-GRAINED REFERENCES / N PERFORMANCE ON REWARDBENCH,Evaluation,'performance on' indicates model used as benchmark/judge.
+S0648,2025,iclr,o1mini,4 EXPERIMENTAL SETUP / 5.1 KOLMOGOROV-TEST IS CHALLENGING FOR CURRENT MODELS / B.2 RESULTS / System Prompt,Methods and Evaluation,Both methods 'we use' and eval 'accuracy' cues present.
+S0649,2025,iclr,gpt4,4.1 EXPERIMENTAL SETUP / 5 RELATED WORK ON APP CONTROL / 6 CONCLUSION,Methods and Evaluation,Both methods 'use gpt' and eval 'we evaluate' cues present.
+S0650,2025,iclr,gpt35turbo,4.1 INITIAL TRAINING / G.2 BASELINES / H.1 THE SCALABILITY AND ROBUSTNESS OF ATOMAS,Evaluation,GPT-3.5-turbo appears as baseline in molecule retrieval table.
+S0651,2025,icml,gpt4o,4.2. Rig Augmentation / A. Details on Data,Methods,GPT-4o categorizes joints and refines captions
+S0652,2025,icml,gpt4,A.1. Synthesizing Parametric Knowledge Retrieval Dataset / Experiment for Other Metrics:,Methods,GPT-4 evaluates readability and verifies dataset
+S0653,2025,icml,gpt4,B. Setting of Needle-in-a-Haystack Benchmark,Methods,'we use' indicates model used in pipeline.
+S0654,2025,icml,gpt4turbopreview,5.1. Settings,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0655,2025,icml,gpt4,4.1. Experimental Setup,N/A,Mention only; no methods or evaluation cues found.
+S0656,2025,icml,o1preview,5.1. EQUATIONINFERENCE / 5.2. EXPERIMENTDESIGN / 5.3. PAPERWEAKNESS,Evaluation,'we test' indicates model used as benchmark/judge.
+S0657,2025,icml,o3mini,4.2. Cognitive-Level Analysis / C. Details of Evaluated Models / E. Details of Evaluation Results,Evaluation,o3-mini benchmarked across cognitive levels
+S0658,2025,icml,gpt4,5.2. Real experiment,Evaluation,'achieves' indicates model used as benchmark/judge.
+S0659,2025,icml,gpt4turbo,5.1. Experimental Setting / 5.2. How Informative are AutoElicit Priors? / 7. Conclusion / A.7. Further Experimental Details / A.7.2. LANGUAGE MODEL DETAILS / A.9.1. ACCURACY DISTRIBUTIONS,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0660,2025,icml,gpt4o,5.3. Agent Performance Across Datasets / 5.4. Benchmark Analaysis / A. Appendix: Experiments,Methods and Evaluation,Both methods 'we use' and eval 'performance of' cues present.
+S0661,2025,icml,gpt4,3.5. LiRA-Tool for Tool Unlearning Evaluation / 6. Related work / E. Sampling of Shadow Samples for LiRA-Tool,Methods,GPT-4 prompted to generate shadow samples for evaluation pipeline.
+S0662,2025,icml,gpt4,1. Introduction / 4.4. Performance of High-Level Program Generation,Methods and Evaluation,Both methods 'we employ' and eval 'achieves' cues present.
+S0663,2025,icml,gpt4,3.2. Results,N/A,Medical/legal RAG attack results; GPT-4 not in section.
+S0664,2025,icml,gpt4omini,B.4. Reward Shaping Details / C.8.1. LLM-AS-POLICY.,Methods and Evaluation,GPT-4o-mini generates reward signals; LLM-as-Policy baseline
+S0665,2025,icml,gpt4,1. Introduction / 3.1. Our Key Insight: Satisficing Alignment / 6.1. Experiment Details. / 6.2. Results. / Abstract,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0666,2025,icml,gpt4o,3.3. Prompt and Image Preparation / C.1. Prompt Augmentation,Methods,GPT-4o generates synthetic prompts for dataset
+S0667,2025,icml,gpt4,3.1. Metric Formulation / 3.2. Empirical Evaluation for Data Metrics / D.2. GPT-4 Annotation / E. Illustrative Examples of Preference Data,Methods and Evaluation,Both methods 'we use' and eval 'performance of' cues present.
+S0668,2025,icml,gpt4,4.2.1. COMPARISON WITH OTHER TRAINING-FREE METHODS,Evaluation,GPT-4 backbone systems compared in Table 1 results.
+S0669,2025,icml,gpt4o,5.1. Environment Setting / 5.4. Analysis and Ablation Study,Methods and Evaluation,Both methods 'as the backbone' and eval 'we compare' cues present.
+S0670,2025,icml,gpt4,4.2. Application Quality,Methods,GPT-4 used as judge to grade MT-Bench responses.
+S0671,2025,icml,gpt35turbo,C.2. Language Representation Implementation,Methods,GPT-3.5-turbo serves as a language representation method
+S0672,2025,icml,gpt4,A.7. ARCHON Benchmarks and Results,Evaluation,'judge model' indicates model used as benchmark/judge.
+S0673,2025,icml,gpt4o,6.1. Experimental Design / 6.2. Experimental Results &amp; Discussion,Methods and Evaluation,GPT-4o used for inference and as one of seven evaluated models.
+S0674,2025,icml,gpt4,1.2. Related Work / 2.1. Large Language Models,N/A,GPT-4 only mentioned in Related Work and architecture context
+S0675,2025,icml,gpt4o,3.2. Benchmark construction. / 3.3. Results / 4.2. A lower bound on potemkin rates. / E.1. Literary Techniques / I. Full Results from Benchmark Dataset Table,Methods and Evaluation,Both methods 'we prompt' and eval 'we evaluate' cues present.
+S0676,2025,icml,textembeddingada002,A.2.1 Natural Language Embeddings,Methods,text-embedding-ada-002 produces gene embeddings used
+S0677,2025,icml,gpt35turbo,4.4. Ablation Studies,Methods and Evaluation,Both methods 'we use' and eval 'ablation' cues present.
+S0678,2025,icml,gpt4o,1. Introduction / 6.1.1. COMIC-BOOKS / 6.1.2. VL-MIA/FLICKR,Evaluation,GPT-4o tested for memorization detection in DIS-CO
+S0679,2025,icml,gpt4,D.4.2. IN-CONTEXT VARIABLE LENGTH TEXT SUMMARIZATION / D.5. Multi-turn Conversation and Instruction Following,Methods,GPT-4 acts as judge to rate compressed LLM outputs
+S0680,2025,icml,gpt35turbo,B. Data Preprocessing,Methods,'we use' indicates model used in pipeline.
+S0681,2025,icml,gpt4,Abstract,Methods,'we finetune' indicates model used in pipeline.
+S0682,2025,icml,gpt4,C.1. E-Commerce Category Dataset,Methods,'we use' indicates model used in pipeline.
+S0683,2025,icml,gpt4,1. Introduction,N/A,Non-substantive section (1. Introduction); keyword mention only.
+S0684,2025,icml,gpt4o20240513,3.3. Inference-time Behavior,Evaluation,gpt-4o-2024-05-13 evaluated as baseline in coding benchmarks.
+S0685,2025,icml,gpt35turbo,4. Experiments,N/A,Table shows Llama variants only; no gpt-3.5-turbo evidence in section.
+S0686,2025,icml,gemini15pro002,5. Experiment,Methods,'we leverage' indicates model used in pipeline.
+S0687,2025,icml,gpt4,A.8. License of Datasets and Use of Generative AI,N/A,GPT-4 only used to refine grammar in paper drafting
+S0688,2025,icml,gpt4,3.2. Question-Image-Answer Generation / B.2. More details in ViLPbenchmark data generation,Methods and Evaluation,Both methods 'we use' and eval 'figure 1' cues present.
+S0689,2025,icml,gpt4o,Class-Wise Expected Calibration Error (cw-ECE) is defined as / RCFT prioritizes accuracy gains while maintaining,Evaluation,'achieved' indicates model used as benchmark/judge.
+S0690,2025,icml,gpt4,5. LMRL-Gym Research Framework for Algorithm Development / 6. Benchmarking Baseline RL Methods / 7. Discussion,Methods and Evaluation,Both methods 'we initialize' and eval 'outperforms' cues present.
+S0691,2025,icml,gpt4,1. Introduction,N/A,Non-substantive section (1. Introduction); keyword mention only.
+S0692,2025,icml,gpt4o,2. Related Work / 3.5. R-Scorer: An Scoring Model Tailored for SRC / 4.2. Main results / A.3. Pairwise Candidate Scoring,Methods and Evaluation,Both methods 'we finetune' and eval 'achieves' cues present.
+S0693,2025,icml,gpt4o,3.2. Setting Alignment Targets / 4.1. Experimental Settings / Output format:,Methods,GPT-4o used in alignment fine-tuning pipeline.
+S0694,2025,icml,gpt4o,2.1. LSR-Transform / 2.2. LSR-Synth / 2.3. Evaluation / A.2. LSR-Synth / B.2. Symbolic Accuracy,Methods and Evaluation,Both methods 'we leverage' and eval 'we evaluate' cues present.
+S0695,2025,icml,gpt4omini,6.2. Baseline / 6.3. Evaluation Results / D.2. Implementation Details and Parameter Settings for Algorithms / E. Additional Experimental Results,Methods and Evaluation,Both methods 'we use' and eval 'outperforms' cues present.
+S0696,2025,icml,gpt4,1. Introduction / 4.2. Contradiction retrieval / 4.6. Ablation Studies / D. A case study for counter-argument retrieval from Arguana dataset / Different retrieval methods for contradiction retrieval / G. Data generation details for MSMARCO and HotpotQA experiments in Section 4.2,Methods,GPT-4 generates paraphrases/contradictions for datasets
+S0697,2025,icml,gpt4,1. Introduction,N/A,GPT-4 only background context about scaling decisions
+S0698,2025,icml,gpt4,3.1. Access Control for Organizational Agents / 3.2. Safety Policies for Web Agents / 5.1. Setup / 5.2. Baselines / 5.4. Ablation Studies,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0699,2025,icml,gpt4omini,C. LLM Judge Prompts / Multi-turn Evaluation Prompt / Prefilling Evaluation Prompt,Methods,gpt-4o-mini used as LLM-judge for prefilling attack evaluation.
+S0700,2025,icml,gemini15flash,5.1. Experimental Settings,Methods and Evaluation,Both methods 'we use' and eval 'sota' cues present.
+S0701,2025,icml,gpt4o,4.2. Baselines / 4.3. Pair-wise Response Ranking / 5.2. Impact of Domain Difference Between Pre-training and Fine-tuning on Reward Model Adaptation,Methods and Evaluation,Both methods 'we prompt' and eval 'we compare' cues present.
+S0702,2025,icml,gpt4omini,5.3. Over Refusal / B.5. Evaluation Details,Methods,GPT-4o-mini judges informative refusal in pipeline
+S0703,2025,icml,gpt4,5. Empirical Validation / A.3. Testing Larger Models with AlpacaEval 2 / C.2. Anthropic HH Testing Details / C.3. IMDb Testing Details,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0704,2025,icml,textembeddingada002,C.3. Financial costs of running perturbation / C.5. Impact of embeddings,Methods,text-embedding-ada-002 used in embedding cost analysis pipeline.
+S0705,2025,icml,textembedding3large,3.2.3. ASPM STRUCTURE OPTIMIZATION,Methods,GPT-4o prompted to refine LTL rules in optimization algorithm.
+S0706,2025,icml,gpt4,F. Background: Large Language Models and Multi-role Systems for Software Engineering,Evaluation,'elo' indicates model used as benchmark/judge.
+S0707,2025,icml,gpt4o20240806,5. Evaluation,Methods,'we use' indicates model used in pipeline.
+S0708,2025,icml,gpt35turbo0125,D. Details of Evaluations &amp; Experiments,Methods,'we use' indicates model used in pipeline.
+S0709,2025,icml,gpt4o,1. Introduction / C.4. Grid Navigation / I.1. Performance of other multimodal models,Methods and Evaluation,Both methods 'using gpt' and eval 'we evaluate' cues present.
+S0710,2025,icml,textdavinci002,ICL - Chain-of-thought Reasoning (GSM8K &amp; MAWPS):,Methods,text-davinci-002 not present; GPT-4o used to generate CoT prompts.
+S0711,2025,icml,gpt4o,4.2 LLMas Data Generator / C Prompts Used for SynthBias Generation,Methods,GPT-4o-2024-08-06 generates SynthBias gender dataset
+S0712,2025,icml,gpt4o,B.1. Target Texts,Methods,GPT-4o paraphrase used as one verbatim test target
+S0713,2025,icml,gpt4,3. Distribution-Agnostic Formulation,Methods,GPT-4 generates instruction database for Instruct2See
+S0714,2025,icml,gpt4o,5. Feature Directions in Safety Residual Space,N/A,GPT-4o not in safety residual space discussion; LRP method paper.
+S0715,2025,icml,gpt4o,4.1. Text-to-Time Series Data Preparation,N/A,Mention only; no methods or evaluation cues found.
+S0716,2025,icml,gpt4,1. Introduction / 3.1. Empirical Evidence on Energy Loss Phenomenon / 4. Energy Loss-Aware PPO (EPPO) / 5.1. Setup,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0717,2025,icml,gpt4,Original Dataset,Methods,GPT-4 generates weather text descriptions in dataset
+S0718,2025,icml,gpt4,2.3. Prompt Learning,Methods,GPT-4 generates rich semantics for VAD labels
+S0719,2025,icml,gpt4,4.1. PoisonedEye-B: Baseline Attack,Methods,GPT-4 generates poison context in PoisonedEye-B
+S0720,2025,icml,gpt4o,4.1. RQ1: Impact of System Structures / 4.2. RQ2: Impact of Downstream Tasks / Experimental Settings,Methods and Evaluation,Both methods 'we use' and eval 'outperform' cues present.
+S0721,2025,icml,gpt4o,4.2. Data Annotation / B. Related Works,Methods and Evaluation,Both methods 'we choose' and eval 'we compare' cues present.
+S0722,2025,icml,gpt4o,1. Introduction / 3.5. Extension to Open-ended Questions with DPO / 4.1. Dataset / 4.2. Experiment Setup / 5.1. Overall Performance / 5.4. Failure Mode Analysis / Abstract,Methods and Evaluation,GPT-4o annotates errors and is baseline comparison
+S0723,2025,icml,gemini15flash,4.1. Experimental Setup,Evaluation,'as baseline' indicates model used as benchmark/judge.
+S0724,2025,icml,gpt4,2.1. Document visual question answering,N/A,GPT-4 only background about VLM benchmark performance
+S0725,2025,icml,gpt4,4.1. Evaluation of Python Code,Evaluation,GPT-4 not directly present; section is code efficiency results.
+S0726,2025,icml,gpt4,2. Background and Related Work,N/A,GPT-4 only mentioned in Related Work as annotator example
+S0727,2025,icml,gpt35turbo,3.2. Mind2Web / 3.2.1. MAIN RESULTS / 4.2. Workflows in Descriptive Texts / 4.3. Environment Abstraction in Workflows,Methods and Evaluation,Both methods 'we use' and eval 'we compare' cues present.
+S0728,2025,icml,gpt4,1. Introduction,N/A,intro mention with citation comparing prior work
+S0729,2025,icml,gpt4,4.1.2. DOWNSTREAM TASKS,Methods,we use prompts driven by knowledge of GPT-4 in pipeline
+S0730,2025,icml,gpt40613,A.4. Further Ablations,Evaluation,ablation table reports model results
+S0731,2025,icml,gpt4,2.2. EnIGMA Summarizers / 3.2. Experiment Setup / 4. Results / 4.1. Analysis of Agent Behavior and ACI Designs,Methods and Evaluation,Both methods 'using gpt' and eval 'we compare' cues present.
+S0732,2025,icml,claude35sonnet20240620,B. User information / D. Details on Model Ranking,Evaluation,model listed in leaderboard ranking table
+S0733,2025,icml,gpt35turbo,A. Appendix: Language Model Details,N/A,Non-substantive section (A. Appendix: Language Model De); keyword mention only.
+S0734,2025,icml,gpt4o,4.1. EquivaFormulation: a dataset of equivalent MILP formulations,Methods,LLM (likely GPT-4o) used to infer formulation mappings in EquivaMap.
+S0735,2025,icml,gpt4o,"4.1. Data, subskills, abilities, and parameters / E.2. Details of deriving workers' abilities from Big-bench Lite / E.3. Details for subskill division, task-skill dependency, and the choices of error functions",Methods,we use GPT-4o for skill decomposition and dependencies
+S0736,2025,icml,gpt4,2.3. AGUVIS DATA COLLECTION / 2.5. Training Paradigm,Methods,we prompt GPT-4o to generate inner monologues
+S0737,2025,icml,gemini15pro,5.2. Visualization / F. Confusion Matrix Details,N/A,Mention only; no methods or evaluation cues found.
+S0738,2025,icml,gpt4o,B.3. Comparison of text embeddings / B.5. Comparing similarity ranking for SPEC clusters / SPEC Principal Clusters for CLIP   DINOv2,Methods and Evaluation,Both methods 'we generate' and eval 'we compare' cues present.
+S0739,2025,icml,gpt4o,"1. Introduction / 3.1. RQ1: Benchmarking Large Language Models / Multiple Choice Question (MCQ) (Nguyen et al., 2025).",Evaluation,benchmark figure compares performance across LLMs
+S0740,2025,icml,gpt4,2 Related Works / 3 Methodology / 3.3 Self-Evolved Deep Thinking / 4.3 Ablation Study and Analysis,Methods and Evaluation,Both methods 'we use' and eval 'performance on' cues present.
+S0741,2025,icml,gpt4o,1 Introduction and Related Work / 4.5 Comparison Table / A.5 Data Synthesis,Methods and Evaluation,Both methods 'we leverage' and eval 'achieves' cues present.
+S0742,2025,icml,gemini15flash,(Fig. 1c). / 5.1. LLMs become less biased when viewing response history in subjective &amp; random questions / 5.3. Verbalized confidence scores by LLMs are a worse indicator for bias answers as B-score / B.1. Models and parameters / D. Qualitative results,Methods and Evaluation,Both methods 'we use' and eval 'metric' cues present.
+S0743,2025,icml,gpt4,6.3. Language Modeling,N/A,Language modeling experiments using Transformer; no GPT-4 use.
+S0744,2025,icml,gpt4o,Acknowledgements,N/A,Mention only; no methods or evaluation cues found.
+S0745,2025,icml,gemini15pro,5.1. Experimental Setup / C. Baselines,Methods,VLM teacher provides feedback in framework
+S0746,2025,icml,gpt4o,"3.1. Benchmark Construction / 4.1. Setup / 4.3. In Achieving Recovery Success: Technical, Reasoning, and Collaborative Competences / 4.4. Collaborative Assistance Improves PerformanceBut Agents Seldom Seek Help / B.1. Pilot for Configuration",Methods,GPT-4o used in benchmark construction pipeline for SyncBench.
+S0747,2025,icml,textembedding3large,D. Experimental Details,Methods,OpenAI embedding model produces action-set vectors
+S0748,2025,icml,gpt4,1. Introduction / 7.2. Experimental Results / D. Model Descriptions / F. Dialog Types / H.1. Toolkit,Methods and Evaluation,Both methods 'we employ' and eval 'outperforms' cues present.
+S0749,2025,icml,dalle2,4.6. Cross-Modal Arithmetic,N/A,Mention only; no methods or evaluation cues found.
+S0750,2025,icml,gpt4,1. Introduction,N/A,Non-substantive section (1. Introduction); keyword mention only.
+S0751,2025,icml,gpt4,5.1. Experimental Setup,Methods,we use GPT4 as judge for evaluation
+S0752,2025,icml,gpt4,5.1. Setup / 5.2. Evaluation Results,Methods and Evaluation,Both methods 'we use' and eval 'achieves' cues present.
+S0753,2025,icml,gpt4o,5.2. Experiment Settings / 5.3. Experiment Results / B.1. Analysis on Window Size d,Methods and Evaluation,Both methods 'we use' and eval 'achieved' cues present.
+S0754,2025,icml,gpt4o,(2) Response showing limitations on LLM's searching and hallucination / 4.1.2. DOWNSTREAM TASKS. / 4.3. Ablation Studies.,Methods and Evaluation,Both methods 'use gpt' and eval 'outperform' cues present.
+S0755,2025,icml,gpt4turbo,4.2. Post-training adaptation,Evaluation,'win rate' indicates model used as benchmark/judge.
+S0756,2025,icml,gpt4omini,4.3. Larger-Scale Validation with Gemma-2-2B,Methods,section context implies model used in validation pipeline
+S0757,2025,icml,gpt4o,4.6. Open-domain Reasoning Results / C.1. Efficiency of GIVE,Methods and Evaluation,Both methods 'we use' and eval 'we report' cues present.
+S0758,2025,icml,gpt4,6.1. Setup / 6.2. Results,Methods and Evaluation,Both methods 'we train' and eval 'compared to' cues present.
+S0759,2025,icml,gpt4o,4.1. Results / D. Tests and trajectory analysis,Methods and Evaluation,GPT-4o used as POPPER backbone and benchmarked
+S0760,2025,icml,gpt4o,5.2. Image and Region Classification and Retrieval,Evaluation,GPT-4o referenced in CLOC region classification context as comparison.
+S0761,2025,icml,gpt4omini,B. Implementation Details,Methods,OpenAI API GPT-4o-Mini used in functional interpretation phase
+S0762,2025,icml,gpt35turbo0125,5. Experiments / B.2. Main experiment settings,Methods,we use gpt-3.5-turbo-0125 as evaluator and case study
+S0763,2025,icml,gpt4,A. Detailed Description and Discussion On Datasets,N/A,describes external dataset built using GPT-4
+S0764,2025,icml,gpt4o,"1. Introduction / 6. Conclusion / B. Baseline Settings / F.1. FMG-Text Choice of Text Encoding / F.3. Motivation for Images Over Text / H. Case Studies, Expert Analyses, and Design Story / H.1. Case Study: Predictive Toxicology Challenge (PTC)",Methods and Evaluation,Both methods 'we use' and eval 'performance of' cues present.
+S0765,2025,icml,gemini15pro,4.2.2. OPEN-ENDED RESULTS,Evaluation,open-ended results table compares proprietary models
+S0766,2025,icml,gpt4,A.1. Implementation Details,Methods,'we generate' indicates model used in pipeline.
+S0767,2025,icml,gpt4o,1. Introduction,N/A,Non-substantive section (1. Introduction); keyword mention only.
+S0768,2025,icml,gpt4turbo,3.2. Implementation Details,Methods,"implementation details section, prior label retained"
+S0769,2025,icml,gemini15flash,C.1. Data acquisition and preprocessing,N/A,Mention only; no methods or evaluation cues found.
+S0770,2025,icml,gpt4,2.1. AI for Review,N/A,related work citation in AI for Review section
+S0771,2025,icml,gpt4omini,4.3. Performance Comparison on Exemplar Selection / A.4. Results using Alternate Open Source LLMs,Evaluation,'performance of' indicates model used as benchmark/judge.
+S0772,2025,icml,gpt35turbo,A.1. Baselines,Methods and Evaluation,Both methods 'we employ' and eval 'leaderboard' cues present.
+S0773,2025,icml,gpt4,1. Introduction,N/A,GPT-4 cited as illustrative example in W2SG introduction.
+S0774,2025,icml,gpt4o,2. Related Work / 4. MINION: A na¨ ıve communication protocol / 5.1. Protocol description / 6. Results,Methods and Evaluation,Both methods 'we generate' and eval 'accuracy' cues present.
+S0775,2025,icml,gpt4o,4.2. Quantitive Results,N/A,Translation comparison table; no GPT-4o substantive use in section.
+S0776,2025,icml,gpt4o,1. Introduction,N/A,Non-substantive section (1. Introduction); keyword mention only.
+S0777,2025,icml,gpt4o20240806,E. Measuring Response Relativity,Methods,'we use' indicates model used in pipeline.
+S0778,2025,neurips,gpt4o,1 Introduction / A.2 Experiment Result / Abstract,Methods and Evaluation,GAM-Agent enhances GPT-4o backbone results
+S0779,2025,neurips,gpt4turbo,C.1 Evaluation Benchmarks,Methods,GPT-4-Turbo used as grader for MMVet scoring
+S0780,2025,neurips,gemini15pro,4.2 Overall Evaluation of Reason-RFT Framework (RQ1),Evaluation,compared against proprietary baselines in results
+S0781,2025,neurips,gpt4o,7. Experiment statistical significance / C.4 Evaluation prompts / Comparison with robust baselines.,Methods and Evaluation,Both methods 'using gpt' and eval 'compared to' cues present.
+S0782,2025,neurips,gpt4o,1 Introduction / 3.3.1 Lightweight Synthetic Domain Augmentation,Methods and Evaluation,Both methods 'we generate' and eval 'figure 1' cues present.
+S0783,2025,neurips,gpt4o,1 Introduction / 4 Experiments / Abstract,Evaluation,'we compare' indicates model used as benchmark/judge.
+S0784,2025,neurips,gpt4turbo,1 Introduction / 6.1 Evaluation Settings / 6.2 Performance Evaluation (RQ1) / MIGGPT demonstrates outstanding performance in generating migrated code snippets. / MIGGPT outperformed previous migration efforts on the CVE patch backporting task.,Methods and Evaluation,Both methods 'we use' and eval 'we evaluate' cues present.
+S0785,2025,neurips,gpt4o,3.1 Correlations between Vision Tokens and Text Prior,Methods,GPT-4o used as judge to determine token length
+S0786,2025,neurips,gpt4o,5.4 Visual Similarity Understanding / 5.5 STAVEQ2 Evaluation on Benchmarks / H Extra Models,Evaluation,'outperforms' indicates model used as benchmark/judge.
+S0787,2025,neurips,gpt4o,4.1 Implementation Details / 4.2 Experimental Results,Evaluation,GPT-4o ZS row in grounding accuracy table
+S0788,2025,neurips,o4mini,4 Experiments / 4.1 RQ1: Comparison with other RL Training Methods and Models / 4.3 RQ3: Quality of Reasoning Traces / Abstract / B.2 KL-aware Regularization,Methods and Evaluation,Both methods 'we train' and eval 'we compare' cues present.
+S0789,2025,neurips,o1,2. Unsupported models / E Examples of Unresolved Issues,N/A,Mention only; no methods or evaluation cues found.
+S0790,2025,neurips,gpt4,C Experimental Details,N/A,describes datasets generated by GPT-4 elsewhere
+S0791,2025,neurips,gpt4o,4.1 Experimental Setting,Methods and Evaluation,Both methods 'we adopt' and eval 'performance of' cues present.
+S0792,2025,neurips,gpt4,A.8 Resources / Self-reflection enhances reliance detection,Methods,GPT-4 as judge in 2AFC evaluation pipeline
+S0793,2025,neurips,gemini25proexp0325,5 Experiments,Evaluation,'outperforms' indicates model used as benchmark/judge.
+S0794,2025,neurips,gpt4o,1 Introduction / 5.1.2 Models and Baselines / 5.2 Main Empirical Results on TSP / A Generalization Results on CVRP,Methods and Evaluation,Both methods 'we employ' and eval 'we compare' cues present.
+S0795,2025,neurips,gpt4,4.1 Experiment Settings,Methods,GPT-4 referenced for ShareGPT data context (instruction tuning).
+S0796,2025,neurips,dalle2,5.2 Semantic-spatial Guided Diffusion Generation,Evaluation,DALLE-2 row in benchmark comparison table
+S0797,2025,neurips,gpt4o,A.1 Case Study 2: Hypothesis Search Agent,Methods and Evaluation,Both methods 'we use' and eval 'accuracy' cues present.
+S0798,2025,neurips,gpt4,5.2 Generalization Ability / 5.5 Comparison with Data Pre-Selection / D Experimental Details,Evaluation,'judge model' indicates model used as benchmark/judge.
+S0799,2025,neurips,gpt4o20240806,2.3 Attack setting / B Criteria for GPT Judgement,Methods,GPT-4o automates the evaluation criterion checking
+S0800,2025,neurips,gpt4,C Related Work,N/A,GPT-4 mentioned in related work context only.
+S0801,2025,neurips,gpt4o,D.1 Evaluation Metrics,Methods,we leverage GPT-4o as evaluator for instruction-tuning scoring
+S0802,2025,neurips,gpt4o20241120,4.1 Evaluation Setup,Evaluation,GPT-4o baseline for UI element reduction comparison
+S0803,2025,neurips,o3,4.8 Discussion on The Knowledge Boundary / A.1 Technique Details / A.3.1 Benchmarking,Evaluation,O3-mini compared as baseline larger model on benchmarks.
+S0804,2025,neurips,gpt4,6.3 Main Results on Utility / B.2 Utility-Related Datasets,Methods,GPT-4 rates open-ended responses for MM-Vet metric
+S0805,2025,neurips,gemini25pro,4.1 Experimental Setup / 4.2 Comparison with State-of-the-Art / B Implementation Details / C Additional Analyses / E Qualitative Result,Evaluation,Experiments section reports gemini25pro results or comparisons.
+S0806,2025,neurips,o3mini,3.2 Emerged Atomic Reasoning / 4.1 Experimental Setup / 4.2 Main Results,Methods and Evaluation,Windows span methods setup and eval results for o3mini.
+S0807,2025,neurips,gpt4,14.1 Comparison Models / 4.1 3D Captioning Test / 4.4 Generalization Ability Across Datasets,Evaluation,GPT4Point listed as baseline caption model compared to Tri-MARF.
+S0808,2025,neurips,gpt4o,5.4 Further Analysis on LLM types / A.2 Baseline Models / A.3 Three-step Evaluation Protocol / A.4 Implementation Details and Financial Costs / B.3 GPT-based Scoring Prompt,Methods,Implementation context describes employing gpt4o.
+S0809,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0810,2025,neurips,gpt40613,F.2 Bias Report Quality Assessment Metrics,Methods,gpt-4-0613 used as G-eval and MOS LLM judge
+S0811,2025,neurips,gpt4,4.1 Experimental Setup / 4.2 Win Rate Comparison with Baselines on Classic Preference Datasets,Methods,Implementation context describes employing gpt4.
+S0812,2025,neurips,o1mini,3.1 Experimental Setup,Evaluation,Experimental/results section compares against o1mini.
+S0813,2025,neurips,gpt4,6 Experiment / 6.1 Dialogue generation / 6.2 Summarization / 6.3 Evaluation of the explanation,Methods,GPT-4 queried for pair-wise win-rate evaluation
+S0814,2025,neurips,gpt4o,1 Introduction / 4 Experiments / Abstract,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0815,2025,neurips,gpt4o,2 Related Works / 3.3 Bayesian Advantage Estimation / 4.4 Baselines / 4.5 Performance Analysis,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0816,2025,neurips,gemini15pro,6 Experiments,Evaluation,Gemini 1.5 Pro listed in baselines for AF3 comparison
+S0817,2025,neurips,gpt4o,4 Experiments / B Dataset Details,Evaluation,GPT-4o row in MMHal-Bench comparison table
+S0818,2025,neurips,gpt41,4 Language model inversion from compressed logprobs,Methods,GPT-4.1 logprobs targeted/used in inversion model setup.
+S0819,2025,neurips,dalle2,4.2 Main Results / C More Results,Evaluation,Experiments section reports dalle2 results or comparisons.
+S0820,2025,neurips,gpt4o20240806,5.1 Explanatory Part Segmentation,Evaluation,"section compares part segmentation, weak surface cues"
+S0821,2025,neurips,gpt4o,D Societal Impact,Evaluation,Table 8 compares GPT-4o and o3 success rates
+S0822,2025,neurips,dalle2,5.1 Setup,Evaluation,DALLE2 column in AIGCDetectBenchmark accuracy table
+S0823,2025,neurips,gpt4omini,A.1 Broader Impacts and Ethical Considerations,N/A,"broader impacts section, no substantive use"
+S0824,2025,neurips,chatgpt4olatest,A.2 Model and hyperparameters / B.2 Evaluation / B.3 Cost estimation,Methods and Evaluation,Windows span methods setup and eval results for chatgpt4olatest.
+S0825,2025,neurips,gpt4,5.2 Implementation Details,Methods,GPT-4 tested as backbone LLM for CIT method
+S0826,2025,neurips,gpt4o,3.3 Data Prepocessing / 5.1 Main Results / A.3.1 Prompt for data preprocessing,Methods,Implementation context describes employing gpt4o.
+S0827,2025,neurips,gemini25flash,4 Experiments,Evaluation,Experiments section reports gemini25flash results or comparisons.
+S0828,2025,neurips,gpt4o,4.3 Computational social science with language models,Methods,uses GPT-4o annotations for active sampling pipeline
+S0829,2025,neurips,o4mini,3.4 The Plan-Generate-Verify Framework / 4.2 Comparison with Existing Methods,Evaluation,Experiments section reports o4mini results or comparisons.
+S0830,2025,neurips,gpt4o,1 Introduction / 5.1 Baselines / Abstract / D Baseline Details,Evaluation,surpasses general-purpose LLMs like GPT-4o in baselines
+S0831,2025,neurips,o4mini,2 Related Work,N/A,Intro/related-work mention of o4mini without methods/eval use.
+S0832,2025,neurips,gpt4o,2.3 Multimodal Large Language Models in Forensics / 3.1.1 Partial Synthesis / B.1 Details of Partial Synthesis Pipeline / E.1 Details of the Fine-Tuning and Inference Modules,Methods,Methods/setup section describes using gpt4o as component.
+S0833,2025,neurips,gpt4omini,4.3.2 Impact of Intra-Step Linguistic Refinement,Evaluation,GPT-4o-mini compared as rewriting baseline
+S0834,2025,neurips,textembedding3small,3.3 Interpreting Example Associations / D Details of Forgetting Prediction and Replay / E Details of the Example Similarity Metrics,Methods,OpenAI embedding model used for representational similarity
+S0835,2025,neurips,gpt4,1.1 Motivation and Background,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0836,2025,neurips,gpt4,4.3 Instruction Tuning / I.3 Hyperparameters for instruction fine-tuning,Methods,Methods/setup section describes using gpt4 as component.
+S0837,2025,neurips,gpt4o,4 Emo-CFG: Emotion-Centric Fine-Grained Video Dataset / 5.1 SOTA Comparison / 5.2 Discussion,Methods and Evaluation,Spans setup usage and result comparison of gpt4o.
+S0838,2025,neurips,gpt4omini20240718,4.2 Experimental Results,Methods,we queried gpt-4o-mini for VideoDetailCaption captioning
+S0839,2025,neurips,o3mini,4.1 Experimental Setup,Methods,Methods/setup section describes using o3mini as component.
+S0840,2025,neurips,gpt35turbo,B.1 Training Dataset,Methods,Methods/setup section describes using gpt35turbo as component.
+S0841,2025,neurips,gemini25pro,"5 Experiments / 5.1 Main Results / Can VLMs perform reasoning steps more directly within the visual modality itself, leveraging computational visual manipulations as actions to guide reasoning?",Evaluation,Experiments section reports gemini25pro results or comparisons.
+S0842,2025,neurips,gpt4o,1 Introduction / 2.2 OrienText300K: Orientation-Text Paired Data at Scale / 4.6 Spatial Reasoning Evaluation on 6-DoF SpatialBench / D.4 ChatGPT API Costs,Methods,we prompt GPT-4o to generate dataset annotations
+S0843,2025,neurips,gpt4o,4 Experiments / 4.1 Experimental Setup / 4.4 Ablation Study / D.3.3 Evaluation Metrics,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0844,2025,neurips,gpt4o,2.3 BiCoT-GRPO / B.1 Experiment Setup,Methods,Methods/setup section describes using gpt4o as component.
+S0845,2025,neurips,gpt4,4.3 Grounding 3-D object detection,N/A,3D object detection table; no GPT-4 in section text.
+S0846,2025,neurips,o1mini,4.2 Evaluation,Evaluation,Experiments section reports o1mini results or comparisons.
+S0847,2025,neurips,gpt4o,1 Introduction / 5 Related Works,N/A,Intro/related-work mention of gpt4o without methods/eval use.
+S0848,2025,neurips,gpt4o,1 Introduction / 4.2 Can ConfTuner Learn Effective Verbalized Confidence Estimation Capabilities? / 4.3 Can ConfTuner Help Build More Reliable and Cost-Effective LLM Systems? / Abstract,Methods and Evaluation,Spans setup usage and result comparison of gpt4o.
+S0849,2025,neurips,o3mini,1 Introduction / 5.1 Benchmarking G1 on Graph-theoretic Reasoning Tasks / I.4 Detailed Results for Erdős,Methods and Evaluation,Spans setup usage and result comparison of o3mini.
+S0850,2025,neurips,gpt4o,3.2.1 Reasoning Space Expansion / G Limitations,Methods,GPT-4o prompted to generate question variants in pipeline.
+S0851,2025,neurips,gpt4o,5.1 Experiments on SFT of LLM: Natural Language Generation / E.1 Details and Results for Supervised Fine-tuning,Methods,GPT-4o scores MT-Bench responses as evaluator
+S0852,2025,neurips,gpt4omini,4.4 Ablation Study,Evaluation,Experiments section reports gpt4omini results or comparisons.
+S0853,2025,neurips,gpt4o,1 Introduction,N/A,Intro/related-work mention of gpt4o without methods/eval use.
+S0854,2025,neurips,gpt4o,3.4 Theoretical Guarantees / 4 Experiments,N/A,GPT-4o cited as illustrative strong baseline in theory discussion.
+S0855,2025,neurips,gemini15flash,6 Analysis,Methods,model is component of multi-LLM swarm system
+S0856,2025,neurips,gpt4o,A.18 LLMprompts used / A.8 Labeling top subject-specific parcels,Methods,captions generated by GPT-4o for parcel labeling
+S0857,2025,neurips,gemini15pro,3 Experiments,Methods,Gemini-1.5-Pro is agent in Titan subspace pool
+S0858,2025,neurips,gpt4o,B.1 Reddit Data Processing,Methods,Methods/setup section describes using gpt4o as component.
+S0859,2025,neurips,gpt41,16. Declaration of LLM usage / 4.1 Experiment Settings,Methods,we construct SafeSQL by evolving programs using GPT-4.1
+S0860,2025,neurips,gemini15pro,4.1 General Understanding Evaluation,Evaluation,Gemini-1.5-Pro proprietary row in video benchmark table
+S0861,2025,neurips,gpt4o,4.2 Variant Effect Prediction of Coding Sequences / 4.3 Variant Effect Prediction of Coding Non-SNVs,Methods,GPT-4o generates question variations for training augmentation
+S0862,2025,neurips,gpt4o,5.1 Embedding-based Retrieval / 5.2 Re-ranking,Evaluation,GPT-4o row in re-ranking comparison table
+S0863,2025,neurips,gpt4o20240806,E Model Deployment,Methods,Methods/setup section describes using gpt4o20240806 as component.
+S0864,2025,neurips,gpt4,2 Related Work,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0865,2025,neurips,claude37sonnet20250219,Hints:,Evaluation,"prompt template hint section, weak surface cues"
+S0866,2025,neurips,gpt4o,A.1 Applications.,Methods,GPT-4o filters MagicBrush images for evaluation set
+S0867,2025,neurips,gemini25pro,4.1 Comparison with State-of-the-Art VLMs,Evaluation,Experiments section reports gemini25pro results or comparisons.
+S0868,2025,neurips,gpt35turbo0125,4.1 Experimental Setup / B.2 Long Video Understanding Benchmark Details,Methods,Implementation context describes employing gpt35turbo0125.
+S0869,2025,neurips,gpt4o,4.1 Setups and Implementation Details / 4.2 Main Results,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0870,2025,neurips,gpt41,Closed-Source and Open-Source Larger Model Evaluation in Blocksworld,Evaluation,Experiments section reports gpt41 results or comparisons.
+S0871,2025,neurips,gemini20flash,2.2 Results / F Persuasion Analysis Details / Remember:,Methods,model used in debate/consultancy protocol pipeline
+S0872,2025,neurips,gpt4o,Cosine  Kernel,Methods,GPT-4o used as expert prompt optimizer
+S0873,2025,neurips,gpt41mini,3.4 Data curation and model development / 4.2 Experimental results / E Model selection and argument types,Methods and Evaluation,Windows span methods setup and eval results for gpt41mini.
+S0874,2025,neurips,gpt4o,2.2.3 RAG-ProGuide Dataset,Methods,GPT-4o serves as policy model in MCTS framework
+S0875,2025,neurips,o120241217,E.1 Additional Inductive Accuracy across Model Versions and Sizes,Evaluation,GPT-o1 versus GPT-4o accuracy comparison table
+S0876,2025,neurips,gpt4o,5.1 Evaluation on Image-to-Video Generation / A Implementation Details,Methods,Implementation context describes employing gpt4o.
+S0877,2025,neurips,gpt4,1 Introduction / B.1 Datasets,N/A,GPT-4 mentioned as motivating example in math reasoning intro.
+S0878,2025,neurips,gemini20flash,A.7 Additional VLM results,Evaluation,Experiments section reports gemini20flash results or comparisons.
+S0879,2025,neurips,gpt4,C.1 Related works,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0880,2025,neurips,gpt4o,4.1 Temporal-Aware Activation Engineering Framework / E Detailed Experimental Settings / F Additional Experimental Results,Methods,Implementation context describes employing gpt4o.
+S0881,2025,neurips,gpt4omini,1 Introduction / 2.5.1 Data and Environment Construction / 3.1 Experimental Setups,Methods and Evaluation,Windows span methods setup and eval results for gpt4omini.
+S0882,2025,neurips,gpt4,B Comparison between CMM and other machine learning methods,Evaluation,Experiments section reports gpt4 results or comparisons.
+S0883,2025,neurips,textembedding3small,5.1 Experimental Setup / K Ablation on the Embedding Models,Methods,Implementation context describes employing textembedding3small.
+S0884,2025,neurips,gpt4o,5.2 Experimental Setup / F Additional Results,Methods,Implementation context describes employing gpt4o.
+S0885,2025,neurips,gpt4o,3.2 Reinforcement Learning with GRPO-GR / 4.2 Research question 1 : How accurate is the grounded reasoning from both grounding and reasoning perspectives? / 4.3 Research question 2 : How generated bounding boxes interact with natural-language contents during grounded reasoning? / D Prompts,Methods,Methods/setup section describes using gpt4o as component.
+S0886,2025,neurips,gpt4o,4.1 Experimental Setup / B.1.2 Fixing Protocol Limitations in PRoC3S Evaluation,Methods,Implementation context describes employing gpt4o.
+S0887,2025,neurips,gpt4,5 Knowledge Unlearning Evaluation Datasets,Methods,we utilize GPT-4 to generate prompt templates
+S0888,2025,neurips,gpt41mini20250414,B.3 LLMJudge,Methods,gpt-4.1-mini is the LLM Judge in evaluation pipeline
+S0889,2025,neurips,gpt4turbo,5.2 Compound LLM Collaboration System,Methods,Methods/setup section describes using gpt4turbo as component.
+S0890,2025,neurips,gpt4omini,4.1 LLMs accurately predict distributions of diagnostic tests / BED improves LLM-based clinical diagno- / Timely diagnosis under resource constraints. We,Methods and Evaluation,Spans setup usage and result comparison of gpt4omini.
+S0891,2025,neurips,gpt4o,4.3 Evaluating information extraction / G Prompt for measuring information extraction,Methods,Implementation context describes employing gpt4o.
+S0892,2025,neurips,gpt4o,C.4 Robustness under high hallucination rates,Methods,applies conformal method on GPT-4o generations in pipeline
+S0893,2025,neurips,gpt4o,2 Related Work / 3.2 SCBENCH: Benchmarking SCPILOT with Real-World Biological Meaningful Tasks / 4 Experiments / 4.1 Main Result Analysis,Evaluation,"GPT-4o referenced as general LLM in related work, evaluated downstream."
+S0894,2025,neurips,gpt4,5.1 Experimental Setup / 6.4 Robustness Study / C.1 Dataset,Methods,Implementation context describes employing gpt4.
+S0895,2025,neurips,gemini15pro002,B.1 SFT Filtering Prompt,Methods,Methods/setup section describes using gemini15pro002 as component.
+S0896,2025,neurips,gpt4o,3.2 Training Reasoning Models for SPRINT Framework / A.2 Dataset Curation,Methods,Methods/setup section describes using gpt4o as component.
+S0897,2025,neurips,gpt4o,5 Experiments,N/A,ImageNet diffusion model results; no GPT-4o use in section.
+S0898,2025,neurips,gpt4o,1 Introduction / 6 Conclusion / Abstract / EM-INF for scientific coding: We apply EM-,Evaluation,matches proprietary models like GPT-4o on SciCode benchmark
+S0899,2025,neurips,o3,F Results on O-Series Models,Evaluation,evaluated O-series models including O3 separately
+S0900,2025,neurips,gpt4,3.3 Genetic Optimization of External Knowledge,Methods,GPT-4 generates initial adversarial passages population
+S0901,2025,neurips,textembeddingada002,4.2 Main Experiments / B.2 Dataset Details,Methods,we use text-embedding-ada-002 in LongBench evaluation
+S0902,2025,neurips,o1,C Impact of LLM Choice and Reasoning Strategy / F Cost of LLMs Used in Experiments / G LLMProposal Validity and Fallback Rates,Methods and Evaluation,OpenAI o1-mini and others compared as API call models in MCTS.
+S0903,2025,neurips,gpt4,2 Related work,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0904,2025,neurips,gpt4omini,5.3 Experiments on Harder Tasks (RQ2) / E Use of AI assistants,Methods and Evaluation,Spans setup usage and result comparison of gpt4omini.
+S0905,2025,neurips,gpt4omini,Effect of Judge Model,Methods,Methods/setup section describes using gpt4omini as component.
+S0906,2025,neurips,gpt4,4.1 When does robustness appear in model training? / B.1 General benchmarks / B.3 Metrics of generation quality,Methods,Implementation context describes employing gpt4.
+S0907,2025,neurips,gpt4o,2 Related Work / 4.4 Construction of the Modeling Tree / 5.1 Experiment Setups / 5.2 Main Results / 5.3 Analysis on the Subproblem Decomposition / 6 Conclusion,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0908,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0909,2025,neurips,gpt41,3.1 Experimental Design / 4.2 Utilitarian Boost Experiment / 6 Discussion and Conclusion / C.2 LLMs Utilitarian Baseline,Evaluation,Experiments section reports gpt41 results or comparisons.
+S0910,2025,neurips,gpt4,3.1 Benchmark Construction,Methods,GPT-4 generates descriptive texts for dataset categories
+S0911,2025,neurips,gpt4,4 Method: Interruptible Collaborative Roleplayer,N/A,Background mention of gpt4 with no empirical use.
+S0912,2025,neurips,gpt4o,4.2 Comparing Self-Explanation with Expert CoT and Standard CoT,N/A,Self-explanation comparison; no GPT-4o specifically in section.
+S0913,2025,neurips,gpt4o,1 Introduction / 4.2 Results on Mathematical Reasoning Datasets / Abstract,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0914,2025,neurips,gpt4o,"3.2 Models, hyperparameters, and prompts / 4.3 Models and hyperparameters / 4.4 Results / 5.1 Dataset creation / 5.3 Models and hyperparameters",Methods,Implementation context describes employing gpt4o.
+S0915,2025,neurips,gpt4o,4.3 Imitate: Zero-Shot Distribution Matching with Unsupervised RL / 5.2 Video to Continuous Control: Can RLZero succeed at cross-embodied imitation? / B.2 Evaluation Protocol / C.7 RLZero evaluation with Video-Embedding similarity,Methods,winrates computed by GPT-4o as evaluator
+S0916,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0917,2025,neurips,gpt4o,12 Sampling Unique Hypotheses across Methods / 13 Results with o4-mini ('reasoning' models) / 3.3 Deduplication via LLM-based HAC / 4.2 Baselines / 8.4 Agent Hyperparameters,Methods,GPT-4o used as LLM in HAC-based deduplication procedure.
+S0918,2025,neurips,gpt4o,5 Experiments / 5.1 Post-training Model Performance,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0919,2025,neurips,gpt4o,"4.2.3 How does the performance of MIMIC vary with different components? / 4.2.4 Can MIMIC be used to generate desired behavior, thereby enabling steerable imitation? / F Complexity Analysis / G.1 How is inner speech represented in the embedding space?",Methods and Evaluation,Spans setup usage and result comparison of gpt4o.
+S0920,2025,neurips,gpt4o,6.1 Experiment settings / 6.2 Comparison with pixel-level attacks / C Text correction by LLM / D The calculation of distance / F The perturbation rate metric,Methods,we employ GPT-4o mini to correct mispredictions
+S0921,2025,neurips,gpt35turbo,E.1 Implementation of Baselines,Methods,Methods/setup section describes using gpt35turbo as component.
+S0922,2025,neurips,gpt4,1 Introduction / 2 Related Work,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0923,2025,neurips,o4mini,B.1 LLMEvaluator Details,Methods,we adopted o4-mini as LLM evaluator
+S0924,2025,neurips,gemini20flashlite,C.2 Baselines,Methods,we use gemini-2.0-flash-lite as classification LLM
+S0925,2025,neurips,gpt4o,A.2 Model Implementation Details / A.3 Evaluation Metrics for Occupancy Generation / B.2 Novel Scene Description Generation,Methods,Implementation context describes employing gpt4o.
+S0926,2025,neurips,gpt4o,1 Introduction / 4.2 Annotating Checklist and Rejected Action / 6.1.1 Setup / 6.1.2 Results / Abstract,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0927,2025,neurips,gpt4o,2 Related Work / 5.1 Experimental Setup / 5.2 Online Experiments / 5.3 Offline Experiments / C.1 Dialogue and Streaming Evaluations on SVBench / Offline Video-LLMs/LVLMs:,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0928,2025,neurips,o3,3.2 RQ I: Can LLMs learn a task by engaging with a sequence of problems? / 3.4 RQ III: Do different learning methods lead to differences in performance?,Evaluation,Experiments section reports o3 results or comparisons.
+S0929,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0930,2025,neurips,o1mini,1 Introduction / 3.2 Main Results,Evaluation,Experiments section reports o1mini results or comparisons.
+S0931,2025,neurips,gemini20flash,4 Experimental Settings / 5.1 Comparison of State-of-the-Art Attacks / 5.3 Effectiveness Against Defenses / 5.4.1 Comparison of Different Attack LLMs / B.2 Analysis of Our Attack Methodology Evaluted by GPT-4o / B.4 Analysis of Model Rejection Rates,Evaluation,Experiments section reports gemini20flash results or comparisons.
+S0932,2025,neurips,gpt4omini,5.1 Experiment Setups,Evaluation,Experimental/results section compares against gpt4omini.
+S0933,2025,neurips,gpt4o,2.2 Instruction-based Image Editing / B.3 Instruction-based Image Editing / E.3 More Qualitative Results,N/A,GPT-4o cited as related work example for image editing.
+S0934,2025,neurips,gpt5,B.3 Plot Generation Methodology,Methods,Methods/setup section describes using gpt5 as component.
+S0935,2025,neurips,gpt4o,B Details on Metrics,N/A,Metrics definitions section; no substantive GPT-4o use.
+S0936,2025,neurips,o4mini,1 Introduction / 3.1 Main Results,Evaluation,Experiments section reports o4mini results or comparisons.
+S0937,2025,neurips,gpt4o,1 Introduction / 2 Setup,Methods,Methods/setup section describes using gpt4o as component.
+S0938,2025,neurips,gpt4,2 Related work,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0939,2025,neurips,gpt4,E.2 Reason Trace Evaluation Details,Methods,GPT-4 prompted to score reasoning trace metrics.
+S0940,2025,neurips,o3mini,E Compute Resources,Methods,API calls to O3-Mini for tool design and planning
+S0941,2025,neurips,gpt4,5.1.2 Results,Evaluation,Experiments section reports gpt4 results or comparisons.
+S0942,2025,neurips,gpt4o,3.4 Search World Model Details / 4.1 Experiment Settings / 4.2 Experiments Results / 4.3 Ablation Study / 5 Conclusion,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0943,2025,neurips,gpt41nano,3.2 Automated CoT Generation Pipeline / A.2 Quality Control for Automated Data Pipeline / A.3 Benchmark Construction,Methods,Methods/setup section describes using gpt41nano as component.
+S0944,2025,neurips,gpt4,4.1 Evaluation on the knowledge preservation,Methods,GPT-4 serves as the judge for MT-Bench scoring
+S0945,2025,neurips,gpt4o,4.1 SSR-COT Collection / 4.2 SSRBENCH Construction / C.1 Visual-CoT / C.2 VoCoT / C.3 SpatialQA / E.2 SSRBENCH,Methods,Methods/setup section describes using gpt4o as component.
+S0946,2025,neurips,gpt4o,4.1 Implementation details,Methods,Methods/setup section describes using gpt4o as component.
+S0947,2025,neurips,gpt4o,B.2 Experimental Details,Methods,we used GPT-4o to generate counterfactual images
+S0948,2025,neurips,gpt4o,1 Introduction / 3.2 Data Construction Process / 3.3 Evaluation,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0949,2025,neurips,gpt4o,4.3 Ablation Study of CoT-Diff / E Details for Constructing 3DSceneBench / G Details for Evaluation,Methods,CoT-Diff variant uses GPT-4o as MLLM backbone
+S0950,2025,neurips,gpt4o,4.1 Evaluation on User Profiles / 4.2 Evaluation on User Messages / D Extensive Evaluation on User Messages by GPT-4o,Methods,we use GPT-4o as reference for profile scoring
+S0951,2025,neurips,gpt4o,3.2.1 GUI Operations Collection / 4.1 Experiment Settings / 4.2.1 Static Evaluation / 4.2.2 Dynamic Evaluation,Methods and Evaluation,Spans setup usage and result comparison of gpt4o.
+S0952,2025,neurips,gpt4omini,3.4 Training Data,Methods,GPT-4o-mini used in 3D-aware training data generation pipeline.
+S0953,2025,neurips,gpt4,5.1 Text Game State Prediction / 5.2 Web Page State Prediction,Evaluation,our method surpasses GPT-4 in performance comparison
+S0954,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0955,2025,neurips,gpt4o20240806,B Prompts,Methods,Methods/setup section describes using gpt4o20240806 as component.
+S0956,2025,neurips,gpt4omini,4.1 Experiment Settings,Evaluation,Experiments section reports gpt4omini results or comparisons.
+S0957,2025,neurips,gpt4o,1 Introduction / 4.1.2 Preference Evaluation / 4.1.3 Image Caption Quality Evaluations / 5 Conclusion / C.4 Additional Preference Evaluation Results / C.8 Does RePIC Enhance The General Image Captioning Ability of MLLM? / D.3 Instruction Templates,N/A,related-work mention of prior approaches using GPT-4o
+S0958,2025,neurips,gpt4o,3.2.2 Experiment Results,Evaluation,gpt-4o row in LLM-SMAC kill/death rate table
+S0959,2025,neurips,gpt4,2 Related works,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0960,2025,neurips,gpt4o,1 Introduction / 3.2 Dual-State Image Conditioning / 3.3 Graph Reasoner via Chain-of-Thought Prompting / 5.2.3 Qualitative Comparison / Example Output:,Methods,Implementation context describes employing gpt4o.
+S0961,2025,neurips,gpt4,4.1 Experimental Setup / G.1 BABILong Benchmark / G.4 Efficiency,Evaluation,Experiments section reports gpt4 results or comparisons.
+S0962,2025,neurips,gemini15pro,4 Stage III: Integrating multimodal PRM into RL / C.1 Fine-grained Comparison on Used benchmarks / C.2 Scaling Law of MMathCoT-1M,Evaluation,Experiments section reports gemini15pro results or comparisons.
+S0963,2025,neurips,gpt4o,4.1 Experimental Setup / 5.4 Robustness on Data Construction and Reward Design,Methods,Methods/setup section describes using gpt4o as component.
+S0964,2025,neurips,gpt4o20240513,4 Experiment,Methods,gpt-4o-2024-05-13 selected as LLM for all Repo2Run experiments.
+S0965,2025,neurips,gemini25pro,5.1 Metrics / 5.2 Main Results / 5.3 Ablations and Analysis / 5.4 Qualitative Analysis,Evaluation,Experiments section reports gemini25pro results or comparisons.
+S0966,2025,neurips,gpt35turbo,D.4 Additional Results for Validating the Power-Law Relationship of Threshold Frequency and Model Size,N/A,GPT-3.5-Turbo size estimation discussion; not used.
+S0967,2025,neurips,gpt4,5.1 Experiment Setup / Algorithm 1 Genetic Algorithm with Fuzzing,Methods,Methods/setup section describes using gpt4 as component.
+S0968,2025,neurips,gpt4omini,4.1 Experimental Settings / 4.2 Main Results / F Effect of Distance Metric on Experience Tree Quality / I Comparison with AWM,Methods and Evaluation,Spans setup usage and result comparison of gpt4omini.
+S0969,2025,neurips,gemini15pro,4.2 Main Results,Evaluation,Experiments section reports gemini15pro results or comparisons.
+S0970,2025,neurips,gpt4,A.8 Broader Impacts,N/A,broader impacts mention of GPT-4 training cost
+S0971,2025,neurips,gpt4o,4.2 Descriptor Partitioning and LLM-Guided Weight Generation / 4.3 Implementation Details,Methods,Methods/setup section describes using gpt4o as component.
+S0972,2025,neurips,gpt4omini,4.1 Experimental Setup / 4.3 Cost analysis / 4.4 Transferability of the optimized optimizer across models and datasets,Methods and Evaluation,Windows span methods setup and eval results for gpt4omini.
+S0973,2025,neurips,gpt4o,1 Introduction / 7 Conclusion,N/A,Intro/related-work mention of gpt4o without methods/eval use.
+S0974,2025,neurips,gpt4,References,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0975,2025,neurips,gpt4,A.4 Evaluation Details,Methods,we use GPT-4 reference answers and GPT-4o for benchmarks
+S0976,2025,neurips,gpt4,F.1 Mars,Methods,we use GPT-4 as backend for our method
+S0977,2025,neurips,gpt35turbo,C Additional Details of Training,Evaluation,gpt-3.5-turbo listed in Chatbot-Arena models in dataset.
+S0978,2025,neurips,gpt4,5 Related Work,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0979,2025,neurips,gpt4,A Related Works,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0980,2025,neurips,gpt4o,3.1 How Does CoT Make Models Weaker on Simple Video Perception Tasks? / 5 Experiments / 5.1 Evidence-Grounded Chains Lead to Better Video Understanding / D Implementation Details,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0981,2025,neurips,gpt4,3.4 Metrics / 3.5 Single-Prompt Attack,Methods,Methods/setup section describes using gpt4 as component.
+S0982,2025,neurips,gpt4,3.3 Hallucination Evaluation,Methods,we leverage GPT-4 to compute hallucination scores
+S0983,2025,neurips,gpt4,3.2 Feedback-driven Self-reflective Planning / 4 Experiment,Methods,we invoke MLLM GPT-4 to produce reflection feedback
+S0984,2025,neurips,gpt4,E.1.3 TOFU,Methods,GPT-4 generates rewritten and incorrect answers for metric
+S0985,2025,neurips,claude35haiku20241022,3.1 Experiment Settings / 3.2 Severe Degradation under Perturbations / 3.4 Powerful Reasoning and Instability of LRMs / B.1 Aggregating Structural Perturbations (PSC-ALL) / C Statistical Analysis / E.1 Additional Performance Degradation Tables for Output Prediction (Direct Inference) / E.2 Additional Performance Degradation Tables for Output Prediction (CoT Inference),Evaluation,Experiments section reports claude35haiku20241022 results or comparisons.
+S0986,2025,neurips,o3,4.2 Logic Reasoning Ability,Evaluation,leaderboard table compares agents using o3-mini and others
+S0987,2025,neurips,gpt4omini,4.1 Setup / 4.2 Benchmark Results / A Complementary Strengths of LLM Agents,Evaluation,Experiments section reports gpt4omini results or comparisons.
+S0988,2025,neurips,gpt4o,3.2 Construction of the Source Dataset,Methods,Methods/setup section describes using gpt4o as component.
+S0989,2025,neurips,gpt40613,5.2 Prediction improvements from GIM matching,Methods,"section context implies use, no surface cue visible"
+S0990,2025,neurips,gpt4o,B.4 Performance of Gemini and GPT,Evaluation,Experiments section reports gpt4o results or comparisons.
+S0991,2025,neurips,gpt4o,4.1 Experimental Setup / 4.2 Main Results / 4.4 Hyperparameter Analysis,Methods and Evaluation,Windows span methods setup and eval results for gpt4o.
+S0992,2025,neurips,gpt4omini,Prompts,Methods,Methods/setup section describes using gpt4omini as component.
+S0993,2025,neurips,gpt35turbo1106,B.1 Theory-of-Mind Reasoning / B.2 Social Cognition,Methods and Evaluation,MetaMind applied with GPT-3.5 backbone in ToM table
+S0994,2025,neurips,gpt4,1 Introduction,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0995,2025,neurips,gpt4,4 Related Works,N/A,Intro/related-work mention of gpt4 without methods/eval use.
+S0996,2025,neurips,gpt4omini,C.3 Scaling Trends of WEAVER,Evaluation,"scaling trend table for WEAVER, weak surface cues"
+S0997,2025,neurips,gpt4omini,4.2 Results,Methods and Evaluation,Spans setup usage and result comparison of gpt4omini.
+S0998,2025,neurips,gpt41,5.7 Perturbation-based VCA Defence Challenges / S Jailbreak Defence Descriptions / T Perturbation-based Defence Details,Methods,GPT-4.1 used as filter for prompt manipulation detection.
+S0999,2025,neurips,o1preview,3.2 Main results,Evaluation,o1-preview row in SWE-bench main results table
+S1000,2025,neurips,gpt4o,1 Introduction,N/A,Intro/related-work mention of gpt4o without methods/eval use.

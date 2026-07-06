@@ -1,0 +1,115 @@
+# Open AI
+## Base Models
+gpt-5
+gpt-5-mini
+gpt-5-nano
+gpt-5-pro
+gpt-4o
+gpt-4.5
+gpt-4.1
+gpt-4
+gpt-3.5
+gpt-3
+o1-preview
+o1-mini
+o3
+o4-mini
+text-davinci
+text-curie
+text-babbage
+text-ada
+code-davinci
+code-cushman
+babbage-002
+davinci-002
+text-moderation
+omni-moderation
+
+## Exact Models
+gpt-4o-realtime-preview
+gpt-4o-audio-preview
+gpt-4o-realtime-preview-2024-10-01
+gpt-4o-audio-preview-2024-10-01
+gpt-4-32k
+gpt-4-vision-preview
+gpt-4-32k-0613
+gpt-4-32k-0314
+gpt-4-1106-vision-preview
+gpt-3.5-turbo
+gpt-3.5-turbo-0613
+gpt-3.5-turbo-16k-0613
+gpt-3.5-turbo-instruct
+text-davinci-001
+text-davinci-002
+text-davinci-003
+text-moderation-007
+text-moderation-stable
+text-moderation-latest
+
+# Anthropic
+## Base Models
+claude-1
+claude-2
+claude-3
+claude-4
+claude-instant
+claude-sonnet
+claude-opus
+claude-haiku
+claude-1.0
+claude-1.1
+claude-1.2
+claude-1.3
+claude-2.0
+claude-2.1
+
+## Exact Models
+claude-instant-1.0
+claude-instant-1.1
+claude-instant-1.2
+claude-3-sonnet-20240229
+claude-3-opus-20240229
+claude-3-haiku-20240307
+claude-3-5-sonnet-20240620
+claude-3-5-haiku-20241022
+claude-3-5-sonnet-20241022
+claude-3-7-sonnet-20250219
+claude-sonnet-4-20250514
+claude-opus-4-20250514
+claude-opus-4-1-20250805
+
+# Google
+## Base Models
+gemini-1.5
+gemini-2.0
+gemini-2.5
+gemini-pro
+gemini-flash
+gemini-lite
+gemini-live
+
+## Exact Models
+gemini-2.5-pro
+gemini-2.5-flash
+gemini-2.5-flash-lite
+gemini-live-2.5-flash-preview
+gemini-2.5-flash-preview-native-audio-dialog
+gemini-2.5-flash-exp-native-audio-thinking-dialog
+gemini-2.5-flash-preview-tts
+gemini-2.5-pro-preview-tts
+gemini-2.0-flash
+gemini-2.0-flash-preview-image-generation
+gemini-2.0-flash-lite
+gemini-2.0-flash-live-001
+gemini-1.5-flash
+gemini-1.5-flash-8b
+gemini-1.5-pro
+
+# General Category
+## Base Models
+OpenAI
+Anthropic
+Google
+ChatGPT
+Claude
+Gemini

@@ -1,0 +1,13 @@
+year,article_id,files_total,files_text_searched,unique_keywords,total_occurrences,keywords_found,match_details,has_keywords
+2022,s42256-022-00448-w,29,25,0,0,,,False
+2022,s42256-022-00492-6,50,29,0,0,,,False
+2022,s42256-022-00538-9,7,5,0,0,,,False
+2023,s42256-023-00610-y,65,49,1,1,Google,Google:1,True
+2023,s42256-023-00682-w,54,51,1,3,Google,Google:3,True
+2023,s42256-023-00722-5,50,34,0,0,,,False
+2023,s42256-023-00729-y,5,4,2,7,"Google,gpt-3",Google:4; gpt-3:3,True
+2024,s42256-024-00879-7,1412,1003,2,25,"Google,OpenAI",Google:13; OpenAI:12,True
+2025,s42256-024-00958-9,20,9,0,0,,,False
+2025,s42256-025-01039-1,14,9,0,0,,,False
+2025,s42256-025-01084-w,806,361,2,13,"Google,OpenAI",OpenAI:12; Google:1,True
+2025,s42256-025-01086-8,52,49,1,3,Google,Google:3,True

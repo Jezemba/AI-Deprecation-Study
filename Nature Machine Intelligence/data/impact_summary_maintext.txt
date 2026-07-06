@@ -1,0 +1,86 @@
+================================================================================
+NATURE MACHINE INTELLIGENCE (s42256) - CLOSED-SOURCE MODEL IMPACT
+================================================================================
+
+Total papers processed: 424
+Papers referencing >=1 closed-source model: 79 (18.6%)
+Total keyword occurrences: 743
+
+--- Prevalence by year ---
+  2022: 11 / 90 papers (12.2%)
+  2023: 14 / 101 papers (13.9%)
+  2024: 21 / 109 papers (19.3%)
+  2025: 33 / 124 papers (26.6%)
+
+--- By provider (papers) ---
+  OpenAI: 45 papers, 514 occurrences
+  Anthropic: 2 papers, 35 occurrences
+  Google: 7 papers, 24 occurrences
+  Other: 51 papers, 170 occurrences
+
+--- Top 20 models by paper count ---
+  google: 39 papers (104 occ)
+  gpt4: 21 papers (110 occ)
+  chatgpt: 21 papers (142 occ)
+  openai: 20 papers (62 occ)
+  gpt3: 17 papers (100 occ)
+  gpt35: 13 papers (74 occ)
+  gemini: 6 papers (23 occ)
+  gpt4o: 6 papers (61 occ)
+  anthropic: 3 papers (4 occ)
+  claude3: 2 papers (18 occ)
+  gpt40314: 2 papers (2 occ)
+  gpt40613: 2 papers (3 occ)
+  gpt35turbo: 2 papers (3 occ)
+  gpt4omini: 2 papers (2 occ)
+  gpt4visionpreview: 1 papers (2 occ)
+  claude3opus20240229: 1 papers (1 occ)
+  gpt35turbo0301: 1 papers (6 occ)
+  gpt35turbo0125: 1 papers (1 occ)
+  textembedding3large: 1 papers (1 occ)
+  gpt35turboinstruct: 1 papers (1 occ)
+
+================================================================================
+DEPRECATION IMPACT
+================================================================================
+
+Papers referencing an ALREADY-deprecated model: 4 / 79 matched
+Papers referencing a FUTURE-shutdown model (only): 0
+Unique deprecated model names found: 5
+
+--- Top deprecated models ---
+  gpt40314: 2 papers
+  gpt4visionpreview: 1 papers
+  claude3opus20240229: 1 papers
+  gpt35turbo0301: 1 papers
+  gpt35turboinstruct: 1 papers
+
+--- Deprecated papers by year ---
+  2023: 1 / 14 matched (7.1%)
+  2025: 3 / 33 matched (9.1%)
+
+--- Deprecated papers by provider ---
+  OpenAI: 4
+  Anthropic: 1
+
+================================================================================
+UNDERREPORTING (base-only proxy: names a base model but NO versioned checkpoint)
+================================================================================
+
+Matched papers naming a versioned/exact checkpoint: 6
+Matched papers with base-name only (no checkpoint): 19 (24.1% of matched)
+
+================================================================================
+CHATGPT MENTIONS (section-aware)
+================================================================================
+
+Papers mentioning 'ChatGPT': 32 / 424
+  2023: 1
+  2024: 11
+  2025: 20
+
+================================================================================
+BROAD LLM/VLM ENGAGEMENT (title + abstract)
+================================================================================
+
+Papers engaging LLM/VLM topics in title/abstract: 3 / 424 (0.7%)

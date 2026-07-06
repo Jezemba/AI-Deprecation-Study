@@ -1,0 +1,102 @@
+# General LLM/VLM Terms for Abstract/Title Search
+# These terms indicate papers that are generally about LLMs/VLMs
+# without requiring specific model names
+
+# Core LLM/VLM Terms
+large language model
+large language models
+llm
+llms
+vision-language model
+vision-language models
+vision language model
+vision language models
+vlm
+vlms
+multimodal language model
+multimodal language models
+multimodal model
+multimodal models
+foundation model
+foundation models
+generative pretrained transformer
+language model
+language models
+
+# Architecture Terms
+transformer
+transformers
+attention mechanism
+self-attention
+cross-attention
+encoder-decoder
+decoder-only
+encoder-only
+
+# Training/Fine-tuning Terms
+pretrained model
+pretrained models
+pretraining
+pre-training
+fine-tuning
+finetuning
+instruction tuning
+instruction following
+prompt engineering
+prompt tuning
+few-shot learning
+few-shot prompting
+zero-shot learning
+zero-shot prompting
+in-context learning
+chain-of-thought
+chain of thought
+
+# Model Capabilities
+text generation
+language generation
+natural language generation
+image captioning
+visual question answering
+text-to-image
+image-to-text
+multimodal reasoning
+language understanding
+natural language understanding
+
+# Training Techniques
+rlhf
+reinforcement learning from human feedback
+alignment
+supervised fine-tuning
+unsupervised pretraining
+contrastive learning
+masked language modeling
+
+# Scale Indicators
+billion parameter
+million parameter
+large-scale model
+large-scale language model
+
+# API/Service Terms
+language model api
+openai api
+api inference
+model serving
+
+# Application Areas
+chatbot
+conversational ai
+dialogue system
+question answering
+summarization
+machine translation
+code generation
+
+# Related Terms
+neural language model
+autoregressive model
+causal language model
+sequence-to-sequence
+seq2seq

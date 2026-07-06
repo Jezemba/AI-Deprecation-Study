@@ -1,0 +1,68 @@
+STRATIFIED SAMPLE v1 - AUDIT TRAIL
+======================================================================
+
+Source: <results>/search_results_20260126_164130.csv
+Random seed: 42
+Target sample size: 1000
+Per-stratum floor: 10
+Stratification: year x venue
+Sampling unit: paper, with one randomly chosen keyword per paper
+
+Universe: 4817 matched papers across 13 non-empty strata
+
+Strata population vs. sample (proportional allocation):
+Stratum           Pop   Sample        Pi     Weight
+2022-neurips       9        9   1.0000       1.00
+2023-aaai          2        2   1.0000       1.00
+2023-iclr         43       10   0.2326       4.30
+2023-icml         28       10   0.3571       2.80
+2023-neurips     172       34   0.1977       5.06
+2024-aaai        173       34   0.1965       5.09
+2024-iclr        370       75   0.2027       4.93
+2024-icml        340       69   0.2029       4.93
+2024-neurips     570      117   0.2053       4.87
+2025-aaai        406       82   0.2020       4.95
+2025-iclr       1008      208   0.2063       4.85
+2025-icml        617      127   0.2058       4.86
+2025-neurips    1079      223   0.2067       4.84
+TOTAL            4817     1000
+
+Sample distribution (sanity check):
+Stratum         Count   Pop %   Sample %
+2022-neurips       9    0.2%       0.9%
+2023-aaai          2    0.0%       0.2%
+2023-iclr         10    0.9%       1.0%
+2023-icml         10    0.6%       1.0%
+2023-neurips      34    3.6%       3.4%
+2024-aaai         34    3.6%       3.4%
+2024-iclr         75    7.7%       7.5%
+2024-icml         69    7.1%       6.9%
+2024-neurips     117   11.8%      11.7%
+2025-aaai         82    8.4%       8.2%
+2025-iclr        208   20.9%      20.8%
+2025-icml        127   12.8%      12.7%
+2025-neurips     223   22.4%      22.3%
+
+Sampled keyword frequency (top 20):
+  gpt4                            406
+  gpt4o                           199
+  gpt35turbo                       81
+  gpt4omini                        36
+  gpt4turbo                        30
+  dalle2                           26
+  gpt4o20240806                    15
+  gpt40613                         13
+  gemini15pro                      13
+  textdavinci002                   10
+  codedavinci002                   10
+  textembeddingada002              10
+  gpt35turbo0613                   10
+  gpt35turbo0125                   10
+  gemini15flash                     9
+  gpt4o20240513                     8
+  gpt35turboinstruct                6
+  gpt35turbo1106                    6
+  gpt4turbo20240409                 6
+  o1mini                            6
+
+  unique keywords sampled: 59

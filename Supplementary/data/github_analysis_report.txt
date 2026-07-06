@@ -1,0 +1,170 @@
+================================================================================
+GITHUB KEYWORD SEARCH ANALYSIS REPORT
+(Excluding o1, o3, o4 false positives)
+================================================================================
+
+Generated: 2026-01-26 21:34:41
+Data source: <root>/Keywords.csv
+Excluded keywords: o1, o3, o4
+
+================================================================================
+OVERALL SUMMARY
+================================================================================
+
+Total repository entries: 26,849
+Unique papers: 17,682
+Accessible repos: 21,422 (79.8%)
+Inaccessible repos: 5,427 (20.2%)
+
+Repos with keywords (before filtering): 10,875
+Repos with keywords (after filtering): 2,099
+Repos affected by filtering: 8,776
+
+Excluded keyword occurrences:
+  o1: 8,909
+  o3: 8,752
+
+================================================================================
+TOP 50 KEYWORDS (after filtering)
+================================================================================
+
+  gpt-4: 1,365 occurrences in 1,153 unique papers
+  gpt-3.5-turbo: 879 occurrences in 778 unique papers
+  gpt-4o: 620 occurrences in 583 unique papers
+  gpt-4o-mini: 371 occurrences in 356 unique papers
+  gpt-4-0613: 297 occurrences in 274 unique papers
+  gpt-4-turbo: 295 occurrences in 282 unique papers
+  gpt-4-1106-preview: 267 occurrences in 237 unique papers
+  gpt-4-0314: 265 occurrences in 245 unique papers
+  gpt-3.5-turbo-0125: 253 occurrences in 238 unique papers
+  gemma-3-27b-it: 241 occurrences in 218 unique papers
+  gpt-3.5-turbo-0613: 231 occurrences in 220 unique papers
+  claude-3-opus-20240229: 228 occurrences in 208 unique papers
+  gpt-4o-2024-08-06: 225 occurrences in 207 unique papers
+  claude-3-sonnet-20240229: 203 occurrences in 188 unique papers
+  gemini-1.5-pro: 192 occurrences in 187 unique papers
+  gpt-4o-2024-05-13: 192 occurrences in 179 unique papers
+  gpt-3.5-turbo-1106: 183 occurrences in 172 unique papers
+  gpt-4o-mini-2024-07-18: 180 occurrences in 170 unique papers
+  text-davinci-002: 179 occurrences in 164 unique papers
+  gemini-1.5-flash: 170 occurrences in 168 unique papers
+  gpt-3.5-turbo-0301: 170 occurrences in 155 unique papers
+  gpt-4-0125-preview: 168 occurrences in 156 unique papers
+  gpt-4-turbo-2024-04-09: 160 occurrences in 151 unique papers
+  code-davinci-002: 156 occurrences in 148 unique papers
+  text-embedding-ada-002: 155 occurrences in 142 unique papers
+  claude-3-5-sonnet-20240620: 155 occurrences in 145 unique papers
+  gpt-5: 143 occurrences in 135 unique papers
+  claude-3-haiku-20240307: 133 occurrences in 127 unique papers
+  gpt-3.5-turbo-instruct: 127 occurrences in 125 unique papers
+  o1-preview: 124 occurrences in 118 unique papers
+  claude-2.0: 120 occurrences in 113 unique papers
+  gemini-2.5-pro: 113 occurrences in 111 unique papers
+  claude-3-5-sonnet-20241022: 110 occurrences in 105 unique papers
+  gpt-4.1-mini: 109 occurrences in 106 unique papers
+  gemma-3n-e4b-it: 107 occurrences in 105 unique papers
+  o4-mini: 103 occurrences in 94 unique papers
+  gpt-3.5-turbo-16k-0613: 103 occurrences in 98 unique papers
+  davinci-002: 101 occurrences in 99 unique papers
+  text-embedding-3-large: 92 occurrences in 89 unique papers
+  claude-2.1: 92 occurrences in 86 unique papers
+  text-embedding-3-small: 87 occurrences in 83 unique papers
+  gpt-4-turbo-preview: 85 occurrences in 83 unique papers
+  babbage-002: 84 occurrences in 82 unique papers
+  gpt-4.1-2025-04-14: 79 occurrences in 74 unique papers
+  gpt-4.1: 77 occurrences in 73 unique papers
+  gpt-4o-transcribe: 73 occurrences in 73 unique papers
+  text-curie-001: 72 occurrences in 70 unique papers
+  o1-mini: 71 occurrences in 69 unique papers
+  o3-mini: 70 occurrences in 68 unique papers
+  text-ada-001: 68 occurrences in 66 unique papers
+
+================================================================================
+STATISTICS BY VENUE
+================================================================================
+
+NeurIPS:
+  Total repos: 11,052
+  Accessible: 9,264 (83.8%)
+  With keywords: 1,000 (9.0%)
+  Top keywords: gpt-4(631), gpt-3.5-turbo(409), gpt-4o(297), gpt-4o-mini(178), gpt-4-0613(128)
+
+ICML:
+  Total repos: 4,874
+  Accessible: 3,367 (69.1%)
+  With keywords: 255 (5.2%)
+  Top keywords: gpt-4(185), gpt-3.5-turbo(113), gpt-4o(77), gpt-4o-mini(53), gpt-4-0613(41)
+
+AAAI:
+  Total repos: 3,538
+  Accessible: 2,748 (77.7%)
+  With keywords: 147 (4.2%)
+  Top keywords: gpt-4(94), gpt-3.5-turbo(62), gpt-4o(51), gpt-4-turbo(28), gemini-1.5-pro(26)
+
+ICLR2025:
+  Total repos: 2,950
+  Accessible: 2,431 (82.4%)
+  With keywords: 476 (16.1%)
+  Top keywords: gpt-4(303), gpt-3.5-turbo(190), gpt-4o(156), gpt-4o-mini(88), gpt-4-turbo(84)
+
+ICLR:
+  Total repos: 2,351
+  Accessible: 1,876 (79.8%)
+  With keywords: 44 (1.9%)
+  Top keywords: gpt-4(23), gpt-4o(12), gpt-4o-mini(9), code-davinci-002(9), text-davinci-002(9)
+
+ICLR2024:
+  Total repos: 2,018
+  Accessible: 1,686 (83.5%)
+  With keywords: 170 (8.4%)
+  Top keywords: gpt-4(125), gpt-3.5-turbo(96), gpt-3.5-turbo-0613(33), gpt-4-0613(30), gpt-4-0314(28)
+
+
+================================================================================
+STATISTICS BY YEAR
+================================================================================
+
+2024:
+  Total repos: 1
+  Accessible: 0 (0.0%)
+  With keywords: 0 (0.0%)
+
+2020:
+  Total repos: 1
+  Accessible: 1 (100.0%)
+  With keywords: 0 (0.0%)
+
+================================================================================
+UNIQUE PAPERS PER KEYWORD (Top 30)
+================================================================================
+
+  gpt-4: 1,153 unique papers
+  gpt-3.5-turbo: 778 unique papers
+  gpt-4o: 583 unique papers
+  gpt-4o-mini: 356 unique papers
+  gpt-4-turbo: 282 unique papers
+  gpt-4-0613: 274 unique papers
+  gpt-4-0314: 245 unique papers
+  gpt-3.5-turbo-0125: 238 unique papers
+  gpt-4-1106-preview: 237 unique papers
+  gpt-3.5-turbo-0613: 220 unique papers
+  gemma-3-27b-it: 218 unique papers
+  claude-3-opus-20240229: 208 unique papers
+  gpt-4o-2024-08-06: 207 unique papers
+  claude-3-sonnet-20240229: 188 unique papers
+  gemini-1.5-pro: 187 unique papers
+  gpt-4o-2024-05-13: 179 unique papers
+  gpt-3.5-turbo-1106: 172 unique papers
+  gpt-4o-mini-2024-07-18: 170 unique papers
+  gemini-1.5-flash: 168 unique papers
+  text-davinci-002: 164 unique papers
+  gpt-4-0125-preview: 156 unique papers
+  gpt-3.5-turbo-0301: 155 unique papers
+  gpt-4-turbo-2024-04-09: 151 unique papers
+  code-davinci-002: 148 unique papers
+  claude-3-5-sonnet-20240620: 145 unique papers
+  text-embedding-ada-002: 142 unique papers
+  gpt-5: 135 unique papers
+  claude-3-haiku-20240307: 127 unique papers
+  gpt-3.5-turbo-instruct: 125 unique papers
+  o1-preview: 118 unique papers
