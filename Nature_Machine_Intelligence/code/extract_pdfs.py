@@ -9,8 +9,8 @@ Usage:
     python extract_pdfs.py [input_dir] [output_dir] [--workers N] [--device cpu|cuda]
 
 Default paths:
-    input:  /home/aipexws3/Jessica/Dataset_Ghost/PDFs/AIConference
-    output: /home/aipexws3/Jessica/GhostAI/docling_extraction/output
+    input:  ./pdfs
+    output: ./markdown
 """
 
 import os
@@ -39,8 +39,8 @@ _worker_id = None
 def get_default_paths():
     """Return default input/output paths."""
     return {
-        'input': '/home/aipexws3/Jessica/Dataset_Ghost/PDFs/AIConference',
-        'output': '/home/aipexws3/Jessica/GhostAI/docling_extraction/output'
+        'input': os.path.join(os.getcwd(), 'pdfs'),
+        'output': os.path.join(os.getcwd(), 'markdown')
     }
 
 

@@ -9,8 +9,8 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import extract_results as er
 
-RES = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence"
-er.DEPRECATIONS = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/Deprecations.csv"
+RES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+er.DEPRECATIONS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), os.pardir, "Supplementary", "keywords", "deprecation_registry.csv")
 er.load_deprecation_dates()
 TOTAL_CORPUS = 424  # main article PDFs processed
 

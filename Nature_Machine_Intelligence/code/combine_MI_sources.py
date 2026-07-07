@@ -14,7 +14,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import extract_results as er
 
-RES = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence"
+RES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 GENERIC = {er.normalize_keyword(t) for t in ['chatgpt', 'claude', 'gemini', 'openai', 'anthropic', 'google']}
 YEAR_RE = re.compile(r'/(20\d{2})/')
 
@@ -55,7 +55,7 @@ def year_of(art, fallback_path=''):
 # ---- main text ----
 main_spec = {}      # article -> set(specific kw)
 main_year = {}
-with open(latest(f"{RES}/search_results_*.csv")) as f:
+with open(os.path.join(RES, "paper_text_search_results.csv")) as f:
     for r in csv.DictReader(f):
         art = art_from_path(r['File'])
         y = (YEAR_RE.search(r['File']) or [None, None])[1]
@@ -67,7 +67,7 @@ with open(latest(f"{RES}/search_results_*.csv")) as f:
 # ---- SI ----
 si_spec = {}
 si_year = {}
-with open(latest(f"{RES}/SI/search_results_*.csv")) as f:
+with open(os.path.join(RES, "si_text_search_results.csv")) as f:
     for r in csv.DictReader(f):
         art = art_from_path(r['File'])
         y = (YEAR_RE.search(r['File']) or [None, None])[1]
@@ -79,7 +79,7 @@ with open(latest(f"{RES}/SI/search_results_*.csv")) as f:
 # ---- code ----
 code_spec = {}
 code_year = {}
-with open(f"{RES}/code_apparatus_search.csv") as f:
+with open(os.path.join(RES, "code_search_results.csv")) as f:
     for r in csv.DictReader(f):
         art = r['article_id']
         code_year[art] = r['year']
@@ -124,7 +124,7 @@ for y in sorted(k for k in by_year if k != '?'):
     print(f"      {y}: {m} / +{s} / +{c} / {t}")
 
 # write combined per-paper csv
-out = f"{RES}/combined_specific_model_papers.csv"
+out = os.path.join(RES, "combined_specific_model_papers.csv")
 with open(out, 'w', newline='') as f:
     w = csv.writer(f)
     w.writerow(['article_id', 'year', 'in_main', 'in_SI', 'in_code', 'specific_keywords'])

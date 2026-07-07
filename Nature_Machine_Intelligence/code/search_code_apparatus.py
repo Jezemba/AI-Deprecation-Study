@@ -13,9 +13,10 @@ import csv, os, re, sys
 from pathlib import Path
 import chardet
 
-CODE_ROOT = "/home/aipexws3/Jessica/Dataset_Ghost/PDFs/MachineIntelligenceSupplementaryCode/code_apparatus"
-KEYWORDS_FILE = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence/keywords_union.txt"
-OUT = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence/code_apparatus_search.csv"
+_NMI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CODE_ROOT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_NMI, "code_apparatus")
+KEYWORDS_FILE = os.path.join(_NMI, "keywords", "keywords_union.txt")
+OUT = os.path.join(_NMI, "data", "code_search_results.csv")
 
 # ---- engine copied verbatim from search_recovered_repos.py ----
 EXCLUDE_STANDALONE = {'o1', 'o3', 'o4'}

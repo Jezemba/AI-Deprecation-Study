@@ -338,9 +338,10 @@ def save_summary_report(results: List[Dict], keywords: List[str], output_file: s
 
 def main():
     # Configuration
-    MD_DIR = "/home/aipexws3/Jessica/GhostAI/docling_extraction/output/MachineIntelligence"
-    KEYWORDS_FILE = "/home/aipexws3/Jessica/GhostAI/Supplementary/keywords/general_llm_terms.txt"
-    OUTPUT_DIR = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence"
+    _NMI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    MD_DIR = os.path.join(_NMI, "markdown")
+    KEYWORDS_FILE = os.path.join(_NMI, "keywords", "general_llm_terms.txt")
+    OUTPUT_DIR = os.path.join(_NMI, "data")
 
     num_workers = cpu_count()
 

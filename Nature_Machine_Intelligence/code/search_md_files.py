@@ -291,9 +291,10 @@ if __name__ == "__main__":
     import sys
 
     # Default configuration
-    DEFAULT_MD_DIR = "<root>/docling_extraction/output"
-    DEFAULT_KEYWORDS_FILE = "<root>/search_cleaned.txt"
-    DEFAULT_OUTPUT_DIR = "<analysis>/results"
+    _NMI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    DEFAULT_MD_DIR = os.path.join(_NMI, "markdown")
+    DEFAULT_KEYWORDS_FILE = os.path.join(_NMI, "keywords", "keywords_union.txt")
+    DEFAULT_OUTPUT_DIR = os.path.join(_NMI, "data")
 
     # Parse command line arguments
     if len(sys.argv) > 1:

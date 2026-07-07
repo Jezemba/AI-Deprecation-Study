@@ -15,7 +15,7 @@ cross-referenced against official provider deprecation schedules.
 | Directory | Corpus | Summary |
 |---|---|---|
 | [`Supplementary/`](Supplementary) | 42,384 papers at AAAI, NeurIPS, ICLR, and ICML (2022-2025) | Primary analysis. Keyword lists, deprecation registry, search and inference code, canonical result tables, the stratified usage audit, and the complete manual deprecation census. |
-| [`Nature Machine Intelligence/`](Nature%20Machine%20Intelligence) | 439 *Nature Machine Intelligence* articles (2022-2025) | Journal cross-check. Applies the same pipeline to a journal venue, extending the search to separately published supplementary PDFs and code. |
+| [`Nature_Machine_Intelligence/`](Nature_Machine_Intelligence) | 439 *Nature Machine Intelligence* articles (2022-2025) | Journal cross-check. Applies the same pipeline to a journal venue, extending the search to separately published supplementary PDFs and code. |
 
 Each directory has its own `README.md` documenting every file.
 

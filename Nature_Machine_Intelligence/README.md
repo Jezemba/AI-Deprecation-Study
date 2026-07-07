@@ -37,7 +37,7 @@ tracking the conference trend and rising toward the conference 2025 figure.
 ## Directory Layout
 
 ```
-Nature Machine Intelligence/
+Nature_Machine_Intelligence/
 ├── keywords/   (model identifier list and broad-term list)
 ├── code/       (extraction, search, aggregation, and figure scripts)
 ├── data/       (per-source search results, combined table, impact summaries, corpus provenance)
@@ -127,3 +127,18 @@ Nature Machine Intelligence/
   raise apparent prevalence from 9.9% to 18.6%; this is treated as spurious.
 - **Coverage.** 15 of 439 article PDFs (mostly 2025) did not convert and are
   excluded, slightly understating the most recent year.
+
+## Running the code
+
+All scripts resolve paths relative to their own location, so the code runs from a
+clone on any machine with no edits. Reproduction consumes the provided CSVs in
+`data/` and the shared deprecation registry in
+`../Supplementary/keywords/deprecation_registry.csv`.
+
+To re-run the pipeline from raw PDFs (which are not redistributed here for size
+and licensing reasons), place the extracted article and supplementary-PDF
+Markdown under `markdown/` and the extracted supplementary code under
+`code_apparatus/` inside this folder. The search scripts default to those input
+locations and write their outputs to `data/` (`search_md_files.py` and
+`search_code_apparatus.py` also accept an explicit input path as their first
+argument); the figure scripts write to `figures/`.

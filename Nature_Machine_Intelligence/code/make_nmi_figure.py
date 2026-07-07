@@ -4,6 +4,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+_FIG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "figures")
+os.makedirs(_FIG, exist_ok=True)
 
 plt.rcParams.update({"font.size": 11, "font.family": "DejaVu Sans",
                      "axes.spines.top": False, "axes.spines.right": False,
@@ -73,7 +76,7 @@ draw_inset(axB, 0.13, 0.66, 0.93, ("Top Deprecated Names", "Articles"),
             ("gpt-3.5-turbo-instruct", "1"), ("gpt-4-1106-preview", "1")], fs=8.5)
 
 fig.tight_layout()
-fig.savefig("/home/aipexws3/Jessica/GhostAI/NMI/NMI_crosscheck.pdf", bbox_inches="tight")
-fig.savefig("/home/aipexws3/Jessica/GhostAI/NMI/NMI_crosscheck.svg", bbox_inches="tight")
-fig.savefig("/home/aipexws3/Jessica/GhostAI/NMI/NMI_crosscheck_preview.png", dpi=140, bbox_inches="tight")
+fig.savefig(os.path.join(_FIG, "NMI_crosscheck.pdf"), bbox_inches="tight")
+fig.savefig(os.path.join(_FIG, "NMI_crosscheck.svg"), bbox_inches="tight")
+fig.savefig(os.path.join(_FIG, "NMI_crosscheck_preview.png"), dpi=140, bbox_inches="tight")
 print("saved NMI_crosscheck.pdf + .svg + preview")

@@ -31,7 +31,7 @@ def canon_part(filename):
     return m.group(1) if m else None
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-MANIFEST = os.path.join(HERE, "chunk_manifest.csv")
+MANIFEST = os.path.join(os.path.dirname(HERE), "data", "chunk_manifest.csv")
 CODE_ARCHIVE = "NMI_code_only_2022_2025.zip"
 
 
@@ -132,7 +132,7 @@ def rebuild(name, info, parts_on_disk, args):
         if os.path.getsize(p) != c["size"] or sha256(p) != c["sha"]:
             print(f"  [FAIL] checksum/size mismatch on {c['name']} — re-download this part")
             return False
-    zip_path = os.path.join(HERE, name)
+    zip_path = os.path.join(args.staging, name)
     print(f"[{name}] concatenating -> {name}")
     with open(zip_path, "wb") as out:
         for c in chunks:
@@ -144,7 +144,7 @@ def rebuild(name, info, parts_on_disk, args):
         return False
     print(f"  [OK] archive verified ({os.path.getsize(zip_path)/1e6:.0f} MB)")
     if not args.no_extract:
-        dest = os.path.join(HERE, name[:-4])
+        dest = os.path.join(args.staging, name[:-4])
         os.makedirs(dest, exist_ok=True)
         print(f"[{name}] extracting -> {os.path.basename(dest)}/ (recursive)")
         with zipfile.ZipFile(zip_path) as z:
@@ -183,7 +183,7 @@ def main():
             continue
         if rebuild(name, archives[name], parts, args):
             ok += 1
-    print(f"Completed {ok}/{len(wanted)} archive(s). Output under {HERE}")
+    print(f"Completed {ok}/{len(wanted)} archive(s). Output under {args.staging}")
 
 
 if __name__ == "__main__":

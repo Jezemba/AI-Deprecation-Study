@@ -257,8 +257,9 @@ def save_summary_report(results: List[Dict], output_file: str, md_directory: str
 
 def main():
     # Configuration
-    MD_DIR = "/home/aipexws3/Jessica/GhostAI/docling_extraction/output/MachineIntelligence"
-    OUTPUT_DIR = "/home/aipexws3/Jessica/GhostAI/PDFAnalysis/results_MachineIntelligence"
+    _NMI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    MD_DIR = os.path.join(_NMI, "markdown")
+    OUTPUT_DIR = os.path.join(_NMI, "data")
 
     num_workers = cpu_count()
 

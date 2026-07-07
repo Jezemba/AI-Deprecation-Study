@@ -16,7 +16,7 @@ ABSTRACT_TITLE  = "<results>/abstract_title_search_20260126_165046.csv"
 CHATGPT_SECTION = "<results>/chatgpt_section_search_20260126_164546.csv"
 CLASSIFICATION  = "<results>/classification_detailed_20260126_181325.csv"
 GITHUB_COMBINED = "<results>/github_keywords_combined_20260212_135804.csv"
-DEPRECATIONS    = "<analysis>/Deprecations.csv"
+DEPRECATIONS    = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), os.pardir, "Supplementary", "keywords", "deprecation_registry.csv")
 OUTPUT_FILE     = "<results>/EXTRACTED_RESULTS.md"
 
 # ─── Exact vs Base model name lists from update_keywords.txt ───
